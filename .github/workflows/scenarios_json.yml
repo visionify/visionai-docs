@@ -11,7 +11,7 @@ jobs:
     name: Upload scenarios.json and each_scenario_details if modified
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Get changed files
         id: changed-files
