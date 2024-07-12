@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://docs.visionify.ai"><img src="https://raw.githubusercontent.com/visionify/visionai/main/docs/img/visionai-toolkit-by-visionify.png" alt="VisionAI Toolkit by Visionify"></a>
+  <a href="https://docs.visionify.ai"><img src="https://raw.githubusercontent.com/visionify/visionai-docs/main/docs/img/visionai-toolkit-by-visionify.png" alt="VisionAI Toolkit by Visionify"></a>
 </p>
 <p align="center">
     <em>VisionAI Apps for Workplace Safety. Pretrained & Ready to deploy. </em>
