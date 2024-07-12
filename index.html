@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisionAI Toolkit by Visionify</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .em {
+            font-style: italic;
+        }
+
+        .badge {
+            margin-right: 10px;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="center">
+        <a href="https://docs.visionify.ai"><img src="https://raw.githubusercontent.com/visionify/visionai/main/docs/img/visionai-toolkit-by-visionify.png" alt="VisionAI Toolkit by Visionify"></a>
+        <p class="em">VisionAI Apps for Workplace Safety. Pretrained & Ready to deploy.</p>
+    </div>
+
+    <div class="center">
+        <a href="https://github.com/visionify/visionai/blob/main/.github/workflows/docs.yaml" target="_blank">
+            <img class="badge" src="https://github.com/visionify/visionai/actions/workflows/docs.yaml/badge.svg" alt="Documentation">
+        </a>
+        <a href="https://dev.azure.com/visionify/workplace-safety/_build/latest?definitionId=5&branchName=main" target="_blank">
+            <img class="badge" src="https://dev.azure.com/visionify/workplace-safety/_apis/build/status/visionify.visionai?branchName=main" alt="Test Status">
+        </a>
+        <a href="https://pypi.org/project/visionai" target="_blank">
+            <img class="badge" src="https://img.shields.io/pypi/v/visionai?color=%2334D058&label=pypi%20package" alt="Package version">
+        </a>
+    </div>
+
+    <hr>
+
+    <div class="content">
+        <h2>Overview</h2>
+        <p><strong>VisionAI</strong> offers a collection of pre-trained apps tailored for workplace safety use cases. Developed by <strong>Visionify</strong> as part of the <strong>Workplace Safety</strong> suite, VisionAI is ready for production deployment and accessible through a web-based GUI.</p>
+
+        <h3>What is VisionAI?</h3>
+        <ul>
+            <li>A Platform to run AI scenarios for CCTV cameras.</li>
+            <li>Choose from the list of scenarios <a href="scenarios/index.md">here</a> for workplace safety & building security.</li>
+        </ul>
+
+        <h3>How does it work?</h3>
+        <ul>
+            <li>Migrate CCTV feeds to the cloud. Manage cameras, choose AI scenarios, and configure alerting from the cloud.</li>
+        </ul>
+
+        <p>Key features of <strong>VisionAI</strong> include:</p>
+        <ul>
+            <li><strong>No hardware installation</strong>: Works with any IP/security cameras using RTSP streams. No need to install any new cameras, sensors, or other hardware.</li>
+            <li><strong>User-friendly</strong>: Easy-to-use web interface for managing cameras and associated apps, catering to both technical and non-technical users.</li>
+            <li><strong>Production-ready</strong>: Apps are trained on diverse, carefully curated datasets from industrial and academic sources, ensuring out-of-the-box functionality.</li>
+            <li><strong>Customizable</strong>: Allows app customization and model fine-tuning with a flexible architecture based on the NVIDIA Triton server. Refer to customization documentation for more details.</li>
+            <li><strong>Integrations</strong>: VisionAI currently integrates with Azure Event hubs, Redis PubSub for reports, alerts and notifications. We have roadmap plans to add support for other message brokers as well.</li>
+        </ul>
+
+        <h2>VisionAI Apps</h2>
+        <p>VisionAI offers a variety of workplace health and safety scenarios, with continuous development of new use cases. View the complete list of VisionAI Apps <a href="scenarios/index.md">here</a>. If you require a specific scenario not listed here, feel free to <a href="company/contact.md">contact us</a>.</p>
+        <p>Our primary focus is on workplace health and safety models, but we are expanding our scope to include Quality Inspection, Food Safety/Debris Detection, and more. These additional scenarios are available to customers on a case-by-case basis.</p>
+
+        <h2>Quick Start</h2>
+        <h3>Prerequisite</h3>
+        <h4>Operating System(OS)</h4>
+        <p>Ubuntu 22.04</p>
+
+        <h4>Docker</h4>
+        <p>Install Docker Engine and Docker tools</p>
+        <pre>
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+        </pre>
+
+        <p>Grant permissions to Docker</p>
+        <pre>
+sudo chmod 666 /var/run/docker.sock
+        </pre>
+        <p>This will avoid the error that may occur during fetching the server API version.</p>
+
+        <h4>Disk Space</h4>
+        <p>VisionAI application uses Docker containers to run the apps and the Docker images are large in size. Minimum of 100GB of free space is required on the host machine.</p>
+
+        <h4>RAM requirement</h4>
+        <p>VisionAI application requires minimum 16GB RAM to run the apps.</p>
+
+        <h4>GPU</h4>
+        <p>VisionAI is a Video-based AI platform that uses GPU for inference. It is recommended to use a GPU with at least 8GB of memory for optimal performance. VisionAI supports NVIDIA GPUs only - Following are a few recommended options:</p>
+        <ul>
+            <li>NVIDIA GeForce RTX 2060/RTX 2060 Ti</li>
+            <li>NVIDIA GeForce RTX 3050/RTX 3050 Ti</li>
+            <li>NVIDIA P40</li>
+            <li>NVIDIA A100</li>
+        </ul>
+
+        <h4>Internet Connectivity</h4>
+        <p>During the initial download and setup portion of VisionAI application, good internet connectivity is needed to download the required dependencies and Docker containers. Once the setup is complete, VisionAI can be used offline.</p>
+
+        <hr>
+
+        <h2>License</h2>
+        <p>You can purchase a license by contacting us: <a href="mailto:sales@visionify.ai">sales@visionify.ai</a></p>
+        <p>For any queries related to VisionAI toolkit usage: <a href="mailto:support@visionify.ai">support@visionify.ai</a></p>
+
+        <hr>
+
+        <h2>Installation</h2>
+        <p>Upgrade pip to the latest version</p>
+        <pre>
+pip install --upgrade pip
+        </pre>
+        <p>Install <strong>VisionAI</strong> through PyPI:</p>
+        <pre>
+pip install visionai
+        </pre>
+        <p>Update to the latest version, if already installed:</p>
+        <pre>
+pip install --upgrade --force-reinstall visionai
+        </pre>
+        <p>Initialize VisionAI to download and install dependencies (Docker, Pytorch, NVIDIA Triton, etc.):</p>
+        <pre>
+visionai init
+        </pre>
+        <p>Upon successful initialization, you should be able to see the following services running:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Port</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Web UI</td>
+                    <td>http://localhost:3001</td>
+                    <td>VisionAI Web-app</td>
+                </tr>
+                <tr>
+                    <td>Web API</td>
+                    <td>http://localhost:3002</td>
+                    <td>VisionAI API service</td>
+                </tr>
+                <tr>
+                    <td>Triton HTTP</td>
+                    <td>http://localhost:8000</td>
+                    <td>Triton Model server (http)</td>
+                </tr>
+                <tr>
+                    <td>Triton GRPC</td>
+                    <td>grpc://localhost:8001</td>
+                    <td>Triton Model server (grpc)</td>
+                </tr>
+                <tr>
+                    <td>Triton Metrics</td>
+                    <td>http://localhost:8002</td>
+                    <td>Triton Model metrics server (prometheus)</td>
+                </tr>
+                <tr>
+                    <td>Redis</td>
+                    <td>redis://localhost:6379</td>
+                    <td>Redis server, currently supports PUBSUB</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>VisionAI Web Application</h2>
+        <p>VisionAI supports a web-based option for managing cameras, scenarios.</p>
+        <p>You can manage cameras, scenarios, see events, etc., directly on the web-app. The web-app is running on your own local compute instance. All the data is saved on your machine, and it is persistent as long as the VisionAI application is not uninstalled.</p>
+
+        <h3>VisionAI Web-app</h3>
+        <p>VisionAI web-app is a software application that runs in a web browser. It is designed to provide a user-friendly interface and functionality that can be accessed from any device, without the need for installation on the device.</p>
+        <p>Open <a href="http://localhost:3001">http://localhost:3001</a> in the browser. Use your default username/password as master/master. After this, you will be asked to create a new admin user. Please use a strong password and create an admin user.</p>
+        <img src="https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/SignIn.jpg" alt="VisionAI Sign In">
+
+        <h4>Cameras</h4>
+        <p>Once you are signed in, you will see a blank dashboard page. Let’s add an IP camera to the system. In order to do this, go to the “Cameras” tab on the left menu and click on the + button.</p>
+        <img src="https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/Select_Camera.jpg" alt="Select Camera">
+
+        <p>A new pop-up window will appear to add cameras. You can enter the camera name, description, and RTSP URI for the camera. The RTSP URI can be obtained from the Camera or NVR documentation. You can ignore the other fields as they are optional. Click on “Add” button.</p>
+        <img src="https://visionai.azureedge.net/docs-images/Web-app_Pictures/Add_Camera.jpg" alt="Add Camera">
+
+        <p>Once you have added the camera, it should appear on the Cameras window and should show the initial streaming for the camera. Add any additional cameras in a similar fashion. Once all cameras have been added, the front-screen should look like this:</p>
+        <img src="https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/Camera_page.jpg" alt="Camera Page">
+
+        <h4>Scenarios</h4>
+        <p>We can enable Vision AI scenarios for each of these cameras. In order to do this, go to the Scenarios tab on the left menu to browse through the available scenarios.</p>
+        <img src="https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/Scenarios_page.jpg" alt="Scenarios Page">
+
+        <p>This shows details about the Scenario, the model version used, events supported and model accuracy, recall and F1 score metrics. You can now click on the “Get this” button again to apply the scenario to cameras.</p>
+        <img src="https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/Scenario_detail.jpg" alt="Scenario Detail">
+
+        <p>In the next page, select the Cameras for which you want to apply this scenario.</p>
+        <img src="https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/AddScenario_1.jpg" alt="Add Scenario">
+
+        <p>Click "Save and Next". In the next page, you can specify email and text message notification settings. Provide the email address and phone number you want to be notified at and click "Save and Next button"</p>
+        <img src="https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/Notification_settings.jpg" alt="Notification Settings">
+
+        <p>On the next page, it will ask you to confirm your settings. Click Submit. VisionAI will now download these models and start running them for these scenarios.</p>
+
+        <h2>Redis</h2>
+        <p>VisionAI supports out-of-box integration with Redis, Prometheus, Grafana, and Azure Event Hub. Once the web-app is started, you can view the Grafana dashboard at: <a href="http://localhost:3003">http://localhost:3003</a>. The default username and password is admin/admin.</p>
+        <pre>
+Redis server is at: redis://localhost:6379
+        </pre>
+
+        <h2>Next steps</h2>
+        <p>Congratulations! You have successfully configured and used VisionAI toolkit. You can also browse through our <a href="scenarios/index.md">scenarios</a> section to understand different use-cases that are supported currently. If you have a need for a scenario, do not hesitate to submit a <a href="https://github.com/visionify/visionai/issues">request</a> here.</p>
+    </div>
+
+</body>
+
+</html>
