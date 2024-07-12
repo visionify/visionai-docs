@@ -5,11 +5,11 @@
     <em>VisionAI Apps for Workplace Safety. Pretrained & Ready to deploy. </em>
 </p>
 <p align="center">
-<!-- <a href="https://github.com/visionify/visionai/actions/workflows/codeql.yml" target="_blank">
-    <img src="https://github.com/visionify/visionai/actions/workflows/codeql.yml/badge.svg" alt="CodeQL">
+<!-- <a href="https://github.com/visionify/visionai-docs/actions/workflows/codeql.yml" target="_blank">
+    <img src="https://github.com/visionify/visionai-docs/actions/workflows/codeql.yml/badge.svg" alt="CodeQL">
 </a> -->
-<a href="https://github.com/visionify/visionai/blob/main/.github/workflows/docs.yaml" target="_blank">
-    <img src="https://github.com/visionify/visionai/actions/workflows/docs.yaml/badge.svg" alt="Documentation">
+<a href="https://github.com/visionify/visionai-docs/blob/main/.github/workflows/docs.yaml" target="_blank">
+    <img src="https://github.com/visionify/visionai-docs/actions/workflows/docs.yaml/badge.svg" alt="Documentation">
 </a>
 <a href="https://dev.azure.com/visionify/workplace-safety/_build/latest?definitionId=5&branchName=main" target="_blank">
     <img src="https://dev.azure.com/visionify/workplace-safety/_apis/build/status/visionify.visionai?branchName=main" alt="Test Status">
