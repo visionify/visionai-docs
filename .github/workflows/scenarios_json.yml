@@ -49,7 +49,7 @@ jobs:
 
       - name: Upload scenarios.json to Azure Blob Storage
         if: env.modified == 'true' && env.files-different == 'true'
-        uses: azure/CLI@v1
+        uses: azure/CLI@v2
         with:
           inlineScript: |
             echo "Uploading scenarios.json to Azure Blob Storage..."
