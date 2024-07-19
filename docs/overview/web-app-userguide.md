@@ -20,7 +20,7 @@ The web-application is available at http://localhost.
 2. Use your default username/password as master/master.
 3. After this, you will be asked to create a new admin user. Please use a strong password and create an admin user.
 
-![Sign-In page](https://visionai.azureedge.net/docs-images/Web-app_Pictures/sign_in.jpg)
+![Sign-In page](https://visionai.azureedge.net/docs-images/Web-app_Pictures/login.png)
 
 
 
@@ -121,29 +121,3 @@ This page summarizes the events that occurred in the form of graphical represent
    Click on the User tab and fill in the details as required. Later that user can be selected while setting up the notification details. 
 
 ![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/Create_User_form.jpg)
-
-
-
-
-2. Notification Group
-
-   Click on the Notification Group tab and you can make the required changes to the created groups. 
-
-![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/NotificationGroup_mainPage.jpg)
-
-
-Click on the Create Group  button and you will be able to create a group of users. 
-
-Enter the name of group as per the requirement.
-
-Click on Edit button, available besides each of the available users. Select a group name, to which the user needs to be added.
-
-![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/CreateGroup_notification.jpg)
-
-
-
-Click on Edit Group button, which will let you make changes to the created group of users.
-
-Click on Delete button, besides the Group name. The group will then be deleted permanently.
-
-![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/DeleteGrp_Notification.jpg)

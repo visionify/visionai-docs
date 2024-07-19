@@ -170,46 +170,51 @@ $ visionai init
 
 Open http://localhost:3001 in the browser. Use your default username/password as master/master. After this, you will be asked to create a new admin user. Please use a strong password and create an admin user.
 
-![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/SignIn.jpg)
+![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/login.png)
 
 ### Cameras
 
 Once you are signed in, you will see a blank dashboard page. Let’s add an IP camera to the system. In order to do this, go to “Cameras” tab on the left menu and Click on the + button.
 
-![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/Select_Camera.jpg)
+![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/camera-add.jpg)
 
 
 A new pop-up window will appear to add cameras. You can enter the camera name, description, and RTSP URI for the camera. The RTSP URI can be obtained from the Camera or NVR documentation. You can ignore the other fields as they are optional. Click on “Add” button.
 
-![VisionAI Web Application](https://visionai.azureedge.net/docs-images/Web-app_Pictures/Add_Camera.jpg)
+![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/add-cam.jpg)
 
 
 Once you have added the camera, it should appear on the Cameras window and should show the initial streaming for the camera. Add any additional cameras in a similar fashion. Once all cameras have been added, the front-screen should look like this:
 
-![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/Camera_page.jpg)
+![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/added-cameras.png)
 
 ### Scenarios
 
 We can enable Vision AI scenarios for each of these cameras. In order to do this, go to Scenarios tab on the left menu to browse through the available scenarios.
 
-![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/Scenarios_page.jpg).
+![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/scenario.png).
 
 This shows details about the Scenario, the model version used, events supported and model accuracy, recall and F1 score metrics. You can now click on the “Get this” button again to apply the scenario to cameras.
 
 
-![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/Scenario_detail.jpg).
+![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/get-this.jpg).
 
 In the next page, Select the Cameras for which you want to apply this scenario.
 
-![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/AddScenario_1.jpg)
+![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/select-camera.png)
 
 
-Click "Save and Next". In the next page, you can specify email and text message notification settings. Provide the email address and phone number you want to be notified at and click "Save and Next button"
+Next, ensure you check the config box to proceed to the camera thumbnail. On the camera thumbnail page, create a zone directly. After creating the zone, click the "Submit" button to save your changes. Then, proceed by clicking on the "Next" button.
 
-![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/Notification_settings.jpg)
+![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/zone.png)
+
+In the following step, mark the "Select Events" option, then click the "Next" button. You have successfully applied the scenario to the camera.
+
+![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/select-event.jpg)
 
 
-On the next page, it will ask you to confirm your settings. Click Submit. VisionAI will now download these models and start running them for these scenarios.
+VisionAI will now download these models and start running them for these scenarios.
+
 
 
 
