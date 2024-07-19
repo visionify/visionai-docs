@@ -179,7 +179,7 @@ Once you are signed in, you will see a blank dashboard page. Let’s add an IP c
 ![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/camera-add.jpg)
 
 
-A new pop-up window will appear to add cameras. You can enter the camera name, description, and RTSP URI for the camera. The RTSP URI can be obtained from the Camera or NVR documentation. You can ignore the other fields as they are optional. Click on “Add” button.
+A new pop-up window will appear to add cameras. You can enter the camera name, description, and RTSP URI for the camera. The RTSP URI can be obtained from the Camera or NVR documentation. You can ignore the other fields as they are optional. Click on “Submit” button.
 
 ![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/add-cam.jpg)
 
@@ -194,7 +194,7 @@ We can enable Vision AI scenarios for each of these cameras. In order to do this
 
 ![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/scenario.png).
 
-This shows details about the Scenario, the model version used, events supported and model accuracy, recall and F1 score metrics. You can now click on the “Get this” button again to apply the scenario to cameras.
+This shows details about the Scenario.You can now click on the “Get this” button again to apply the scenario to cameras.
 
 
 ![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/get-this.jpg).
@@ -213,7 +213,8 @@ In the following step, mark the "Select Events" option, then click the "Next" bu
 ![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/select-event.jpg)
 
 
-VisionAI will now download these models and start running them for these scenarios.
+VisionAI will now download these models and begin executing them for the chosen scenarios.
+
 
 
 
