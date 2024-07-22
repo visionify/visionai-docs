@@ -33,24 +33,21 @@ Once you are signed in, you will see a blank dashboard page.
 Let’s add an IP camera to the system. In order to do this,
 1. Go to the “Cameras” tab on the left menu bar.
 2. Then Click on the  + button.
-3. If you want to add multiple cameras at a time, then you can click on button, next to the add camera button.
 
-![Add-Camera](https://visionai.azureedge.net/docs-images/Web-app_Pictures/Camera_page_Instructions.jpg
+
+![Add-Camera](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/camera-add.jpg
 )
 
 A new pop-up window will appear to add cameras. You can enter the camera name, description, and RTSP URI for the camera. The RTSP URI can be obtained from the Camera or NVR documentation. You can ignore the other fields as they are optional. Click on “Add” button.
 
-![Notification-Settings-for-Camera](https://visionai.azureedge.net/docs-images/Web-app_Pictures/Add_Camera_instructions.jpg
+![Notification-Settings-for-Camera](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/add-camera.jpg
 )
-
-
-If you want to add multiple cameras at a time, then you can click on button, next to the add camera button.
-
-![Add-Multiple-Camera](https://visionai.azureedge.net/docs-images/Web-app_Pictures/AddMultipleCamera_instructions.jpg)
 
 Once you have added the camera, it should appear on the Cameras window and should show the initial streaming for the camera. Add any additional cameras in a similar fashion. Once all cameras have been added, the front-screen should look like this:
 
-![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/Added_cameraview.jpg)
+
+![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/added-cameras.png)
+
 
 
 
@@ -62,28 +59,30 @@ Once you have added the camera, it should appear on the Cameras window and shoul
 Once you are signed in, you will see a blank dashboard page. 
 You may select any scenario from the list of active scenarios.
 
-![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/Scenario_available_page.jpg
+![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/scenario.png
 )
 
-This shows details about the Scenario, the model version used, events supported and model accuracy, recall and F1 score metrics. You can now click on the “Get this” button again to apply the scenario to cameras.
+This shows details about the Scenario.You can now click on the “Get this” button again to apply the scenario to cameras.
 
-![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/Add_scenario.jpg)
+![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/get-this.jpg)
 
 
 In the next page, Select the Cameras for which you want to apply this scenario.
 Click “Save and Next”
 
-![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/AddScenario_SelectCamera.jpg)
+![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/select-camera.png)
 
- In the next page, you can specify notification details. 
-Click on the Submit button once the details have been entered.
+ Next, ensure you check the config box to proceed to the camera thumbnail. On the camera thumbnail page, create a zone directly. After creating the zone, click the "Submit" button to save your changes. Then, proceed by clicking on the "Next" button.
 
-![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/AddScenario_NotificationForm.jpg)
+![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/zone.png)
+
+In the following step, mark the "Select Events" option, then click the "Next" button. You have successfully applied the scenario to the camera.
+
+![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/select-event.jpg)
 
 
-Additionally, we have a list of scenarios that our team is currently working on. It can be viewed under the Upcoming Scenarios section
 
-![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/Upcoming_scenarios.jpg)
+
 
 
 
@@ -94,7 +93,7 @@ Additionally, we have a list of scenarios that our team is currently working on.
 
 This page will show the list of events that have occurred in the selected time frame.
 
-![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/EventsOccured_page.jpg)
+![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/events-page.png)
 
 
 
@@ -105,11 +104,11 @@ This page will show the list of events that have occurred in the selected time f
 
 This page summarizes the events that occurred in the form of graphical representation.
 
-![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/Graph-1.jpg)
+![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/dashboard1.png)
 
-![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/Graph-2.jpg)
+![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/dashboard2.png)
 
-
+![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/dashboard3.png)
 
 
 
@@ -118,6 +117,19 @@ This page summarizes the events that occurred in the form of graphical represent
 
 1. User
 
-   Click on the User tab and fill in the details as required. Later that user can be selected while setting up the notification details. 
+   To enter the user settings, first locate and click on the user profile button at the top right corner of the screen. In the dropdown menu that appears, select 'Settings.' This action will open the user management page, allowing you to customize your preferences. On the user management  page, click on the 'Add User' button to create a new user.
 
-![](https://visionai.azureedge.net/docs-images/Web-app_Pictures/Create_User_form.jpg)
+
+
+![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/user-settings.jpg)
+
+This action will open the user management page. Click on the '+ Add User' button to create a new user.
+
+![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/add-user.jpg)
+
+After clicking on the '+ Add User' button, a user fields box will open. Fill in the required fields and click on the 'Submit' button.
+
+![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/adduser-submit.jpg)
+
+
+An invitation email will be sent to the provided email address. The user should then create a password by accepting the invitation through the email.
