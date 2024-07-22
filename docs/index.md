@@ -112,48 +112,7 @@ For any queries related to VisionAI toolkit usage: <support@visionify.ai>
 
 ---
 
-### Installation
-* Upgrade pip to the latest version
-``` bash
-$ pip install --upgrade pip
-```
-* Install **VisionAI** through `PyPI`:
 
-<div class="termy">
-
-```console
-$ pip install visionai
----> 100%
-Successfully installed visionai
-```
-
-</div>
-
-* Update to the latest version, if already installed:
-
-``` bash
-$ pip install --upgrade --force-reinstall visionai
-```
-
-* Initialize VisionAI to download and install dependencies (Docker, Pytorch, NVIDIA Triton, etc.):
-
-``` bash
-$ visionai init
-```
-
-* Upon successful initialization, you should be able to see the following services running:
-
----
-| Service           | Port                     | Purpose                                         |
-| :---------------- | :------------------------| :---------------------------------------------- |
-| `Web UI`          | `http://localhost:3001`  | VisionAI Web-app                                |
-| `Web API`         | `http://localhost:3002`  | VisionAI API service                            |
-| `Triton HTTP`     | `http://localhost:8000`  | Triton Model server (http)                      |
-| `Triton GRPC`     | `grpc://localhost:8001`  | Triton Model server (grpc)                      |
-| `Triton Metrics`  | `http://localhost:8002`  | Triton Model metrics server (prometheus)        |
-| `Redis`           | `redis://localhost:6379` | Redis server, currently supports PUBSUB         |
-
----
 
 
 ## VisionAI Web Application
