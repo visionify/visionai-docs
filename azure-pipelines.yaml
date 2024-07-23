@@ -17,7 +17,6 @@ jobs:
           pip install mkdocs-material
         displayName: 'Install mkdocs-material'
       - script: |
-          git config --global user.email "your-email@example.com"
           git remote set-url origin https://$(System.AccessToken)@github.com/visionify/visionai-docs.git
           mkdocs gh-deploy --force
         displayName: 'Deploy to GitHub Pages'
