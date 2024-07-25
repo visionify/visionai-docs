@@ -56,9 +56,9 @@ jobs:
     steps:
       - script: |
           if [ $(succeeded('CheckBrokenLinks')) == "True" ]; then
-            echo "No broken links found. Documentation deployed successfully." | mail -s "Deployment Success" your-email@example.com
+            echo "No broken links found. Documentation deployed successfully." | mail -s "Deployment Success" arvind@visionify.ai
           else
-            echo "Broken links were found. Deployment aborted." | mail -s "Deployment Failure" your-email@example.com
+            echo "Broken links were found. Deployment aborted." | mail -s "Deployment Failure" arvind@visionify.ai
           fi
         displayName: 'Send email'
 
