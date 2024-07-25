@@ -35,7 +35,8 @@ jobs:
           echo "##[section]Starting: Install action-my-broken-link-checker"
           sudo apt-get update
           sudo apt-get install -y curl
-          curl -sL https://github.com/ruzickap/action-my-broken-link-checker/releases/download/v2.0.0/action-my-broken-link-checker_linux_amd64.tar.gz | tar xz
+          curl -L https://github.com/ruzickap/action-my-broken-link-checker/releases/download/v2.0.0/action-my-broken-link-checker_linux_amd64 -o action-my-broken-link-checker
+          chmod +x action-my-broken-link-checker
           sudo mv action-my-broken-link-checker /usr/local/bin/
           echo "##[section]Finishing: Install action-my-broken-link-checker"
         displayName: 'Install action-my-broken-link-checker'
