@@ -8,6 +8,7 @@ pool:
 
 jobs:
   - job: deploy
+    displayName: 'Deploy to GitHub Pages'
     steps:
       - task: UsePythonVersion@0
         inputs:
@@ -24,3 +25,22 @@ jobs:
         displayName: 'Deploy to GitHub Pages'
         env:
           GITHUB_TOKEN: $(System.AccessToken)
+
+  - job: CheckBrokenLinks
+    displayName: 'Check broken links'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+      - script: |
+          echo "##[section]Starting: Install action-my-broken-link-checker"
+          sudo apt-get update
+          sudo apt-get install -y curl
+          curl -sL https://github.com/ruzickap/action-my-broken-link-checker/releases/download/v2.0.0/action-my-broken-link-checker_linux_amd64.tar.gz | tar xz
+          sudo mv action-my-broken-link-checker /usr/local/bin/
+          echo "##[section]Finishing: Install action-my-broken-link-checker"
+        displayName: 'Install action-my-broken-link-checker'
+      - script: |
+          echo "##[section]Starting: Check broken links"
+          action-my-broken-link-checker https://docs.visionify.ai/ --one-page-only --max-connections=3 --color=always
+          echo "##[section]Finishing: Check broken links"
+        displayName: 'Check broken links'
