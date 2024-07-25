@@ -50,17 +50,17 @@ jobs:
         env:
           GITHUB_TOKEN: $(GITHUB_TOKEN)
 
-  - job: SendEmail
-    displayName: 'Send email notification'
-    dependsOn: CheckBrokenLinks
-    steps:
-      - script: |
-          if [ $(succeeded('CheckBrokenLinks')) == "True" ]; then
-            echo "No broken links found. Documentation deployed successfully." | mail -s "Deployment Success" arvind@visionify.ai
-          else
-            echo "Broken links were found. Deployment aborted." | mail -s "Deployment Failure" arvind@visionify.ai
-          fi
-        displayName: 'Send email'
+  # - job: SendEmail
+  #   displayName: 'Send email notification'
+  #   dependsOn: CheckBrokenLinks
+  #   steps:
+  #     - script: |
+  #         if [ $(succeeded('CheckBrokenLinks')) == "True" ]; then
+  #           echo "No broken links found. Documentation deployed successfully." | mail -s "Deployment Success" arvind@visionify.ai
+  #         else
+  #           echo "Broken links were found. Deployment aborted." | mail -s "Deployment Failure" arvind@visionify.ai
+  #         fi
+  #       displayName: 'Send email'
 
 
   # - job: deploy-preview
