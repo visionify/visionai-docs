@@ -3,12 +3,36 @@ trigger:
     include:
       - main
 
+# pr:
+#   branches:
+#     include:
+#       - '*'
+
 pool:
   vmImage: 'ubuntu-latest'
 
 jobs:
+  - job: CheckBrokenLinks
+    displayName: 'Check broken links'
+    steps:
+      - script: |
+          echo "##[section]Starting: Install Node.js and broken-link-checker"
+          sudo apt-get update
+          sudo apt-get install -y nodejs npm
+          npm install broken-link-checker -g
+          echo "##[section]Finishing: Install Node.js and broken-link-checker"
+        displayName: 'Install Node.js and broken-link-checker'
+      - script: |
+          echo "##[section]Starting: Check broken links"
+          blc https://docs.visionify.ai/ --follow --ordered --recursive --exclude-external
+          echo "##[section]Finishing: Check broken links"
+        displayName: 'Check broken links'
+        continueOnError: true
+
   - job: deploy
     displayName: 'Deploy to GitHub Pages'
+    dependsOn: CheckBrokenLinks
+    condition: succeeded('CheckBrokenLinks')
     steps:
       - task: UsePythonVersion@0
         inputs:
@@ -26,20 +50,38 @@ jobs:
         env:
           GITHUB_TOKEN: $(GITHUB_TOKEN)
 
-  - job: CheckBrokenLinks
-    displayName: 'Check broken links'
-    pool:
-      vmImage: 'ubuntu-latest'
+  - job: SendEmail
+    displayName: 'Send email notification'
+    dependsOn: CheckBrokenLinks
     steps:
       - script: |
-          echo "##[section]Starting: Install Node.js and broken-link-checker"
-          sudo apt-get update
-          sudo apt-get install -y nodejs npm
-          npm install broken-link-checker -g
-          echo "##[section]Finishing: Install Node.js and broken-link-checker"
-        displayName: 'Install Node.js and broken-link-checker'
-      - script: |
-          echo "##[section]Starting: Check broken links"
-          blc https://docs.visionify.ai/ --follow --ordered --recursive --exclude-external
-          echo "##[section]Finishing: Check broken links"
-        displayName: 'Check broken links'
+          if [ $(succeeded('CheckBrokenLinks')) == "True" ]; then
+            echo "No broken links found. Documentation deployed successfully." | mail -s "Deployment Success" your-email@example.com
+          else
+            echo "Broken links were found. Deployment aborted." | mail -s "Deployment Failure" your-email@example.com
+          fi
+        displayName: 'Send email'
+
+
+  # - job: deploy-preview
+  #   displayName: 'Deploy PR previews'
+  #   condition: eq(variables['Build.Reason'], 'PullRequest')
+  #   steps:
+  #     - task: UsePythonVersion@0
+  #       inputs:
+  #         versionSpec: '3.x'
+  #     - script: |
+  #         pip install mkdocs-material
+  #         pip install mkdocs-page-pdf
+  #         mkdocs build --clean -d ./build/
+  #       displayName: 'Install and Build'
+  #     - script: |
+  #         echo "##[section]Starting: Deploy preview"
+  #         sudo apt-get update
+  #         sudo apt-get install -y curl
+  #         curl -L https://github.com/rossjrw/pr-preview-action/releases/download/v1.0.0/pr-preview-action_linux_amd64 -o pr-preview-action
+  #         chmod +x pr-preview-action
+  #         sudo mv pr-preview-action /usr/local/bin/
+  #         pr-preview-action --source-dir ./build/
+  #         echo "##[section]Finishing: Deploy preview"
+  #       displayName: 'Deploy preview'
