@@ -20,11 +20,11 @@ jobs:
       - script: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://$(System.AccessToken)@github.com/visionify/visionai-docs.git
+          git remote set-url origin https://$(GITHUB_TOKEN)@github.com/visionify/visionai-docs.git
           mkdocs gh-deploy --force
         displayName: 'Deploy to GitHub Pages'
         env:
-          GITHUB_TOKEN: $(System.AccessToken)
+          GITHUB_TOKEN: $(GITHUB_TOKEN)
 
   - job: CheckBrokenLinks
     displayName: 'Check broken links'
