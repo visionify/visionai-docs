@@ -1,53 +1,17 @@
 # Next steps
 > This provides a comprehensive guideline for the VisionAI toolkit's access path.
 
--  ## Install the application
-    To test this model & scenario, you can use the following steps:
 
-     * Install the visionai package from PyPI
-        
-        ```console
-        $ pip install visionai
-       
-        ```
-        Test the scenario from your local web-cam by mentioning scenario name
-
-        
-        ```console
-        $ visionai scenario test [OPTIONS] NAME
-        ```
-
-        **Arguments**:
-
-        * `NAME`: [required]
-
-        
-        NAME can be any of the scenarios integrated in VisionAI
-        
-
-        - Example
-
-        ```console
-        $ visionai scenario test ppe-detection
-        
-        Downloading models for scenario: ppe-detection
-        Model: ppe-detection: https://workplaceos.blob.core.windows.net/models/yolov5s-people/yolov5s-people-0.0.4.zip
-        
-        
-        Starting scenario: ppe-detection..
-        ```
-        
-        You should be able to see the events generated on your console window with the detections of safety gloves, goggles, helmet, mask, safety-shoes and vest within the camera field of view.
     
 
 -  ## Access the visionAI Web-app
     
-    VisionAI web-app, a software application that runs in a web browser and designed to provide a user-friendly interface and functionality that can be accessed from any device with an internet connection, without the need for installation on the device. It can be accessed by [here](https://webapp-msejccxdwi33c.azurewebsites.net/).
+    VisionAI web-app, a software application that runs in a web browser and designed to provide a user-friendly interface and functionality that can be accessed from any device with an internet connection, without the need for installation on the device. It can be accessed by [here](https://demo-qa.visionify.ai/).
 
     The app has built-in functionality to accomodate different scenarios and wide range of camera instances.
     
-    ![Web-app main screen](../img/main-screen.PNG)
-    
+    ![Web-app main screen](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/events-page.png)
+
     
 
 -  ## Access the Azure Managed-app

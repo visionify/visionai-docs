@@ -1,14 +1,25 @@
-#  Visionai Web Application Instructions
+# Visionai Web Application Instructions
 
-The VisionAI  web application is the main interface through which users can interact with the system. 
+##  VisionAI: Advanced AI for Enhanced Workplace Safety
 
-It supports the following functionality:
-1. Onboard any IP cameras onto the VisionAI System.
-2. Pick and choose AI scenarios you want to run on these IP cameras.
-3. Configure events, notifications (email/text) and video recording settings.
-4. Configure video clips recording for different events.
+VisionAI by Visionify offers a dynamic web application designed to enhance workplace safety through advanced AI technology. VisionAI ensures enhanced workplace safety with minimal setup.
 
-The web-application is available at http://localhost. 
+##  Main Functionalities of the VisionAI Web Application:
+
+### 1.Camera Onboarding:
+Easily onboard any IP cameras into the VisionAI system for complete workplace safety monitoring.
+### 2.AI Scenario Management: 
+Pick and choose AI scenarios to run on your IP cameras, customized to your safety needs.
+### 3.Event and Notification Configuration:
+Configure events and set up notifications via email, text, and Teams to stay informed in real-time.
+
+
+### 4.Violation Recording: 
+Set up event-specific video recordings to capture and retain evidence of safety violations.
+
+VisionAI helps organizations enhance their safety measures by using advanced AI technology. This technology makes it easier to monitor and manage safety, ensuring that the workplace is both safer and meets regulations.
+
+
 
 
 
@@ -79,11 +90,6 @@ Click “Save and Next”
 In the following step, mark the "Select Events" option, then click the "Next" button. You have successfully applied the scenario to the camera.
 
 ![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/select-event.jpg)
-
-
-
-
-
 
 
 
