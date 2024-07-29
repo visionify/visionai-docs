@@ -58,9 +58,9 @@ theme:
     - content.code.annotate
 
 
-repo_name: visionify/visionai
-repo_url: https://github.com/visionify/visionai
-edit_uri: https://github.com/visionify/visionai/edit/main/docs
+repo_name: visionify/visionai-docs
+repo_url: https://github.com/visionify/visionai-docs
+edit_uri: https://github.com/visionify/visionai-docs/edit/main/docs
 copyright: Copyright &copy; 2022 - 2023 Visionify.ai
 
 nav:
