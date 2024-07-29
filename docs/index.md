@@ -8,8 +8,7 @@
 <!-- <a href="https://github.com/visionify/visionai-docs/actions/workflows/codeql.yml" target="_blank">
     <img src="https://github.com/visionify/visionai-docs/actions/workflows/codeql.yml/badge.svg" alt="CodeQL">
 </a> -->
-<a href="https://github.com/visionify/visionai-docs/blob/main/.github/workflows/docs.yaml" target="_blank">
-    <img src="https://github.com/visionify/visionai-docs/actions/workflows/docs.yaml/badge.svg" alt="Documentation">
+
 </a>
 <a href="https://dev.azure.com/visionify/workplace-safety/_build/latest?definitionId=5&branchName=main" target="_blank">
     <img src="https://dev.azure.com/visionify/workplace-safety/_apis/build/status/visionify.visionai?branchName=main" alt="Test Status">
@@ -160,7 +159,7 @@ This shows details about the Scenario.You can now click on the “Get this” bu
 
 In the next page, Select the Cameras for which you want to apply this scenario.
 
-![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/select-camera.png)
+![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/select-camera.png) 
 
 
 Next, ensure you check the config box to proceed to the camera thumbnail. On the camera thumbnail page, create a zone directly. After creating the zone, click the "Submit" button to save your changes. Then, proceed by clicking on the "Next" button.
