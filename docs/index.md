@@ -11,7 +11,7 @@
 
 </a>
 <a href="https://dev.azure.com/visionify/workplace-safety/_build/latest?definitionId=5&branchName=main" target="_blank">
-    <img src="https://dev.azure.com/visionify/workplace-safety/_apis/build/status/visionify.visionai?branchName=main" alt="Test Status">
+    <img src="https://dev.azure.com/visionify/workplace-safety/_apis/build/status/visionify.visionai-docs?branchName=main" alt="Test Status">
 <a href="https://pypi.org/project/visionai" target="_blank">
     <img src="https://img.shields.io/pypi/v/visionai?color=%2334D058&label=pypi%20package" alt="Package version">
 </a>
