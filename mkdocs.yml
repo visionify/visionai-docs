@@ -58,10 +58,10 @@ theme:
     - content.code.annotate
 
 
-repo_name: visionify/visionai-docs
-repo_url: https://github.com/visionify/visionai-docs
-edit_uri: https://github.com/visionify/visionai-docs/edit/main/docs
-copyright: Copyright &copy; 2022 - 2023 Visionify.ai
+# repo_name: visionify/visionai-docs
+# repo_url: https://github.com/visionify/visionai-docs
+# edit_uri: https://github.com/visionify/visionai-docs/edit/main/docs
+# copyright: Copyright &copy; 2022 - 2023 Visionify.ai
 
 nav:
   - VisionAI:
@@ -71,6 +71,7 @@ nav:
     - Scenarios: overview/scenarios.md
     - Cameras: overview/cameras.md
     - Camera Placement Guide: overview/camera-placement-guide.md
+    - Finding RTSP URLs: overview/finding-rtsp-urls.md
     - Azure Managed App: overview/azure-managed-app.md
     - Next steps: overview/next-steps.md
     - FAQs: overview/faqs.md
@@ -164,8 +165,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
