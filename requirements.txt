@@ -1,3 +1,6 @@
-mkdocs-material>=9.5.0
-mkdocs>=1.5.0
-pymdown-extensions>=10.5 
+mkdocs
+mkdocs-material
+materialx
+mkdocs-video
+mkdocs-meta-descriptions-plugin
+pymdown-extensions

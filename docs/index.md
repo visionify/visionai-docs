@@ -23,170 +23,117 @@
 
 ---
 
-## Overview
-
-**VisionAI** offers a collection of pre-trained apps tailored for workplace safety use cases. Developed by **Visionify** as part of the **Workplace Safety** suite, VisionAI is ready for production deployment and accessible through web-based GUI.
-
-### What is VisionAI?
-- A Platform to run AI scenarios for CCTV cameras.
-- Choose from the list of scenarios [here](scenarios/index.md) for workplace safety & building security.
-
-### How does it work?
-- Migrate CCTV feeds to the cloud. Manage cameras, choose AI scenarios and configuring alerting from cloud.
-
-Key features of **VisionAI** include:
-
-- **No hardware installation**: Works with any IP/security cameras using RTSP streams. No need to install any new cameras, sensors, or other hardware.
-
-- **User-friendly**: Easy-to-use web interface for managing cameras and associated apps, catering to both technical and non-technical users.
-
-- **Production-ready**: Apps are trained on diverse, carefully curated datasets from industrial and academic sources, ensuring out-of-the-box functionality.
-
-- **Customizable**: Allows app customization and model fine-tuning with a flexible architecture based on the NVIDIA Triton server. Refer to customization documentation for more details.
-
-- **Integrations**: VisionAI currently integrates with Azure Event hubs, Redis PubSub for reports, alerts and notifications. We have roadmap plans to add support for other message brokers as well.
-
-## VisionAI Apps
-
-VisionAI offers a variety of workplace health and safety scenarios, with continuous development of new use cases. View the complete list of VisionAI Apps [here](scenarios/index.md). If you require a specific scenario not listed here, feel free to [contact us](company/contact.md).
-
-Our primary focus is on workplace health and safety models, but we are expanding our scope to include Quality Inspection, Food Safety/Debris Detection, and more. These additional scenarios are available to customers on a case-by-case basis.
+Welcome to the official documentation for **VisionAI**, an enterprise-grade Computer Vision platform for Workplace Safety by [Visionify](https://visionify.ai). This comprehensive guide will help you understand, deploy, and maximize the value of VisionAI in your organization.
 
 
-## Quick Start
+## About VisionAI
+VisionAI is a production-ready AI platform that transforms your existing CCTV infrastructure into an intelligent safety monitoring system. Our solution helps enterprises:
 
-### Prerequisite
+- Enhance workplace safety compliance
+- Reduce workplace incidents
+- Automate safety monitoring
+- Generate actionable safety insights
+- Minimize operational risks
 
-#### Operating System(OS)
+## Key Features
+***🔐 Enterprise-Ready Security***
 
-Ubuntu 22.04
+   - SOC 2 Type II compliant
+   - End-to-end encryption
+   - Role-based access control
+   - Audit logging
+   - Data retention policies
 
-#### Docker
-- Install Docker Engine and Docker tools<br>
-        Open a terminal window and run the following commands to install Docker Engine, Docker CLI, Docker Compose, and Docker Buildx plugin:
-    ```console
-    sudo chmod a+r /etc/apt/keyrings/docker.gpg
-    sudo apt-get update
-    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-    ```
+***💼 Business Integration***
+
+   - Seamless integration with existing CCTV systems
+   - Enterprise SSO support
+   - REST API for system integration
+   - Compatible with major cloud providers
+   - Automated alerting and reporting
+
+***📊 Analytics & Reporting***
+
+   - Real-time safety analytics dashboard
+   - Customizable KPI tracking
+   - Incident investigation tools
+   - Compliance reporting
+   - Trend analysis
 
 
-- Grant permissions to Docker<br>
-    Run the following command to grant permissions to Docker:
-    ```console
-    sudo chmod 666 /var/run/docker.sock
-    ```
-    This will avoid the error that may occur during fetching the server API version.
-  
-        
+## Deployment Options
 
+### **VisionAI Cloud** 
+   - Multi-tenant SaaS
+   - Fully cloud-based solution
+   - AI inference runs in our secure cloud
+   - Cloud-hosted dashboards and analytics
+   - Ideal for: Organizations seeking quick deployment with minimal infrastructure
+   - Features:
+     - Automatic updates and maintenance
+     - 24/7 monitoring and support
+     - Flexible scaling
+     - Pay-as-you-go pricing
 
-#### Disc Space
+### **VisionAI Hybrid** 
+   - Single-tenant SaaS with on-prem inference
+   - Visionify single-tenant cloud instance for dashboards.
+   - Data stays within Visionify cloud.
+   - Ideal for: Most organizations with quicker deployments.
+   - Features:
+     - On-premises video processing
+     - Visionify manages cloud infrastructure
+     - Enhanced data control
+     - Customizable retention policies
 
-VisionAI application uses Docker containers to run the apps and the Docker images are large in size. Minimum of 100GB of free space is requied on the host machine.
+### **VisionAI Enterprise**
+   - Single-tenant SaaS on Customer Cloud + on-prem inference
+   - Cloud infrastructure managed by customer
+   - Complete control over data, retention policies, infrastructure and security.
+   - Ideal for: Large enterprises with existing cloud infrastructure
+   - Features:
+     - Deploy in your AWS/Azure/GCP environment
+     - Full infrastructure control
+     - Custom security policies
+     - Air-gap capability
 
-#### RAM requirement
+## Documentation Sections
 
-VisionAI application requires minimum 16GB RAM to run the apps.
+- [Platform Overview](docs/overview.md)
+- [Implementation Guide](docs/implementation.md)
+- [Security & Compliance](docs/security.md)
+- [Administration](docs/admin.md)
+- [User Management](docs/users.md)
+- [Integration Guide](docs/integration.md)
+- [Best Practices](docs/best-practices.md)
+- [System Requirements](docs/requirements.md)
 
-#### GPU
+## Contact Information
 
-VisionAI is a Video-based AI platform that uses GPU for inference. It is recommended to use a GPU with at least 8GB of memory for optimal performance. VisionAI supports NVIDIA GPUs only - Following are a few recommended options:
+### Sales Inquiries
+- Email: sales@visionify.ai
+- Phone: [Your sales phone number]
+- Schedule a Demo: [Demo booking link]
 
-- NVIDIA GeForce RTX 2060/RTX 2060 Ti
-- NVIDIA GeForce RTX 3050/RTX 3050 Ti
-- NVIDIA P40
-- NVIDIA A100
+### Technical Support
+- Enterprise Support Portal: [Support portal link]
+- Email: support@visionify.ai
+- Emergency Support: [Emergency contact information]
 
-#### Internet Connectivity
+## Licensing & Sasles
 
-During initial download and setup portion of VisionAI application, we would need good internet connectivity in order to download the required dependencies and Docker containers. Once the setup is complete, VisionAI can be used offline.
+VisionAI is enterprise software available under a commercial license. Contact our [sales team](mailto:sales@visionify.ai) for licensing options and pricing.
+
+- Email: [sales@visionify.ai](mailto:sales@visionify.ai)
+- Phone: +1 720-449-1124
+- Schedule a Demo: [Visionify Demo](https://cal.com/visionify/30min)
 
 ---
-### License
 
-You can purchase license by contacing us: <sales@visionify.ai>
-
-For any queries related to VisionAI toolkit usage: <support@visionify.ai>
-
----
-
-
-
-
-## VisionAI Web Application
-- VisionAI supports a web-based option for managing cameras, scenarios. 
-
-
-
-- You can manage cameras, scenarios, see events etc., directly on the web-app. The web-app is running your own local compute instance. All the data is saved in your machine, and it is persistent as long as VisionAI application is not uninstalled.
-
-
-
-## VisionAI Web-app
-> VisionAI web-app is a software application that runs in a web browser. It is designed to provide a user-friendly interface and functionality that can be accessed from any device, without the need for installation on the device.
-
-Open http://localhost:3001 in the browser. Use your default username/password as master/master. After this, you will be asked to create a new admin user. Please use a strong password and create an admin user.
-
-![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/login.png)
-
-### Cameras
-
-Once you are signed in, you will see a blank dashboard page. Let’s add an IP camera to the system. In order to do this, go to “Cameras” tab on the left menu and Click on the + button.
-
-![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/camera-add.jpg)
-
-
-A new pop-up window will appear to add cameras. You can enter the camera name, description, and RTSP URI for the camera. The RTSP URI can be obtained from the Camera or NVR documentation. You can ignore the other fields as they are optional. Click on “Submit” button.
-
-![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/add-cam.jpg)
-
-
-Once you have added the camera, it should appear on the Cameras window and should show the initial streaming for the camera. Add any additional cameras in a similar fashion. Once all cameras have been added, the front-screen should look like this:
-
-![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/added-cameras.png)
-
-### Scenarios
-
-We can enable Vision AI scenarios for each of these cameras. In order to do this, go to Scenarios tab on the left menu to browse through the available scenarios.
-
-![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/scenario.png).
-
-This shows details about the Scenario.You can now click on the “Get this” button again to apply the scenario to cameras.
-
-
-![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/get-this.jpg).
-
-In the next page, Select the Cameras for which you want to apply this scenario.
-
-![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/select-camera.png) 
-
-
-Next, ensure you check the config box to proceed to the camera thumbnail. On the camera thumbnail page, create a zone directly. After creating the zone, click the "Submit" button to save your changes. Then, proceed by clicking on the "Next" button.
-
-![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/zone.png)
-
-In the following step, mark the "Select Events" option, then click the "Next" button. You have successfully applied the scenario to the camera.
-
-![VisionAI Web Application](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/select-event.jpg)
-
-
-VisionAI will now download these models and begin executing them for the chosen scenarios.
+© 2024 Visionify. All rights reserved.
 
 
 
 
 
 
-## Redis
-- VisionAI supports out-of-box integration with Redis, Prometheus, Grafana and Azure Event Hub. Once the web-app is started, you can view the Grafana dashboard at: http://localhost:3003. The default username and password is `admin`/`admin`.
-
-``` bash
-Redis server is at: redis://localhost:6379
-```
-
-
-
-## Next steps
-
-Congratulations! You have successfully configured and used VisionAI toolkit. You can also browse through our [scenarios](scenarios/index.md) section to understand different use-cases that are supported currently. If you have a need for a scenario, do not hesitate to submit a [request](https://github.com/visionify/visionai-docs/issues) here.

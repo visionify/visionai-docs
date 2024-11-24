@@ -1,6 +1,6 @@
 # VisionAI Documentation
 
-This repository contains the official documentation for VisionAI platform. The documentation is built using [MkDocs](https://www.mkdocs.org/) with [Material theme](https://squidfunk.github.io/mkdocs-material/).
+This repository contains the official documentation for [VisionAI Docs](https://docs.visionify.ai/). 
 
 ## 🚀 Quick Start
 
@@ -23,7 +23,7 @@ cd visionai-docs
 ```
 bash
 python -m venv env
-source env/bin/activate # On Windows, use: env\Scripts\activate
+source env/bin/activate
 ```
 
 
@@ -70,10 +70,10 @@ docs/
 ## 🛠 Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+2. Create your feature branch (`git checkout -b feature/feature-name`)
+3. Commit your changes (`git commit -m 'Add documentation for feature'`)
+4. Push to the branch (`git push origin feature/feature-name`)
+5. Open a Pull Request on GitHub
 
 ## 📝 Writing Guidelines
 
@@ -100,7 +100,3 @@ The documentation site configuration is in `mkdocs.yml`. Key configurations incl
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Support
-
-For support, email support@visionify.ai or create an issue in this repository.
