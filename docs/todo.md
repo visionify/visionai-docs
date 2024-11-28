@@ -27,3 +27,31 @@ Libraries.io subscribers    0
 
 - TODO:
 1. API Documentation - a lot of people keep asking about APIs.
+
+
+
+
+
+## Deployment Options
+
+<div class="grid-cards">
+
+  <div class="grid-card">
+    <h3>VisionAI Cloud</h3>
+    <p>Multi-tenant SaaS solution with cloud inference and analytics.</p>
+    <a href="deployment/cloud/">Learn More →</a>
+  </div>
+
+  <div class="grid-card">
+    <h3>VisionAI Hybrid</h3>
+    <p>Single-tenant solution with on-premise inference.</p>
+    <a href="deployment/hybrid/">Learn More →</a>
+  </div>
+
+  <div class="grid-card">
+    <h3>VisionAI Enterprise</h3>
+    <p>Custom deployment in your cloud infrastructure.</p>
+    <a href="deployment/enterprise/">Learn More →</a>
+  </div>
+
+</div>
