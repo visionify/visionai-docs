@@ -80,9 +80,11 @@
   display: none;
   height: 200px;
   padding: 2rem;
-  background: var(--md-code-bg-color);
+  /* background: var(--md-code-bg-color); */
   border-radius: 8px;
-  border: 1px solid var(--md-default-fg-color--lightest);
+  border: 1px solid var(--md-default-fg-color--light);
+  border: 1px solid rgba(0,0,0,.1);
+
 }
 
 .feature-card.active {
@@ -237,4 +239,124 @@
   .feature-content p {
     font-size: 0.85rem;
   }
+}
+
+/* Tabs Container */
+.tabs-container {
+    margin: 2rem 0;
+}
+
+.tabs {
+    display: flex;
+    overflow-x: auto;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    color: var(--md-default-fg-color--light);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.tab:hover {
+    background: var(--md-code-bg-color);
+}
+
+.tab.active {
+    background: var(--md-accent-fg-color);
+    color: white;
+}
+
+.tab .material-symbols-outlined {
+    font-size: 1.2rem;
+}
+
+/* Tab Content */
+.tab-content {
+    display: none;
+    padding: 2rem 0;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Use Case Grid */
+.usecase-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.usecase-card {
+    padding: 1.5rem;
+    background: var(--md-code-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.usecase-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.usecase-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: var(--md-default-bg-color);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.usecase-icon .material-symbols-outlined {
+    font-size: 24px;
+    color: var(--md-accent-fg-color);
+}
+
+.usecase-card h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.usecase-card p {
+    margin: 0 0 1rem 0;
+    color: var(--md-default-fg-color--light);
+    font-size: 0.9rem;
+}
+
+.usecase-link {
+    color: var(--md-accent-fg-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.usecase-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .tabs {
+        padding-bottom: 0.5rem;
+    }
+    
+    .tab {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
 }

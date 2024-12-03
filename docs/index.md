@@ -119,6 +119,469 @@
     <div class="carousel-dots"></div>
 </div>
 
+## Use Cases
+
+<div class="tabs-container">
+    <div class="tabs">
+        <button class="tab active" data-tab="ppe">
+            <span class="material-symbols-outlined">sentiment_satisfied</span>
+            <span>PPE Compliance</span>
+        </button>
+        <button class="tab" data-tab="heights">
+            <span class="material-symbols-outlined">sentiment_satisfied</span>
+            <span>Working at Heights</span>
+        </button>
+        <button class="tab" data-tab="hazards">
+            <span class="material-symbols-outlined">sentiment_satisfied</span>
+            <span>Hazard Warnings</span>
+        </button>
+        <button class="tab" data-tab="behavioral">
+            <span class="material-symbols-outlined">sentiment_satisfied</span>
+            <span>Behavioral Safety</span>
+        </button>
+        <button class="tab" data-tab="forklift">
+            <span class="material-symbols-outlined">sentiment_satisfied</span>
+            <span>Forklift Safety</span>
+        </button>
+        <button class="tab" data-tab="area">
+            <span class="material-symbols-outlined">sentiment_satisfied</span>
+            <span>Area Controls</span>
+        </button>
+        <button class="tab" data-tab="occupancy">
+            <span class="material-symbols-outlined">sentiment_satisfied</span>
+            <span>Occupancy Metrics</span>
+        </button>
+        <button class="tab" data-tab="staircase">
+            <span class="material-symbols-outlined">sentiment_satisfied</span>
+            <span>Staircase Safety</span>
+        </button>
+        <button class="tab" data-tab="housekeeping">
+            <span class="material-symbols-outlined">sentiment_satisfied</span>
+            <span>Housekeeping</span>
+        </button>
+        <button class="tab" data-tab="ergonomics">
+            <span class="material-symbols-outlined">sentiment_satisfied</span>
+            <span>Ergonomics</span>
+        </button>
+    </div>
+
+    <div class="tab-content active" id="ppe">
+        <div class="usecase-grid">
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Helmet</h3>
+                <p>Monitor compliance with safety helmet requirements.</p>
+                <a href="/usecases/ppe/helmet" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>High-Vis Vest</h3>
+                <p>Ensure visibility with proper reflective clothing.</p>
+                <a href="/usecases/ppe/vest" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Gloves</h3>
+                <p>Track proper hand protection usage.</p>
+                <a href="/usecases/ppe/gloves" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Safety Shoes</h3>
+                <p>Monitor proper footwear compliance.</p>
+                <a href="/usecases/ppe/shoes" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Goggles</h3>
+                <p>Ensure eye protection compliance.</p>
+                <a href="/usecases/ppe/goggles" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Hairnet</h3>
+                <p>Monitor hygiene compliance in sensitive areas.</p>
+                <a href="/usecases/ppe/hairnet" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Caps</h3>
+                <p>Track head covering requirements.</p>
+                <a href="/usecases/ppe/caps" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Apron</h3>
+                <p>Monitor protective clothing compliance.</p>
+                <a href="/usecases/ppe/apron" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Coveralls</h3>
+                <p>Track full-body protection compliance.</p>
+                <a href="/usecases/ppe/coveralls" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Sleeves</h3>
+                <p>Monitor arm protection requirements.</p>
+                <a href="/usecases/ppe/sleeves" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Face Shields</h3>
+                <p>Ensure facial protection compliance.</p>
+                <a href="/usecases/ppe/face-shields" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Earmuffs</h3>
+                <p>Track hearing protection usage.</p>
+                <a href="/usecases/ppe/earmuffs" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Masks</h3>
+                <p>Monitor respiratory protection compliance.</p>
+                <a href="/usecases/ppe/masks" class="usecase-link">Learn more →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content" id="heights">
+        <div class="usecase-grid">
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Climbing</h3>
+                <p>Monitor safe climbing practices.</p>
+                <a href="/usecases/heights/climbing" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Detect Harness</h3>
+                <p>Ensure proper harness usage at heights.</p>
+                <a href="/usecases/heights/harness" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Ladder 3-point Check</h3>
+                <p>Verify proper ladder safety compliance.</p>
+                <a href="/usecases/heights/ladder" class="usecase-link">Learn more →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content" id="hazards">
+        <div class="usecase-grid">
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Spills & Leaks</h3>
+                <p>Detect hazardous floor conditions.</p>
+                <a href="/usecases/hazards/spills" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Debris/Unattended Objects</h3>
+                <p>Monitor floor obstructions.</p>
+                <a href="/usecases/hazards/debris" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Clean Pathways</h3>
+                <p>Monitor pedestrian and forklift routes.</p>
+                <a href="/usecases/hazards/pathways" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Low Lighting</h3>
+                <p>Detect insufficient lighting conditions.</p>
+                <a href="/usecases/hazards/lighting" class="usecase-link">Learn more →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content" id="behavioral">
+        <div class="usecase-grid">
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Mobile Phone Usage</h3>
+                <p>Monitor phone usage in work areas.</p>
+                <a href="/usecases/behavioral/phone" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Running in Work Areas</h3>
+                <p>Detect unsafe movement in workspaces.</p>
+                <a href="/usecases/behavioral/running" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>No Smoking</h3>
+                <p>Monitor smoking policy compliance.</p>
+                <a href="/usecases/behavioral/smoking" class="usecase-link">Learn more →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content" id="forklift">
+        <div class="usecase-grid">
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Forklift-Person Near-miss</h3>
+                <p>Detect close encounters with pedestrians.</p>
+                <a href="/usecases/forklift/person-nearmiss" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Forklift-Forklift Near-miss</h3>
+                <p>Monitor vehicle interaction safety.</p>
+                <a href="/usecases/forklift/forklift-nearmiss" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Speed Limit</h3>
+                <p>Track forklift speed compliance.</p>
+                <a href="/usecases/forklift/speed" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Stop Sign Compliance</h3>
+                <p>Monitor traffic rule adherence.</p>
+                <a href="/usecases/forklift/stop-sign" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Heatmap Analysis</h3>
+                <p>Visualize traffic patterns and hotspots.</p>
+                <a href="/usecases/forklift/heatmap" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Moving with Pins Up</h3>
+                <p>Detect unsafe fork positioning.</p>
+                <a href="/usecases/forklift/pins" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Pathway Compliance</h3>
+                <p>Monitor designated route adherence.</p>
+                <a href="/usecases/forklift/pathway" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Max Height Violation</h3>
+                <p>Track load height compliance.</p>
+                <a href="/usecases/forklift/height" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Wrong Way Driving</h3>
+                <p>Detect incorrect direction travel.</p>
+                <a href="/usecases/forklift/wrong-way" class="usecase-link">Learn more →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content" id="area">
+        <div class="usecase-grid">
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Restricted Area</h3>
+                <p>Monitor access to restricted zones.</p>
+                <a href="/usecases/area/restricted" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Time-Limited Area</h3>
+                <p>Track time-based access compliance.</p>
+                <a href="/usecases/area/time-limited" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Suspended Loads</h3>
+                <p>Monitor safety under suspended loads.</p>
+                <a href="/usecases/area/suspended-loads" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Mandatory Person Zone</h3>
+                <p>Ensure required personnel presence.</p>
+                <a href="/usecases/area/mandatory-zone" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Crowding/Grouping</h3>
+                <p>Monitor social distancing compliance.</p>
+                <a href="/usecases/area/crowding" class="usecase-link">Learn more →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content" id="occupancy">
+        <div class="usecase-grid">
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>People Counting</h3>
+                <p>Track zone and line occupancy.</p>
+                <a href="/usecases/occupancy/counting" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Station Occupancy</h3>
+                <p>Monitor workstation utilization.</p>
+                <a href="/usecases/occupancy/station" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Desk Occupancy</h3>
+                <p>Track desk space utilization.</p>
+                <a href="/usecases/occupancy/desk" class="usecase-link">Learn more →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content" id="staircase">
+        <div class="usecase-grid">
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Bannister Usage</h3>
+                <p>Monitor proper handrail use.</p>
+                <a href="/usecases/staircase/bannister" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Running on Stairs</h3>
+                <p>Detect unsafe stair usage.</p>
+                <a href="/usecases/staircase/running" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Mobile Phone Usage</h3>
+                <p>Monitor distracted stair climbing.</p>
+                <a href="/usecases/staircase/phone" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Skipping Steps</h3>
+                <p>Track unsafe step patterns.</p>
+                <a href="/usecases/staircase/skipping" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Missing Tape</h3>
+                <p>Monitor stair marking compliance.</p>
+                <a href="/usecases/staircase/tape" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Missing Bannisters</h3>
+                <p>Detect missing safety rails.</p>
+                <a href="/usecases/staircase/missing-bannister" class="usecase-link">Learn more →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content" id="housekeeping">
+        <div class="usecase-grid">
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Unattended Objects</h3>
+                <p>Monitor floor obstructions.</p>
+                <a href="/usecases/housekeeping/objects" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Spills & Leaks</h3>
+                <p>Detect floor hazards.</p>
+                <a href="/usecases/housekeeping/spills" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Unattended Pallets</h3>
+                <p>Track pallet placement compliance.</p>
+                <a href="/usecases/housekeeping/pallets" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Unattended Boxes</h3>
+                <p>Monitor box placement.</p>
+                <a href="/usecases/housekeeping/boxes" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Unattended Cables</h3>
+                <p>Track cable management.</p>
+                <a href="/usecases/housekeeping/cables" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Waste Bins Full</h3>
+                <p>Monitor waste management.</p>
+                <a href="/usecases/housekeeping/waste" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Clean Floor</h3>
+                <p>Monitor floor cleanliness.</p>
+                <a href="/usecases/housekeeping/floor" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Blocked Exit</h3>
+                <p>Monitor emergency exit access.</p>
+                <a href="/usecases/housekeeping/exit" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Missing Fire Extinguisher</h3>
+                <p>Track safety equipment presence.</p>
+                <a href="/usecases/housekeeping/fire-extinguisher" class="usecase-link">Learn more →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content" id="ergonomics">
+        <div class="usecase-grid">
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>REBA Score</h3>
+                <p>Monitor body assessment scores.</p>
+                <a href="/usecases/ergonomics/reba" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>RULA Score</h3>
+                <p>Track upper limb assessments.</p>
+                <a href="/usecases/ergonomics/rula" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Trunk Forward Bending</h3>
+                <p>Monitor proper posture.</p>
+                <a href="/usecases/ergonomics/trunk-forward" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Trunk Twisting</h3>
+                <p>Track twisting movements.</p>
+                <a href="/usecases/ergonomics/trunk-twisting" class="usecase-link">Learn more →</a>
+            </div>
+            <div class="usecase-card">
+                <div class="usecase-icon"><span class="material-symbols-outlined">sentiment_satisfied</span></div>
+                <h3>Extended Upper Arms</h3>
+                <p>Monitor arm positioning.</p>
+                <a href="/usecases/ergonomics/upper-arms" class="usecase-link">Learn more →</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
 ## About VisionAI
 VisionAI is a production-ready AI platform that transforms your existing CCTV infrastructure into an intelligent safety monitoring system. Our solution helps enterprises:
 
@@ -250,10 +713,6 @@ Transform your workplace safety with enterprise-grade computer vision.
   </div>
 
 </div>
-
-
-
-
 
 
 

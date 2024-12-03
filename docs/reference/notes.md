@@ -416,3 +416,85 @@ sequenceDiagram
 
 
 
+#### Scenarios
+
+1. PPE Compliance
+   1. Helmet
+   2. High-Vis Vest
+   3. Gloves
+   4. Safety Shoes
+   5. Goggles
+   6. Hairnet
+   7. Caps
+   8. Apron
+   9. Coveralls
+   10. Sleeves
+   11. Face Shields
+   12. Earmuffs
+   13. Masks
+
+2. Working at Heights
+   1. Climbing
+   2. Detect Harness
+   3. Ladder 3-point check
+
+3. Hazard Warnings
+   1. Spills & Leaks on the floor
+   2. Debris/Unattended Object on Floor
+   3. Clean Pedestrian/Forklift Pathway
+   4. Low Lighting Conditions
+   
+4. Behavioral Safety
+   1. Mobile phone usage
+   2. Running in Work Areas
+   3. No Smoking
+
+5. Forklift Safety
+   1. Forklift-person near-miss
+   2. Forklift-forklift near-miss
+   3. Forklift Speed Limit
+   4. Forklift Stop Sign Compliance
+   5. Forklift & People Heatmap
+   6. Forklift moving with Pins up
+   7. Forklift Pathway Compliance
+   8. Forklift Max Height Violation
+   9. Forklift Wrong Way Driving
+
+6. Area Controls
+   1. Restricted Area
+   2. Time-Limited Area
+   3. Working under suspended loads.
+   4. Mandatory person zone
+   5. Crowding/Grouping
+
+7. Occupancy Metrics
+   1. People Counting (zone/line)
+   2. Station Occupancy
+   3. Desk Occupancy
+
+8. Staircase Safety
+   1. Stair bannister usage
+   2. Running on Stairs
+   3. Mobile phone usage on stairs
+   4. Skipping Steps
+   5. Missing tape on stairs
+   6. Missing bannisters
+
+9. Housekeeping
+   1. Unattended objects on floor
+   2. Spills & Leaks on floor
+   3. Unattended pallets
+   4. Unattended boxes
+   5. Unattended cables
+   6. Waste bins full
+   7. Clean floor
+   8. Blocked Exit monitoring
+   9. Missing fire extinguisher
+
+10. Ergonomics
+    1.  REBA Score
+    2.  RULA Score
+    3.  Trunk forward bending
+    4.  Trunk Twisting
+    5.  Extended Upper Arms
+
