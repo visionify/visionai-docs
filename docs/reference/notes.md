@@ -498,3 +498,40 @@ sequenceDiagram
     4.  Trunk Twisting
     5.  Extended Upper Arms
 
+
+
+## Deployment Options
+
+### **VisionAI Cloud** 
+   - Multi-tenant SaaS
+   - Fully cloud-based solution
+   - AI inference runs in our secure cloud
+   - Cloud-hosted dashboards and analytics
+   - Ideal for: Organizations seeking quick deployment with minimal infrastructure
+   - Features:
+     - Automatic updates and maintenance
+     - 24/7 monitoring and support
+     - Flexible scaling
+     - Pay-as-you-go pricing
+
+### **VisionAI Hybrid** 
+   - Single-tenant SaaS with on-prem inference
+   - Visionify single-tenant cloud instance for dashboards.
+   - Data stays within Visionify cloud.
+   - Ideal for: Most organizations with quicker deployments.
+   - Features:
+     - On-premises video processing
+     - Visionify manages cloud infrastructure
+     - Enhanced data control
+     - Customizable retention policies
+
+### **VisionAI Enterprise**
+   - Single-tenant SaaS on Customer Cloud + on-prem inference
+   - Cloud infrastructure managed by customer
+   - Complete control over data, retention policies, infrastructure and security.
+   - Ideal for: Large enterprises with existing cloud infrastructure
+   - Features:
+     - Deploy in your AWS/Azure/GCP environment
+     - Full infrastructure control
+     - Custom security policies
+     - Air-gap capability
