@@ -1,21 +1,37 @@
 # Scenarios
 
-Scenarios form the building blocks of VisionAI platform. These scenarios are organized into `Suites`. Below we talk about different suites and the scenarios that are part of them.
+Scenarios (also referred to as `use cases`) form the building blocks of VisionAI platform. These scenarios are organized into `Suites`. Below we talk about different suites and the scenarios that are part of them.
 
 - All scenarios are available as pick-n-choose scenarios. You can pick the scenarios you want based on your business needs. Each scenario is independently tested.
-- Events provided by these scenarios are given below. Events are sent to Redis & Azure EventHub pubsub systems for further integration.
-- There are a few common events supported by all scenarios (daily summary, weekly summary etc.)
+- Some scenarios require zones to be defined - you can define zones through the VisionAI web-application.
+- Events provided by these scenarios are given below. Events are sent to Redis, MQTT & WebSocket endpoints for custom integrations.
 - Currently supported scenarios are highlighted by a ✅. Roadmap scenarios are highlighted by a 📅.
-- Each of the scenarios can be quickly tested through `visionai run <scenario-name>` command. For example:
 
-``` bash
-visionai run smoke-and-fire-detection
-```
+!!! note "New scenario request"
+    This section lists down all the scenarios that are supported by the VisionAI platform. There are more scenarios added daily - please [send a request](https://support.visionify.ai) to us about any additional scenarios you need.
 
 ---
 
-!!! note "New scenario request"
-    This section lists down all the scenarios that are supported by the VisionAI platform. There are more scenarios added daily - please [send a request](https://github.com/visionify/visionai/issues/new) to us about any additional scenarios you need.
+## Worker Health & Safety Suite
+
+Following scenarios provide Worker Health and Safety examples supported by VisionAI suite. (Also referred to as Personnel Health and Safety).
+
+Workplace Personnel Health & Safety is important because it ensures that employees are safe and healthy in their work environment. This includes providing a safe and healthy work environment, proper safety training, and regular safety inspections. Additionally, it also includes enforcing safety policies to ensure that all employees are aware of and follow safety procedures, as well as encouraging a culture of safety within the workplace.
+
+Currently supported scenarios are highlighted by a ✅. 
+
+You can see real-time events generated as soon as person is detected without PPE (helmets, gloves, safety boots etc.). There are options to configure what PPE's are required for your scenario. This can be done through the VisionAI web-application which can be accessed on through http://localhost:3001.
+
+| Status | Scenario name | Supported Events | Additional considerations |
+| :----: | :------------ | :--------------- | :------------------------ |
+| ✅ | `PPE Compliance` | `No Gloves` <br> `No Safety Boots` <br> `No High-Vis Vest` <br> `No Goggles` <br> `No Mask` <br> `No Cap` <br> `No Apron` <br> `No Hairnet` <br> `No Face Shield (Welding)` <br> `No Coveralls` | [More details](../scenarios/ppe-detection.md){:target="_blank"}
+| ✅ | `Working at Heights` | `No PFAS detected` <br> `Steps detected without railings` <br> `Person detected at height without parapets` <br> `Ladder detected not in compliance` | [More details](../scenarios/working-at-heights.md){:target="_blank"}
+| ✅ | `Fall and Accident Detection` | `Person slip & fall detected` <br> `Potential collision/accident detected` <br> `Wet floor detected` <br> `Debris detected on floor` <br> `Wet/slippery sign detected` |
+| ✅ | `posture-and-ergonomics` | `Bend count per individual ` | Straight camera angle <br> [More details](../scenarios/ergonomics.md){:target="_blank"} |
+| 📅 | `empty-pallets-detection` | `Empty pallets detected` <br> `Partially empty pallets detected` |
+| 📅 | `spills-and-leaks-detection` | `Water puddle detected` <br> `Water leak from equipment detected` <br> `Wet floor detected` <br> `Spill event detected` <br> `Slippery sign detected` |
+| 📅 | `hand-wash-compliance` | `Missed hand wash` |
+| ✅ | `confined-spaces-monitoring` | `Person detected` <br> `Person left` <br> `Person dwell time exceeds limit` <br> `Person detected without motion` <br> `Person fall detected` | [More details](../scenarios/confined-spaces-monitoring.md){:target="_blank"} |
 
 ---
 
@@ -52,29 +68,6 @@ Following scenarios provide hazard warning examples supported by VisionAI suite.
 | 📅 | `blocked-exit-monitoring`        | `Blocked exit detected` |
 | ✅ | `rust-and-corrosion-detection`   | `Rust or corrosion event detected` | [More details](../scenarios/rust-and-corrosion-hazard.md){:target="_blank"} |
 
-
----
-
-## Worker Health & Safety Suite
-
-Following scenarios provide Worker Health and Safety examples supported by VisionAI suite. (Also referred to as Personnel Health and Safety).
-
-Workplace Personnel Health & Safety is important because it ensures that employees are safe and healthy in their work environment. This includes providing a safe and healthy work environment, proper safety training, and regular safety inspections. Additionally, it also includes enforcing safety policies to ensure that all employees are aware of and follow safety procedures, as well as encouraging a culture of safety within the workplace.
-
-Currently supported scenarios are highlighted by a ✅. 
-
-You can see real-time events generated as soon as person is detected without PPE (helmets, gloves, safety boots etc.). There are options to configure what PPE's are required for your scenario. This can be done through the VisionAI web-application which can be accessed on through http://localhost:3001.
-
-| Status | Scenario name | Supported Events | Additional considerations |
-| :----: | :------------ | :--------------- | :------------------------ |
-| ✅ | `ppe-detection` | `Person detected without helmet` <br> `Person detected without gloves` <br> `Person detected without safety boots` <br> `Person detected without safety goggles` <br> `Person detected without face mask` <br> `Person detected without vest` <br> `Person detected without full-body suit` <br> `Person detected without PFAS` <br> `Person detected without ear protection` | [More details](../scenarios/ppe-detection.md){:target="_blank"}
-| ✅ | `working-at-heights` | `Person detected without PFAS` <br> `Steps detected without railings` <br> `Person detected at height without parapets` <br> `Ladder detected not in compliance` | [More details](../scenarios/working-at-heights.md){:target="_blank"}
-| ✅ | `fall-and-accident-detection` | `Person slip & fall detected` <br> `Potential collision/accident detected` <br> `Wet floor detected` <br> `Debris detected on floor` <br> `Wet/slippery sign detected` |
-| ✅ | `posture-and-ergonomics` | `Bend count per individual ` | Straight camera angle <br> [More details](../scenarios/ergonomics.md){:target="_blank"} |
-| 📅 | `empty-pallets-detection` | `Empty pallets detected` <br> `Partially empty pallets detected` |
-| 📅 | `spills-and-leaks-detection` | `Water puddle detected` <br> `Water leak from equipment detected` <br> `Wet floor detected` <br> `Spill event detected` <br> `Slippery sign detected` |
-| 📅 | `hand-wash-compliance` | `Missed hand wash` |
-| ✅ | `confined-spaces-monitoring` | `Person detected` <br> `Person left` <br> `Person dwell time exceeds limit` <br> `Person detected without motion` <br> `Person fall detected` | [More details](../scenarios/confined-spaces-monitoring.md){:target="_blank"} |
 
 
 

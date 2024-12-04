@@ -28,7 +28,7 @@
   <div class="grid-card">
     <h3>🚀 Quick Start</h3>
     <p>Deploy VisionAI in your environment in under 15 minutes.</p>
-    <a href="getting-started/">Get Started →</a>
+    <a href="overview/quick-start">Get Started →</a>
   </div>
 
   <div class="grid-card">

@@ -1,16 +1,10 @@
 # Scenarios
 
-Scenarios form the building blocks of VisionAI platform. These scenarios are organized into `Suites`. Below we talk about different suites and the scenarios that are part of them.
+Scenarios (also referred to as `use cases`) form the building blocks of VisionAI platform. These scenarios are organized into `Suites`. Below we talk about different suites and the scenarios that are part of them.
 
 - All scenarios are available as pick-n-choose scenarios. You can pick the scenarios you want based on your business needs. Each scenario is independently tested.
 - Events provided by these scenarios are given below. Events are sent to Redis & Azure EventHub pubsub systems for further integration.
-- There are a few common events supported by all scenarios (daily summary, weekly summary etc.)
 - Currently supported scenarios are highlighted by a ✅. Roadmap scenarios are highlighted by a 📅.
-- Each of the scenarios can be quickly tested through `visionai run <scenario-name>` command. For example:
-
-``` bash
-visionai run smoke-and-fire-detection
-```
 
 ---
 

@@ -68,7 +68,7 @@ copyright: Copyright &copy; 2024 Visionify Inc.
 nav:
   - VisionAI:
     - Overview: index.md
-    - How it works: overview/how-it-works.md
+    - Quick Start: overview/quick-start.md
     - Use Cases: overview/scenarios.md
     - Cameras: overview/cameras.md
     - Industries: overview/industries.md
