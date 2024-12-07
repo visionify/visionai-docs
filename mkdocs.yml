@@ -242,3 +242,4 @@ extra_javascript:
   - js/custom.js
   - js/carousel.js
   - js/tabs.js
+  - js/lightbox.js
