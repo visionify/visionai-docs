@@ -264,10 +264,10 @@
     </div>
     <div class="grid-card">
         <h3><span class="material-symbols-outlined">support_agent</span> Technical Support</h3>
-        <p>Need help? Our support team is ready to assist you.</p>
+        <p>Need help? Visit our support portal or contact our technical team.</p>
         <ul class="contact-list">
-            <li>Support Portal: <a href="https://support.visionify.ai">https://support.visionify.ai</a></li>
-            <li>Email: <a href="mailto:support@visionify.ai">support@visionify.ai</a></li>
+            <li><a href="https://support.visionify.ai">https://support.visionify.ai</a></li>
+            <li><a href="mailto:support@visionify.ai">support@visionify.ai</a></li>
         </ul>
     </div>
     <div class="grid-card">

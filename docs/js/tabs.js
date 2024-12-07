@@ -1,51 +1,44 @@
-document.addEventListener('DOMContentLoaded', function() {
+// Function to initialize tabs
+function initializeTabs() {
     const tabs = document.querySelectorAll('.tab');
     const contents = document.querySelectorAll('.tab-content');
     const eventItems = document.querySelectorAll('.event-item');
 
-    // Tab switching
+    // Skip if no tabs found on the page
+    if (!tabs.length) return;
+
+    // Remove any existing event listeners
     tabs.forEach(tab => {
-        tab.addEventListener('click', () => {
-            // Remove active class from all tabs and contents
-            tabs.forEach(t => t.classList.remove('active'));
-            contents.forEach(c => c.classList.remove('active'));
-            
-            // Add active class to clicked tab and corresponding content
-            tab.classList.add('active');
-            const contentId = tab.getAttribute('data-tab');
-            document.getElementById(contentId).classList.add('active');
-
-            // Reset any active events when switching tabs
-            eventItems.forEach(e => e.classList.remove('active'));
-        });
+        tab.removeEventListener('click', handleTabClick);
+        tab.addEventListener('click', handleTabClick);
     });
 
-    // Event item clicking
-    eventItems.forEach(item => {
-        item.addEventListener('click', () => {
-            // Remove active class from all events in the same tab
-            const currentTab = item.closest('.tab-content');
-            currentTab.querySelectorAll('.event-item').forEach(e => e.classList.remove('active'));
-            
-            // Add active class to clicked event
-            item.classList.add('active');
-
-            // Get the video data and update the video container
-            const videoId = item.getAttribute('data-video');
-            const videoContainer = currentTab.querySelector('.video-container');
-            
-            // Update video content
-            updateVideo(videoContainer, videoId);
-        });
-    });
-
-    // Set initial state - show first tab and its content
-    if (tabs.length > 0) {
+    // Set initial state
+    if (!document.querySelector('.tab.active')) {
         tabs[0].classList.add('active');
         const firstTabId = tabs[0].getAttribute('data-tab');
         document.getElementById(firstTabId)?.classList.add('active');
     }
-});
+}
+
+function handleTabClick(event) {
+    const tab = event.currentTarget;
+    const tabs = document.querySelectorAll('.tab');
+    const contents = document.querySelectorAll('.tab-content');
+    const eventItems = document.querySelectorAll('.event-item');
+
+    // Remove active class from all tabs and contents
+    tabs.forEach(t => t.classList.remove('active'));
+    contents.forEach(c => c.classList.remove('active'));
+    
+    // Add active class to clicked tab and corresponding content
+    tab.classList.add('active');
+    const contentId = tab.getAttribute('data-tab');
+    document.getElementById(contentId)?.classList.add('active');
+
+    // Reset any active events when switching tabs
+    eventItems.forEach(e => e.classList.remove('active'));
+}
 
 function updateVideo(container, videoId) {
     if (!videoId) return;
@@ -59,3 +52,24 @@ function updateVideo(container, videoId) {
         container.innerHTML = `<video src="videos/${videoId}" autoplay loop muted playsinline></video>`;
     }
 }
+
+// Initialize on first load
+document.addEventListener('DOMContentLoaded', initializeTabs);
+
+// Initialize on any navigation
+document.addEventListener('DOMContentSwitch', initializeTabs);
+
+// Initialize on any content change
+const observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+        if (mutation.addedNodes.length) {
+            initializeTabs();
+        }
+    });
+});
+
+// Start observing the document with the configured parameters
+observer.observe(document.documentElement, {
+    childList: true,
+    subtree: true
+});

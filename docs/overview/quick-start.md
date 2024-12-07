@@ -215,7 +215,7 @@ The VisionAI dashboard provides comprehensive insights into your safety metrics 
     <div class="setup-step">
         <img src="../../img/visionify-event-details.jpg" alt="Events Page" />
         <div class="step-content">
-            <h4>3. Event Investigation</h4>
+            <h4>3. Event Details</h4>
             <p>On the event details page, you can view a 12-second video clip of the event. You can click thumbs up/down to vote on the event. You can also add the event to your watchlist or safety campaign.</p>
         </div>
     </div>
@@ -248,10 +248,10 @@ The VisionAI dashboard provides comprehensive insights into your safety metrics 
     </div>
     <div class="grid-card">
         <h3><span class="material-symbols-outlined">support_agent</span> Technical Support</h3>
-        <p>Need help? Our support team is ready to assist you.</p>
+        <p>Need help? Visit our support portal or contact our technical team.</p>
         <ul class="contact-list">
-            <li>Support Portal: <a href="https://support.visionify.ai">https://support.visionify.ai</a></li>
-            <li>Email: <a href="mailto:support@visionify.ai">support@visionify.ai</a></li>
+            <li><a href="https://support.visionify.ai">https://support.visionify.ai</a></li>
+            <li><a href="mailto:support@visionify.ai">support@visionify.ai</a></li>
         </ul>
     </div>
     <div class="grid-card">
