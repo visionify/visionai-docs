@@ -7,33 +7,41 @@ Scenarios (also referred to as `use cases`) form the building blocks of VisionAI
 - Events provided by these scenarios are given below. Events are sent to Redis, MQTT & WebSocket endpoints for custom integrations.
 - Currently supported scenarios are highlighted by a ✅. Roadmap scenarios are highlighted by a 📅.
 
+Below image also provides a summary of all the scenarios that are supported by VisionAI.
+
+<img src="../../img/visionify-supported-scenarios-1.3.png" alt="VisionAI Supported Scenarios including PPE Compliance, Area Controls, Forklift Safety, Emergency Events, Occupancy Metrics, Housekeeping, Behavioral Safety, Staircase Safety and more" title="VisionAI Supported Scenarios">
+
 !!! note "New scenario request"
-    This section lists down all the scenarios that are supported by the VisionAI platform. There are more scenarios added daily - please [send a request](https://support.visionify.ai) to us about any additional scenarios you need.
+    This chapter lists down all the scenarios that are supported by the VisionAI platform. We are always looking to expand our suite - please [send a request](https://support.visionify.ai) to us about any additional scenarios you need.
 
 ---
 
-## Worker Health & Safety Suite
+## PPE Compliance
 
-Following scenarios provide Worker Health and Safety examples supported by VisionAI suite. (Also referred to as Personnel Health and Safety).
+PPE Compliance is our core application. We support most of the common types of PPEs used in manufacturing & construction industry. This suite is sometimes also referred to by `Worker Health and Safety`.
 
-Workplace Personnel Health & Safety is important because it ensures that employees are safe and healthy in their work environment. This includes providing a safe and healthy work environment, proper safety training, and regular safety inspections. Additionally, it also includes enforcing safety policies to ensure that all employees are aware of and follow safety procedures, as well as encouraging a culture of safety within the workplace.
+PPE compliance is the first step towards a comprehensive safety program. Workers sometimes forget to wear PPEs like helmets, gloves, safety boots, high-vis vests, goggles, masks, coveralls etc., due to lack of awareness or complacency. PPE Compliance helps you ensure that workers are wearing the required PPEs.
 
-Currently supported scenarios are highlighted by a ✅. 
-
-You can see real-time events generated as soon as person is detected without PPE (helmets, gloves, safety boots etc.). There are options to configure what PPE's are required for your scenario. This can be done through the VisionAI web-application which can be accessed on through http://localhost:3001.
+Ensuring PPE Compliance can yield significant benefits. It can help reduce the number of accidents and injuries in the workplace, improve productivity, and enhance the overall safety culture of the organization.
 
 | Status | Scenario name | Supported Events | Additional considerations |
 | :----: | :------------ | :--------------- | :------------------------ |
-| ✅ | `PPE Compliance` | `No Gloves` <br> `No Safety Boots` <br> `No High-Vis Vest` <br> `No Goggles` <br> `No Mask` <br> `No Cap` <br> `No Apron` <br> `No Hairnet` <br> `No Face Shield (Welding)` <br> `No Coveralls` | [More details](../scenarios/ppe-detection.md){:target="_blank"}
-| ✅ | `Working at Heights` | `No PFAS detected` <br> `Steps detected without railings` <br> `Person detected at height without parapets` <br> `Ladder detected not in compliance` | [More details](../scenarios/working-at-heights.md){:target="_blank"}
-| ✅ | `Fall and Accident Detection` | `Person slip & fall detected` <br> `Potential collision/accident detected` <br> `Wet floor detected` <br> `Debris detected on floor` <br> `Wet/slippery sign detected` |
-| ✅ | `posture-and-ergonomics` | `Bend count per individual ` | Straight camera angle <br> [More details](../scenarios/ergonomics.md){:target="_blank"} |
-| 📅 | `empty-pallets-detection` | `Empty pallets detected` <br> `Partially empty pallets detected` |
-| 📅 | `spills-and-leaks-detection` | `Water puddle detected` <br> `Water leak from equipment detected` <br> `Wet floor detected` <br> `Spill event detected` <br> `Slippery sign detected` |
-| 📅 | `hand-wash-compliance` | `Missed hand wash` |
-| ✅ | `confined-spaces-monitoring` | `Person detected` <br> `Person left` <br> `Person dwell time exceeds limit` <br> `Person detected without motion` <br> `Person fall detected` | [More details](../scenarios/confined-spaces-monitoring.md){:target="_blank"} |
+| ✅ | `PPE Compliance` | `No Helmet` <br>  `No Gloves` <br> `No Safety Boots` <br> `No High-Vis Vest` <br> `No Goggles` <br> `No Mask` <br> `No Cap` <br> `No Apron` <br> `No Hairnet` <br> `No Face Shield (Welding)` <br> `No Coveralls` <br> `No PFAS (Harness)` <br>  `No Earmuffs` <br> | [More details](../scenarios/ppe-detection.md){:target="_blank"}
 
 ---
+
+## Emergency Events
+
+Emergency events detection is critical for workplace safety. This suite focuses on detecting various emergency situations that require immediate attention, such as falls, fires, and hazardous conditions. Early detection of these events can help prevent accidents and enable quick response times.
+
+| Status | Scenario name | Supported Events | Additional considerations |
+| :----: | :------------ | :--------------- | :------------------------ |
+| ✅ | `person-down` | `Person Down Event (slip & fall)` <br> `Slip Hazard Detected` <br> `Trip Hazard Detected` | [More details](../scenarios/slip-and-fall-detection.md){:target="_blank"} |
+| ✅ | `smoke-and-fire` | `Smoke Event Detected` <br> `Fire Event Detected` <br> `Sparks Detected` | [More details](../scenarios/smoke-and-fire-detection.md){:target="_blank"} |
+
+---
+
+
 
 ## Privacy Suite
 
@@ -136,9 +144,21 @@ Suspicious activity detection suite relies on a combination of activity detectio
 
 | Status | Scenario name | Supported Events | Additional considerations |
 | :----: | :------------ | :--------------- | :------------------------ |
-| ✅  | `vandalism-graffiti-company-property-destruction` | `Motion detected in area (gross event)` <br> `People detected in area (more granular event)` <br> `Non-uniformed personnel detected in area` <br> `Non badged personnel detected in area` <br> `Vandalism detected in area (before & after)` <br> `Paint/graffiti detected in area (before & after changes)` <br> `Behavior analysis event showing company property destruction.` | [More details](../scenarios/vandalism.md){:target="_blank"} |
+| 📅  | `vandalism-graffiti-company-property-destruction` | `Motion detected in area (gross event)` <br> `People detected in area (more granular event)` <br> `Non-uniformed personnel detected in area` <br> `Non badged personnel detected in area` <br> `Vandalism detected in area (before & after)` <br> `Paint/graffiti detected in area (before & after changes)` <br> `Behavior analysis event showing company property destruction.` | [More details](../scenarios/vandalism.md){:target="_blank"} |
 | ✅ | `firearms-knives-detection` | `Person brandishing firearm` <br> `Person brandishing knives` | [More details](../scenarios/firearms-and-knives.md){:target="_blank"} |
 
+
+---
+
+## Behavioral Safety Suite
+
+Behavioral safety focuses on identifying and correcting unsafe behaviors before they lead to accidents. This suite monitors various behavioral patterns that could potentially cause injuries or accidents in the workplace. By detecting these behaviors early, organizations can provide timely interventions and training to promote safer work practices.
+
+| Status | Scenario name | Supported Events | Additional considerations |
+| :----: | :------------ | :--------------- | :------------------------ |
+| ✅ | `unsafe-behavior` | `Person running detected` <br> `Climbing on equipment detected` <br> `Working at unsafe height detected` | [More details](../scenarios/unsafe-behavior.md){:target="_blank"} |
+| ✅ | `prohibited-activities` | `Smoking detected` <br> `Vaping detected` <br> `Food/drinks in restricted area` | [More details](../scenarios/prohibited-activities.md){:target="_blank"} |
+| ✅ | `phone-usage` | `Mobile phone usage detected` <br> `Texting while walking detected` <br> `Taking pictures in restricted area` | [More details](../scenarios/phone-usage.md){:target="_blank"} |
 
 ---
 

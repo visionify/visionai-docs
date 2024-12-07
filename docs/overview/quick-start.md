@@ -206,10 +206,17 @@ The VisionAI dashboard provides comprehensive insights into your safety metrics 
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-dashboard-events.jpg" alt="Events Page" />
+        <img src="../../img/visionify-dashboard-events.jpg" alt="Events Listing" />
         <div class="step-content">
-            <h4>2. Event Investigation</h4>
+            <h4>2. Events Listing</h4>
             <p>Navigate to the Events page to review specific safety incidents. Filter events by time range, scenarios, event types, or specific cameras. Each event includes a 12-second video clip for detailed investigation and analysis.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-event-details.jpg" alt="Events Page" />
+        <div class="step-content">
+            <h4>3. Event Investigation</h4>
+            <p>On the event details page, you can view a 12-second video clip of the event. You can click thumbs up/down to vote on the event. You can also add the event to your watchlist or safety campaign.</p>
         </div>
     </div>
 </div>
