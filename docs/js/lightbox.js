@@ -16,24 +16,31 @@ document.addEventListener('DOMContentLoaded', function() {
     lightboxOverlay.appendChild(lightboxContent);
     document.body.appendChild(lightboxOverlay);
     
-    // Add click handlers to all images in setup steps and grid cards
-    const images = document.querySelectorAll('.setup-step img, .grid-card img');
-    images.forEach(img => {
-        img.addEventListener('click', function() {
-            lightboxImage.src = this.src;
+    // Add click handler to document for all images
+    document.addEventListener('click', function(e) {
+        const target = e.target;
+        
+        // Check if clicked element is an image in content area
+        if (target.tagName === 'IMG' && 
+            !target.closest('.md-header') && 
+            !target.closest('.md-footer')) {
+            
+            lightboxImage.src = target.src;
             lightboxOverlay.classList.add('active');
-            document.body.style.overflow = 'hidden'; // Prevent scrolling
-        });
+            document.body.style.overflow = 'hidden';
+        }
+        
+        // Close lightbox when clicking overlay
+        if (target === lightboxOverlay) {
+            lightboxOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        }
     });
     
-    // Close lightbox when clicking overlay or close button
-    [lightboxOverlay, closeButton].forEach(element => {
-        element.addEventListener('click', function(e) {
-            if (e.target === this) {
-                lightboxOverlay.classList.remove('active');
-                document.body.style.overflow = ''; // Restore scrolling
-            }
-        });
+    // Close button handler
+    closeButton.addEventListener('click', function() {
+        lightboxOverlay.classList.remove('active');
+        document.body.style.overflow = '';
     });
     
     // Close on escape key

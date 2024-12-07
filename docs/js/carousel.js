@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     const carousel = document.querySelector('.feature-highlights');
+    
+    // Only initialize carousel if elements exist
+    if (!carousel) return;
+    
     const cards = document.querySelectorAll('.feature-card');
     const dotsContainer = document.querySelector('.carousel-dots');
     const prevButton = document.querySelector('.carousel-button.prev');

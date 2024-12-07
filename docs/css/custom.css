@@ -735,7 +735,7 @@ img {
     }
 }
 
-/* Lightbox Styling Improvements */
+/* Lightbox Styling */
 .lightbox-overlay {
     display: none;
     position: fixed;
@@ -752,7 +752,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fadeIn 0.2s ease-out;
 }
 
 .lightbox-content {
@@ -760,7 +759,6 @@ img {
     max-width: 90%;
     max-height: 85vh;
     padding: 20px;
-    animation: zoomIn 0.2s ease-out;
 }
 
 .lightbox-content img {
@@ -783,7 +781,6 @@ img {
     height: 30px;
     line-height: 30px;
     text-align: center;
-    cursor: pointer;
     border: none;
     font-size: 20px;
     padding: 0;
@@ -795,21 +792,14 @@ img {
     background: rgba(0, 0, 0, 0.8);
 }
 
-/* Animation keyframes */
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+/* Make content images clickable */
+.md-content img {
+    cursor: pointer;
+    transition: transform 0.2s ease;
 }
 
-@keyframes zoomIn {
-    from {
-        opacity: 0;
-        transform: scale(0.95);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
+.md-content img:hover {
+    transform: translateY(-2px);
 }
 
 /* Mobile adjustments */
