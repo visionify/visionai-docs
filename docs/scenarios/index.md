@@ -220,11 +220,11 @@ Before any other scenarios are run, or before we store or process the images - t
 
 | Status | Scenario name | Details | Details |
 | :----: | :------------ | :--------------- | :------------------------ |
-| ✅ | `face-blurring` | Blur any faces detected | [More details](../privacy/blur-faces.md){:target="_blank"} |
-| ✅ | `text-blurring` | Blue any text detected (paper, computer screens etc) | [More details](../privacy/blur-signs.md){:target="_blank"} |
-| ✅ | `license-plate-blurring` | Blur any license plates detected | [More details](../privacy/blur-license-plates.md){:target="_blank"} |
-| 📅 | `signs-blurring` | Blur any signs detected | [More details](../privacy/blur-signs.md){:target="_blank"} |
-| 📅 | `obstructed-camera` | If camera feed is obstructed, send an alert | [More details](../privacy/obstructed-camera-view.md){:target="_blank"} |
+| ✅ | `face-blurring` | Blur any faces detected | [More details](../scenarios/privacy-measures.md){:target="_blank"} |
+| ✅ | `text-blurring` | Blue any text detected (paper, computer screens etc) | |
+| ✅ | `license-plate-blurring` | Blur any license plates detected | |
+| 📅 | `signs-blurring` | Blur any signs detected | |
+| 📅 | `obstructed-camera` | If camera feed is obstructed, send an alert |  |
 
 ---
 
