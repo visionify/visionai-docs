@@ -78,6 +78,8 @@ nav:
     - PPE Compliance: scenarios/ppe-detection.md
     - Working at heights: scenarios/working-at-heights.md
     - Area Controls: scenarios/area-controls.md
+    - Slip and Fall: scenarios/slip-and-fall-detection.md
+    - Smoke and Fire: scenarios/smoke-and-fire-detection.md
     - Emergency Events: scenarios/emergency-events.md
     - Forklift Safety: scenarios/forklift-safety.md
     - Occupancy Metrics: scenarios/occupancy-metrics.md
@@ -90,22 +92,13 @@ nav:
     - Compliance Policies: scenarios/compliance-policies.md
     - Privacy Measures: scenarios/privacy-measures.md
 
-  - Troubleshooting:
+  - References:
+    - Customization: reference/customization.md
     - Troubleshooting: reference/troubleshooting.md
     - Camera Placement Guide: overview/camera-placement-guide.md
     - Finding RTSP URLs: overview/finding-rtsp-urls.md
     - User Guide: overview/web-app-userguide.md
 
-  - Reference:
-    - Overview: reference/reference.md
-    - Changelog: reference/changelog.md
-    - Notes: reference/notes.md
-  - Customization:
-    - Overview: custom/overview.md
-    - Retrain models: custom/retraining.md
-    - License: custom/licensing.md
-    - FAQs: custom/faqs.md
-    - Custom Services: custom/request.md
   - About:
     - About: company/about.md
     - Team: company/team.md
