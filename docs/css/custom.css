@@ -71,26 +71,30 @@
   display: flex;
   transition: transform 0.5s ease;
   gap: 2rem;
+  position: relative;
+  min-height: 240px;
 }
 
 .feature-card {
   min-width: 100%;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.5s ease;
-  display: none;
-  height: 200px;
+  display: flex;
+  height: 240px;
   padding: 2rem;
-  /* background: var(--md-code-bg-color); */
   border-radius: 8px;
-  border: 1px solid var(--md-default-fg-color--light);
   border: 1px solid rgba(0,0,0,.1);
-
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  visibility: hidden;
 }
 
 .feature-card.active {
   opacity: 1;
-  display: flex;
-  align-items: center;
+  visibility: visible;
+  position: relative;
 }
 
 .feature-content {
@@ -106,9 +110,9 @@
   color: var(--md-default-fg-color);
   font-size: 1.2rem;
   line-height: 1.4;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
 }
 
 .feature-content p {
@@ -197,27 +201,26 @@
     height: auto;
     min-height: 160px;
     padding: 1rem;
+    flex-direction: column;
   }
 
   .feature-icon {
-    width: 48px;
-    height: 48px;
-  }
-
-  .feature-icon .material-symbols-outlined {
-    font-size: 24px;
+    display: none;
   }
 
   .feature-content {
-    margin-left: 1rem;
+    margin-left: 0;
   }
 
   .feature-content h3 {
     font-size: 1.1rem;
+    margin: 0;
   }
 
   .feature-content p {
     font-size: 0.9rem;
+    margin: 0 0 0.75rem 0;
+    line-height: 1.4;
   }
 
   .carousel-button {

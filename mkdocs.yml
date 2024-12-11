@@ -73,11 +73,6 @@ nav:
     - Cameras: overview/cameras.md
     - FAQs: overview/faqs.md
 
-  - Troubleshooting:
-    - Camera Placement Guide: overview/camera-placement-guide.md
-    - Finding RTSP URLs: overview/finding-rtsp-urls.md
-    - User Guide: overview/web-app-userguide.md
-
   - Scenarios:
     - Overview: scenarios/index.md
     - PPE Compliance: scenarios/ppe-detection.md
@@ -93,19 +88,17 @@ nav:
     - Staircase Safety: scenarios/staircase-safety.md
     - Suspicious Activity: scenarios/suspicious-activity.md
     - Compliance Policies: scenarios/compliance-policies.md
+    - Privacy Measures: scenarios/privacy-measures.md
 
-  - Privacy:
-      - Overview: privacy/employee-privacy.md
-      - Blur faces: privacy/blur-faces.md
-      - Blur signs/text: privacy/blur-signs.md
-      - Blur screens: privacy/blur-screens.md
-      - Blur license plates: privacy/blur-license-plates.md
-      - Obstructed camera view: privacy/obstructed-camera-view.md
-  
+  - Troubleshooting:
+    - Troubleshooting: reference/troubleshooting.md
+    - Camera Placement Guide: overview/camera-placement-guide.md
+    - Finding RTSP URLs: overview/finding-rtsp-urls.md
+    - User Guide: overview/web-app-userguide.md
+
   - Reference:
     - Overview: reference/reference.md
     - Changelog: reference/changelog.md
-    - Troubleshooting: reference/troubleshooting.md
     - Notes: reference/notes.md
   - Customization:
     - Overview: custom/overview.md
