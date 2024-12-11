@@ -24,26 +24,173 @@ PPE compliance is the first step towards a comprehensive safety program. Workers
 
 Ensuring PPE Compliance can yield significant benefits. It can help reduce the number of accidents and injuries in the workplace, improve productivity, and enhance the overall safety culture of the organization.
 
-| Status | Scenario name | Supported Events | Additional considerations |
-| :----: | :------------ | :--------------- | :------------------------ |
-| ✅ | `PPE Compliance` | `No Helmet` <br>  `No Gloves` <br> `No Safety Boots` <br> `No High-Vis Vest` <br> `No Goggles` <br> `No Mask` <br> `No Cap` <br> `No Apron` <br> `No Hairnet` <br> `No Face Shield (Welding)` <br> `No Coveralls` <br> `No PFAS (Harness)` <br>  `No Earmuffs` <br> | [More details](../scenarios/ppe-detection.md){:target="_blank"}
+
+<img src="../../img/visionify-ppe-compliance-sample-event.gif" alt="PPE Compliance Violation Example Event (Showing No mask, No gloves)" title="PPE Compliance Violation Example Event">
+
+
+**Table: PPE Compliance Events and Detection Details**
+
+| Status | Scenario name | Supported Events | Event Details | More Info |
+| :----: | :------------ | :--------------- | :------------------------ | :------------------------ |
+| ✅ | PPE Compliance | `No Helmet` | Person detected without helmet  | [PPE Compliance](../scenarios/ppe-detection.md){:target="blank"} |
+|    |                | `No Gloves` | Person detected without gloves  |  |
+|    |                | `No Safety Boots` | Person detected without safety boots  |  |
+|    |                | `No High-Vis Vest` | Person detected without high-vis vest  |  |
+|    |                | `No Goggles` | Person detected without goggles  |  |
+|    |                | `No Mask` | Person detected without mask  |  |
+|    |                | `No Cap` | Person detected without cap  |  |
+|    |                | `No Apron` | Person detected without apron  |  |
+|    |                | `No Hairnet` | Person detected without hairnet  |  |
+|    |                | `No Face Shield` | Person detected without face shield (Welding)  |  |
+|    |                | `No Coveralls` | Person detected without coveralls  |  |
+|    |                | `No Safety Harness` | Personal Fall Arrest System (PFAS) |  |
+|    |                | `No Earmuffs` | Person detected without earmuffs  |  |
+
+
+
+---
+
+## Area Controls
+
+Area controls is a core scenario of the VisionAI application. With this scenario - we can enable different area and time related use-cases. Area control scenarios require a zone to be configured for each of the different events.
+
+For example, if we want to setup a Pedestrian Pathway, or create a Man-Machine area that is restricted during certain hours - we can do that with area control scenarios.
+
+Deploying Area Control scenarios requires understanding of the camera area and the type of work performed there. We recommend that you look at the video clips from the camera, and tune the scenario accordingly.
+
+<img src="../../img/visionify-restricted-zone-sample-event.gif" alt="Restricted Zone Violation Example Event (Showing person walking in a Restricted Zone & how Visionify System can detect it)" title="Visionify Restricted Zone Example Event">
+
+
+| Scenario name | Supported? | Event |Event Details | More Info |
+| :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
+| Area Controls | ✅ | `Restricted Area`               | Person in Restricted Area | [More details](../scenarios/area-controls.md){:target="_blank"} |
+|                 | ✅ | `Perimeter Control`             | Person in Secure Perimeter |  |
+|                 | ✅ | `Time Limited Areas`            | Person in zone for more than X mins |  |
+|                 | ✅ | `Confined Space Monitoring`     | Person in confined space for more than X mins |  |
+|                 | ✅ | `Min Worker Zone`          | No Person in Mandatory Personnel Zone |  |
+|                 | ✅ | `Max Worker Zone`               | Grouping/Crowding detected |  |
+|                 | 📅 | `Person under Suspended Load`   | Person under suspended load |  |
+|                 | ✅ | `Pedestrian Pathway`            | Person outside of pedestrian pathway |  |
+|                 | ✅ | `Person in Vehicle Pathway`     | Person detected in vehicle pathway |  |
+
+---
+
+## Forklift Safety
+
+Visionify's Forklift Safety suite detects near-misses between forklifts & people, forklift-speed limit, and dedicated pathways for forklifts & people. This scenario is useful for areas where forklifts are operated.
+
+Forklift Safety also implements other best practices like Wearning Seatbelts, Stop sign compliance etc.
+
+Our forklift safety suite can be considered as a passive safety system. It does not actively prevent any accidents, but it does help you identify areas that need attention. The goal of the Forklift Safety Suite is to make your team aware of the risks, so you can data driven changes to make your workplace safer.
+
+<img src="../../img/visionify-forklift-safety-sample-event.gif" alt="Forklift Safety Violation Example Event generated through Vision AI (Showing near-miss between a person & forklift)" title="Visionify Forklift Near-Miss Example Event">
+
+| Scenario name | Supported? | Event |Event Details | More Info |
+| :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
+| Forklift Safety | ✅ | `Forklift Person interaction`                | Forklift Person Near-Miss | [More details](../scenarios/forklift-safety.md){:target="_blank"} |
+|                 | ✅ | `Forklift Forklift interaction`              | Forklift Forklift Near-Miss |  |
+|                 | ✅ | `Forklift Speed Limit`                       | Forklift Speed Limit Violation |  |
+|                 | ✅ | `Forklift Stop Sign Compliance`              | Forklift Stop Sign Compliance Violation |  |
+|                 | ✅ | `Dedicated Forklift Pathway`                 | Forklift outside of dedicated pathway |  |
+|                 | ✅ | `Person in Forklift Pathway`                 | Person in Forklift Pathway |  |
+|                 | 📅 | `Forklift Max-height Violation`              | Forklift Max-height Violation |  |
+|                 | 📅 | `Forklift with Pins Up`                      | Forklift with Pins Up |  |
+|                 | ✅ | `Forklift and People Heatmap`                | Forklift and People Heatmap |  |
 
 ---
 
 ## Emergency Events
 
-Emergency events detection is critical for workplace safety. This suite focuses on detecting various emergency situations that require immediate attention, such as falls, fires, and hazardous conditions. Early detection of these events can help prevent accidents and enable quick response times.
+Emergency events detection is critical for workplace safety. This suite focuses on detecting various emergency situations that require immediate attention, such as smoke, fire, slip, trip and falls, any person-down events resulting from exhaustion and heat-stroke. Early detection of these events can help prevent accidents and enable quick response times.
 
-| Status | Scenario name | Supported Events | Additional considerations |
-| :----: | :------------ | :--------------- | :------------------------ |
-| ✅ | `person-down` | `Person Down Event (slip & fall)` <br> `Slip Hazard Detected` <br> `Trip Hazard Detected` | [More details](../scenarios/slip-and-fall-detection.md){:target="_blank"} |
-| ✅ | `smoke-and-fire` | `Smoke Event Detected` <br> `Fire Event Detected` <br> `Sparks Detected` | [More details](../scenarios/smoke-and-fire-detection.md){:target="_blank"} |
+!!! note "Alert Notifications"
+    Visionify's system can be configured to send out an alert when any of these emergency events are detected. This alert can be sent as a Text Message, Email or a notification through Microsoft Teams.
+
+<img src="../../img/visionify-smoke-and-fire-detection.gif" alt="Smoke and Fire Detection Example Event generated through Vision AI" title="Visionify Smoke and Fire Detection Example Event">
+
+
+| Scenario name | Supported? | Event |Event Details | More Info |
+| :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
+| Emergency Events | ✅ | `Smoke Event Detected`                | Smoke Event Detected | [More details](../scenarios/smoke-and-fire-detection.md){:target="_blank"} |
+|                 | ✅ | `Fire Event Detected`              | Fire Event Detected |  [More details](../scenarios/smoke-and-fire-detection.md){:target="_blank"} |
+|                 | ✅ | `Person Down`                       | Slip, trip, fall, or other Person Down Events | [More details](../scenarios/slip-and-fall-detection.md){:target="_blank"} |
+
 
 ---
 
+## Heatmaps and Occupancy Metrics
+
+Occupancy metrics suite provides use-cases for person counting, heatmaps (density maps) of people & forklifts, desk occupancy, station occupancy and mobile phone usage metrics. 
+
+Visionify's occupancy metrics suite can be used with the rest of our suite to enable different compliance policies or collect general planning data for your organization.
+
+<img src="../../img/visionify-people-forklift-heatmap-event.gif" alt="An heatmap of people & forklift in work area" title="Visionify Heatmap Event Example">
+
+| Scenario name | Supported? | Event |Event Details | More Info |
+| :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
+| Occupancy Metrics | ✅ | `People Headcount`          | People Headcount | [More details](../scenarios/occupancy-metrics.md){:target="_blank"} |
+|                   | ✅ | `People & Forklift Heatmap` | Periodic Heatmap Event |  |
+|                   | ✅ | `Desk Occupancy`            | Desk Occupancy |  |
+|                   | ✅ | `Station Occupancy`         | Station Occupancy |  |
+|                   | ✅ | `Phone Usage Metrics`       | Station Occupancy |  |
+
+---
+
+## Housekeeping
+
+Visionify's Housekeeping Suite provides various hazard identifications on the work floor. These metrics include identifying spills and leaks on the floor, unattended objects, boxes or pallets on the floor, identifying door open/close events, blocked exits monitoring, missing fire-extinguishers etc. 
+
+Housekeeping suite provides organization a second set of eyes for their regular audits. By identifying hazards early, this suite tends to avoid accidents and injuries.
+
+<img src="../../img/visionify-spills-and-leaks-detection.gif" alt="An example event of spills & leaks detection" title="Visionify Spills and Leaks">
+
+| Scenario name | Supported? | Event |Event Details | More Info |
+| :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
+| Housekeeping      | ✅ | `Spills & Leaks`              | Spills and Leaks | [More details](../scenarios/housekeeping.md){:target="_blank"} |
+|                   | ✅ | `Unattended Objects`          | Unattended Objects |  |
+|                   | ✅ | `Unattended Pallet/Box`       | Unattended Pallet/Box |  |
+|                   | ✅ | `Clean Pathway`               | Clean Pathway |  |
+|                   | ✅ | `Blocked Exits`               | Blocked Exits |  |
+|                   | ✅ | `Missing Fire Extinguisher`   | Missing Fire Extinguisher Event |  |
+|                   | ✅ | `Door Open/Close`             | Door Open/Close Event |  |
+
+---
+
+## Behavioral Safety Suite
+
+Visionify's Behavioral Safety Suite focuses on identifying and correcting unsafe behaviors before they lead to accidents. This suite monitors various behavioral patterns including running in work areas, climbing on equipment or railings, smoking/vaping in prohibited areas, consuming food/drinks in restricted zones, and mobile phone usage in unsafe conditions. 
+
+By detecting these unsafe behaviors early, organizations can provide timely interventions and training to promote safer work practices. The Behavioral Safety suite serves as a proactive tool for safety managers to reinforce safety protocols and maintain workplace discipline.
+
+<img src="../../img/visionify-mobile-phone-usage-detection.jpg" alt="An example event of mobile phone usage in work area" title="Visionify Behavioral Safety Suite">
+
+| Scenario name | Supported? | Event |Event Details | More Info |
+| :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
+| Behavioral Safety | ✅ | `Running Detection`              | Person running in work area | [More details](../scenarios/behavioral-safety.md){:target="_blank"} |
+|                   | ✅ | `Climbing Detection`            | Person climbing on equipment/railings |  |
+|                   | ✅ | `Smoking/Vaping Detection`      | Person smoking or vaping in prohibited area |  |
+|                   | ✅ | `Food/Drinks Detection`         | Person with food/drinks in restricted area |  |
+|                   | ✅ | `Mobile Phone Usage`            | Person using phone in unsafe conditions |  |
+
+---
+
+## Staircase Safety
+
+Visionify's Staircase Safety Suite focuses on preventing accidents and injuries in one of the most common yet hazardous areas of any facility - staircases. This suite monitors various unsafe behaviors including failure to use handrails, running on stairs, using mobile phones while climbing/descending, and skipping steps. These behaviors are leading causes of workplace accidents, often resulting in serious injuries.
+
+By identifying these risky behaviors in real-time, organizations can take proactive measures to prevent staircase-related incidents. The suite helps safety managers enforce proper staircase usage protocols and create awareness about safe staircase practices among employees.
+
+<!-- <img src="../../img/visionify-staircase-safety-detection.gif" alt="An example event of unsafe staircase behavior detection" title="Visionify Staircase Safety"> -->
+
+| Scenario name | Supported? | Event |Event Details | More Info |
+| :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
+| Staircase Safety | ✅ | `No Bannister Usage`              | Person not holding handrail while using stairs | [More details](../scenarios/staircase-safety.md){:target="_blank"} |
+|                   | ✅ | `Running on Stairs`              | Person running on staircase |  |
+|                   | ✅ | `Phone Usage on Stairs`          | Person using mobile phone while on stairs |  |
+|                   | ✅ | `Skipping Steps`                 | Person skipping steps while using stairs |  |
 
 
-## Privacy Suite
+## Employee Privacy (Face Blurring)
 
 For a majority of organizations - employee privacy is a top concern. Along with employee privacy, the organization needs to make sure that any data does not leave the premises. Any faces detected through Vision AI system need to be blurred, along with text, signage, computer screens and other sensitive information.
 
@@ -51,7 +198,7 @@ Before any other scenarios are run, or before we store or process the images - t
 
 ---
 
-| Status | Scenario name | Details | Additional considerations |
+| Status | Scenario name | Details | Details |
 | :----: | :------------ | :--------------- | :------------------------ |
 | ✅ | `face-blurring` | Blur any faces detected | [More details](../privacy/blur-faces.md){:target="_blank"} |
 | ✅ | `text-blurring` | Blue any text detected (paper, computer screens etc) | [More details](../privacy/blur-signs.md){:target="_blank"} |
@@ -61,107 +208,70 @@ Before any other scenarios are run, or before we store or process the images - t
 
 ---
 
-
-## Hazard Warnings Suite
-
-Following scenarios provide hazard warning examples supported by VisionAI suite. Currently supported scenarios are highlighted by a ✅. 
-
-
-| Status | Scenario name | Supported Events | Additional considerations |
-| :----: | :------------ | :--------------- | :------------------------ |
-| ✅ | `smoke-and-fire-detection`       | `Smoke event detected` <br> `Fire event detected` <br> `Sparks detected` <br> `Open flames detection` | [More details](../scenarios/smoke-and-fire-detection.md){:target="_blank"} |
-| ✅ | `no-smoking-zone`                | `Smoking event detected` <br> `Vaping event detected` | [More details](../scenarios/no-smoking-hazard.md){:target="_blank"} |
-| 📅 | `spills-and-leak-detection`      | `Water puddle detected` <br> `Water leak from equipment detected` <br> `Spill event detected` <br> `Slippery sign detected` |
-| 📅 | `missing-fire-extinguisher`      | `Fire extinguisher missing` |
-| 📅 | `blocked-exit-monitoring`        | `Blocked exit detected` |
-| ✅ | `rust-and-corrosion-detection`   | `Rust or corrosion event detected` | [More details](../scenarios/rust-and-corrosion-hazard.md){:target="_blank"} |
-
-
-
-
----
-
-## Occupancy Policies
-
-Occupancy Policies relate to counting and tracking employees and/or other personnel in the room. These could include people-counting and enforcing max-occupancy policies, or tracking people's dwell time in a confined space.
-
-Currently supported scenarios are highlighted by a ✅. 
-
-!!! note "Occupancy Metrics"
-    - Occupancy metrics is similar in structure to max-occupancy, or restricted areas scenarios.
-    - However it sends out a summary event is structured like this. This will give a granular summary event at the end of the day.
-    - Users can start with occupancy-metrics and then move to max-occupancy or restricted areas if they need to enforce policies.
-    ``` json
-    {
-      "date": "2023-02-23",
-      "stations": [{
-        "id": "station_1",
-        "hours": [
-            {
-              "start_time": "2023-02-23T14:00:01",
-              "end_time": "2023-02-23T15:00:00",
-              "occupancy_cnt": 14
-            }
-            ...
-        ]
-      }...]
-    }
-    ```
-
-Also need to specify that the camera needs to be configured to have a good view of the stations where occupancy metrics need to be checked.
-
-| Status | Scenario name | Supported Events | Additional considerations |
-| :----: | :------------ | :--------------- | :------------------------ |
-| ✅ | `max-occupancy`              | `Person count exceeds max limit` | [More details](../scenarios/max-occupancy-count.md) |
-| ✅ | `restricted-areas`           | `Person detected in restricted area` <br> `Movement detected in restricted area` <br> `Person detected after hours` <br> `Movement detected after hours` | [More details](../scenarios/exclusion-zones.md){:target="_blank"} |
-| ✅ | `dwell-time`                 | `Person detected` <br> `Person left` <br> `Person dwell time exceeds limit` <br> `Person detected without motion` <br> `Person fall detected` | [More details](../scenarios/confined-spaces-monitoring.md){:target="_blank"} |
-| ✅ | `station-occupancy`          | `Daily summary event` | [More details](../scenarios/station-occupancy.md){:target="_blank"} |
-| 📅 | `occupancy-metrics`          | `Daily summary event` |
-| 📅 | `authorized-personnel-only`  | `Unauthorized person detected` |
-
-
-
-[^1]: This works by detecting a person's uniform and comparing it to a list of authorized personnel. This is a more advanced scenario and requires a custom model to be trained for your specific use-case.
-
----
-
 ## Company Policies
 
 Company policies include specific scenarios that are relevant to your company. These could include scenarios like no-smoking/no-vaping zones, no food or drinks in certain areas, or no cell phones/pictures in certain areas. Some of these scenarios overlap with [occupancy policies](#occupancy-policies), but they are still useful to have here as separate scenarios.
 
-| Status | Scenario name | Supported Events | Additional considerations |
+| Status | Scenario name | Supported Events | Details |
 | :----: | :------------ | :--------------- | :------------------------ |
 | 📅 | `no-food-or-drinks-allowed`  | `Person with food detected` <br> `Person with drinks detected` <br> `Spill event detected` | [More details](../scenarios/no-food-or-drinks.md){:target="_blank"} |
-| ✅ | `no-phone-text-pictures`     | `Cellphone usage detected` <br> `Person detected taking pictures` | [More details](../scenarios/no-phone-usage.md){:target="_blank"} |
+| 📅 | `no-phone-text-pictures`     | `Cellphone usage detected` <br> `Person detected taking pictures` | [More details](../scenarios/no-phone-usage.md){:target="_blank"} |
 | ✅ | `no-smoking-or-vaping`       | `Smoking event detected` <br> `Vaping event detected` | [More details](../scenarios/no-smoking.md){:target="_blank"} |
-| ✅ | `no-children-pets-visitors`  | `Children detected` <br> `Pets detected` <br> `Visitors detected` | [More details](../scenarios/authorized-personnel.md){:target="_blank"} |
+| 📅 | `no-children-pets-visitors`  | `Children detected` <br> `Pets detected` <br> `Visitors detected` | [More details](../scenarios/authorized-personnel.md){:target="_blank"} |
 
 ---
 ## Suspicious Activity detection
 
-Suspicious activity detection suite relies on a combination of activity detection models and object detection models. These models are trained to detect suspicious activity in a variety of scenarios.
+Suspicious activity detection suite includes knives & firearms detection, graffitti & vandalism detection etc.
 
 
-| Status | Scenario name | Supported Events | Additional considerations |
+| Status | Scenario name | Supported Events | Details |
 | :----: | :------------ | :--------------- | :------------------------ |
-| 📅  | `vandalism-graffiti-company-property-destruction` | `Motion detected in area (gross event)` <br> `People detected in area (more granular event)` <br> `Non-uniformed personnel detected in area` <br> `Non badged personnel detected in area` <br> `Vandalism detected in area (before & after)` <br> `Paint/graffiti detected in area (before & after changes)` <br> `Behavior analysis event showing company property destruction.` | [More details](../scenarios/vandalism.md){:target="_blank"} |
-| ✅ | `firearms-knives-detection` | `Person brandishing firearm` <br> `Person brandishing knives` | [More details](../scenarios/firearms-and-knives.md){:target="_blank"} |
+| 📅  | `vandalism-graffiti`  | Vandalism or Graffiti detected |[More details](../scenarios/vandalism.md){:target="_blank"} |
+| ✅  | `firearms-knives`     | Firearm or Knife detected` | [More details](../scenarios/firearms-and-knives.md){:target="_blank"} |
 
 
 ---
 
-## Behavioral Safety Suite
-
-Behavioral safety focuses on identifying and correcting unsafe behaviors before they lead to accidents. This suite monitors various behavioral patterns that could potentially cause injuries or accidents in the workplace. By detecting these behaviors early, organizations can provide timely interventions and training to promote safer work practices.
-
-| Status | Scenario name | Supported Events | Additional considerations |
-| :----: | :------------ | :--------------- | :------------------------ |
-| ✅ | `unsafe-behavior` | `Person running detected` <br> `Climbing on equipment detected` <br> `Working at unsafe height detected` | [More details](../scenarios/unsafe-behavior.md){:target="_blank"} |
-| ✅ | `prohibited-activities` | `Smoking detected` <br> `Vaping detected` <br> `Food/drinks in restricted area` | [More details](../scenarios/prohibited-activities.md){:target="_blank"} |
-| ✅ | `phone-usage` | `Mobile phone usage detected` <br> `Texting while walking detected` <br> `Taking pictures in restricted area` | [More details](../scenarios/phone-usage.md){:target="_blank"} |
-
----
 
 ## Next Steps
 
-Now that you have a better understanding of the scenarios that are available, you can start to think about how you can organize these scenarios into a solution that meets your needs. You can also go to the individual scenario page to learn more about it. We can customize each of these models for your use-cases and provide you with a solution that is tailored to your needs. You can contact us through [this page](https://visionify.ai/contact-us/-us/).
+- [Camera Placement Guide](../overview/camera-placement-guide.md)
+- [How to Get Started](../overview/quick-start.md)
+- [Alerts & Notifications](../overview/alerts-and-notifications.md)
+- [Best Practices](../overview/best-practices.md)
+
+---
+
+## Contact Information
+
+<div class="grid-cards">
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">contact_phone</span> Sales Inquiries</h3>
+        <p>Get in touch with our sales team for demos and pricing information.</p>
+        <ul class="contact-list">
+            <li>Email: <a href="mailto:sales@visionify.ai">sales@visionify.ai</a></li>
+            <li>Phone: +1 720-449-1124</li>
+        </ul>
+    </div>
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">support_agent</span> Technical Support</h3>
+        <p>Need help? Visit our support portal or contact our technical team.</p>
+        <ul class="contact-list">
+            <li><a href="https://support.visionify.ai">https://support.visionify.ai</a></li>
+            <li><a href="mailto:support@visionify.ai">support@visionify.ai</a></li>
+        </ul>
+    </div>
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">calendar_month</span> Schedule a Demo</h3>
+        <p>See VisionAI in action with a personalized demo from our team.</p>
+        <div class="demo-button">
+            <a href="https://cal.com/visionify/30min" class="cta-button">
+                <span class="material-symbols-outlined">event</span>
+                Book Your Demo
+            </a>
+        </div>
+    </div>
+</div>
+
+---
