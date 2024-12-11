@@ -105,7 +105,7 @@ Connecting your cameras to VisionAI is straightforward. Follow these steps to in
 </div>
 
 !!! note
-    1. Make sure your cameras are accessible from your network and you have the correct RTSP URLs. Need help finding your camera's RTSP URL? Check our [Camera URL Guide](../guides/camera-urls.md).
+    1. Test your Camera RTSP URL to make sure it is playing. You can test it using [VLC Player](https://www.videolan.org/vlc/index.html).
     2. Initially, you will see a blank screen for camera. The screenshot for the camera will update once the camera is connected.
 
 ---

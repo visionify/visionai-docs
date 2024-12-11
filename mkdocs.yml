@@ -69,24 +69,14 @@ nav:
   - VisionAI:
     - Overview: index.md
     - Quick Start: overview/quick-start.md
-    - Use Cases: overview/scenarios.md
+    - AI Scenarios: overview/scenarios.md
     - Cameras: overview/cameras.md
-    - Industries: overview/industries.md
     - FAQs: overview/faqs.md
 
   - Troubleshooting:
     - Camera Placement Guide: overview/camera-placement-guide.md
     - Finding RTSP URLs: overview/finding-rtsp-urls.md
-
-  - Misc:
     - User Guide: overview/web-app-userguide.md
-    - Next steps: overview/next-steps.md
-
-  - Deployment:
-    - Cloud: deployment/cloud.md
-    - Hybrid: deployment/hybrid.md
-    - Enterprise: deployment/enterprise.md
-    - Azure Managed App: overview/azure-managed-app.md
 
   - Scenarios:
     - Overview: scenarios/index.md
