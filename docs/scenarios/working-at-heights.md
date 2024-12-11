@@ -9,176 +9,68 @@
 </figure>
 
 
-Working at heights is a hazardous activity and has the potential to cause serious injuries or fatalities. It is important for employers to ensure that the work place is set up to prevent employees from falling off of elevated surfaces. Employers must provide proper training and equipment to employees who work at heights and must ensure that safety regulations are followed. Employers should also provide periodic reviews to ensure that employees are following safety protocols and that the work environment is safe and secure.
+## Overview
 
-Working at heights, such as on a roof or in a tall building, requires specialized safety equipment and training to ensure the safety of the workers. Depending on the job, you may need to wear a safety harness or other protective gear.
+Working at heights poses significant risks, including serious injuries or fatalities. Vision AI offers a robust solution to enhance workplace safety by preventing falls and ensuring compliance with safety regulations. Our system provides real-time monitoring and alerts, enabling timely interventions and reducing the risk of accidents.
 
-Falling from heights is a serious hazard, and can result in serious injury or even death. Timely action in the event of a Fall/Slip accident can minimize damage and save lives.
+## What our solution can detect
+- **Climbing/Restricted Height**: Is the person climbing or above a restricted height.
+- **Harness usage**: Is the person wearing a harness if above a restricted height.
+- **No Safety Shoes**: Is the person not wearing safety shoes.
+- **No Helmet**: Is the person not wearing a helmet.
+- **No Fall Arrest System**: Is the person not wearing a fall arrest system.
 
+## Key Benefits
 
+- **24x7 Monitoring**: Utilize existing camera feeds to continuously monitor work environments for potential incidents.
+- **Real-time Alerts**: Enable real-time alerts through Text, Mobile App notification when an incident is observed. 
+- **High Accuracy**: Our AI model is trained on diverse real-world scenarios, minimizing them robust and reducing false positives.
+- **Compliance Increase**: Our solution is able to increase compliance by 85% at the workplace.
 
-## Vision AI based monitoring 
+## How It Works
 
-Vision AI-based system can be used to detect slip and fall with high accuracy. Additionally, our model trained on real-world images minimizes false-positives or false-negatives.  
+- **Hybrid or On-Prem Deployments**: VisionAI supports On-prem, Hybrid, and Cloud options for deployment.
+- **Edge Device Compatibility**: Vision AI operates efficiently on edge devices, processing camera feeds locally to detect human poses and identify slip and fall accidents.
+- **Scalable Solution**: Easily integrate with existing infrastructure to provide comprehensive safety coverage across multiple sites.
 
-The cameras scan every frame to ensure there are no accidents related to slip and fall cases. 
+## Next Steps
 
-To ensure accuracy and reliability for the model, these camera-based monitoring services should be supplemented by strong compliance processes. Furthermore, workers working in different factory units should always be made aware of these accidents and how to safeguard them. 
+- [Camera Placement Guide](../overview/camera-placement-guide.md)
+- [How to Get Started](../overview/quick-start.md)
+- [Alerts & Notifications](../overview/alerts-and-notifications.md)
+- [Best Practices](../overview/best-practices.md)
 
-## Model Details 
-
-### Dataset 
-
-Model training is carried out with Microsoft COCO: Common Objects in Context dataset. Only person class is considered for model building. COCO is a  large-scale dataset that addresses three core research problems in scene understanding: detecting non-iconic views (or non-canonical perspectives of objects), contextual reasoning between objects and the precise 2D localization of objects. 
-
-COCO dataset has an even distribution of: 
-
-- Different(indoor/outdoor) environments 
-
-- Male vs Female  
-
-- Different light settings 
-
-- Variations in camera orientations 
-
-- Using security camera feeds 
-
-### Model 
-
-The model is built using Yolov5 pre-trained model for detecting a person followed by a media pipe library used to estimate the pose of the person.
-
-### Model card
-
- <div class="table">
-    <table class="fl-table">
-        <thead>
-        <tr><th>Dataset size</th>
-            <th>Version</th>
-            <th>Camera support</th>
-            <th>Precision</th>
-            <th>Recall</th>
-            <th> mAP  </th>  
-        </thead>
-        <tbody>
-        <tr>
-            <td>3220</td>
-            <td>v1</td>
-            <td>Both(Ceiling and Straight)</td>
-            <td>65.0% </td>
-            <td>71.6% </td>
-            <td>71.0% </td>
-        </tr>
-        </tbody>
-    </table>
-</div>
-
-
-
-The model is adaptable enough to run on any edge computing device.
-
-
-### Scenario details
-
-
-The business logic for this scenario is as follows: 
-
-- We use existing camera feeds from the premises to monitor and detect occurrences of slip and fall incidents. 
-
-- VisionAI s able to run on edge devices. It uses camera feeds for processing. 
-
-- We detect human poses to identify slip and fall accidents in the camera feed.  
-- If either slip or fall is detected, an alert is raised.
-
-## Try it now 
-
-### Quick method - using your local web-cam
-
-To test this model & scenario, you can use the following steps:
-
-- Install the visionai package from PyPI
-
-<div class=termy>
-
-```console
-$ pip install visionai
----> 100%
-```
-</div>
-
-- Test the scenario from your local web-cam
-
-<div class=termy>
-
-```console
-$ visionai scenario test slip-and-fall-detection
-
-Downloading models for scenario: slip-and-fall-detection
-Model: slip-and-fall-detection: https://workplaceos.blob.core.windows.net/models/yolov5s-people/yolov5s-people-0.0.4.zip
----> 100%
-
-Starting scenario: slip-and-fall-detection..
-
-```
-</div>
-
-
-- You should be able to see the events generated on your console window with slip and fall being detected within the camera field of view.
-
-### In an actual environment
-
-To use this scenario in an actual environment, you can follow these steps:
-
-- Install the visionai package from PyPI
-
-<div class=termy>
-
-```console
-$ pip install visionai
----> 100%
-```
-</div>
-
-- Download the scenario
-
-<div class=termy>
-
-```console
-$ visionai scenario download slip-and-fall-detection
-
-Downloading models for scenario: slip-and-fall-detection
-Model: slip-and-fall-detection
-https://workplaceos.blob.core.windows.net/models/yolov5s-people/yolov5s-people-0.0.4.zip
----> 100%
-```
-
-</div>
-
-- Add the camera feed to the scenario
-
-<div class=termy>
-
-```console
-$ visionai camera add OFFICE-01 --url rtsp://192.168.0.1/stream1
-$ visionai camera OFFICE-01 add-scenario slip-and-fall-detection
-$ visionai run
-
-Starting scenario: slip-and-fall-detection..
-
-```
-
-</div>
-
-- You should be able to see the events generated on your console window with slip and fall being detected within the camera field of view.
-
-For more details visit VisionAI [web application](https://visionify.ai/).
-
-
-## Training with custom data
-
-The scenario is provided as part of our GPL-v3 package for VisionAI. If you wish to train this with custom datasets, please contact us and we can provide you with the training code. You can do custom training with your own datasets for free, as long as it complies with GPLv3 license (you give back the code to the community). If you are interested in a custom license, please (contact us)[contact.md].
-
+---
 
 ## Contact Us
 
-- For technical issues, you can open a Github issue [here](https://github.com/visionify/visionai).
-- For business inquiries, you can contact us through [our website](https://visionify.ai/contact-us/).
+<div class="grid-cards">
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">contact_phone</span> Sales Inquiries</h3>
+        <p>Contact our sales team for tailored solutions and pricing information.</p>
+        <ul class="contact-list">
+            <li>Email: <a href="mailto:sales@visionify.ai">sales@visionify.ai</a></li>
+            <li>Phone: +1 720-449-1124</li>
+        </ul>
+    </div>
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">support_agent</span> Technical Support</h3>
+        <p>Access our support portal or reach out to our technical team for assistance.</p>
+        <ul class="contact-list">
+            <li><a href="https://support.visionify.ai">https://support.visionify.ai</a></li>
+            <li><a href="mailto:support@visionify.ai">support@visionify.ai</a></li>
+        </ul>
+    </div>
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">calendar_month</span> Schedule a Demo</h3>
+        <p>Experience Vision AI in action with a personalized demo from our team.</p>
+        <div class="demo-button">
+            <a href="https://cal.com/visionify/30min" class="cta-button">
+                <span class="material-symbols-outlined">event</span>
+                Book Your Demo
+            </a>
+        </div>
+    </div>
+</div>
+
+---

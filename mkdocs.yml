@@ -80,50 +80,20 @@ nav:
 
   - Scenarios:
     - Overview: scenarios/index.md
+    - PPE Compliance: scenarios/ppe-detection.md
+    - Working at heights: scenarios/working-at-heights.md
+    - Area Controls: scenarios/area-controls.md
+    - Emergency Events: scenarios/emergency-events.md
+    - Forklift Safety: scenarios/forklift-safety.md
+    - Occupancy Metrics: scenarios/occupancy-metrics.md
+    - Hazard Warnings: scenarios/hazard-warnings-housekeeping.md
+    - Behavioral Safety: scenarios/behavioral-safety.md
+    - Ergonomics: scenarios/ergonomics.md
+    - Mobile Phone Compliance: scenarios/mobile-phone-compliance.md
+    - Staircase Safety: scenarios/staircase-safety.md
+    - Suspicious Activity: scenarios/suspicious-activity.md
+    - Compliance Policies: scenarios/compliance-policies.md
 
-    - Hazard Warnings:
-      - Overview: scenarios/hazard-warning-suite.md
-      - Smoke and Fire Detection: scenarios/smoke-and-fire-detection.md
-      - No smoking/no vaping: scenarios/no-smoking-hazard.md
-      - Spills & leaks detection: scenarios/spills-and-leaks-hazard.md
-      - Missing fire extinguisher: scenarios/missing-fire-extinguisher.md
-      - Blocked exit monitoring: scenarios/blocked-exit.md
-      - Equipment rust and corrosion: scenarios/rust-and-corrosion-hazard.md
-
-    - Worker health & safety:
-      - Overview: scenarios/worker-health-and-safety.md
-      - PPE Detection: scenarios/ppe-detection.md
-      - Working at heights: scenarios/working-at-heights.md
-      - Slip, trip and fall detection: scenarios/slip-and-fall-detection.md
-      - Posture & Ergonomics: scenarios/ergonomics.md
-      - Spills & Leaks detection (Liquids): scenarios/spills-and-leaks.md
-      - Hand-wash: scenarios/hand-wash.md
-      - Confined spaces monitoring: scenarios/confined-spaces-monitoring.md
-
-    - Occupancy Policies:
-      - Overview: scenarios/occupancy-policies.md
-      # - Max occupancy: scenarios/max-occupancy-count.md
-      # - Restricted areas/times: scenarios/exclusion-zones.md
-      # - Dwell time: scenarios/confined-spaces-monitoring.md
-      # - Social distancing: scenarios/social-distance.md
-      # - Station occupancy: scenarios/station-occupancy.md
-      - Occupancy metrics: scenarios/occupancy-metrics.md
-      # - Authorized personnel: scenarios/authorized-personnel-occupancy.md
-
-    - Company Policies:
-      - Overview: scenarios/compliance-policies.md
-      - No food or drinks: scenarios/no-food-or-drinks.md
-      - No phone, text, pictures: scenarios/no-phone-usage.md
-      - No Smoking zones: scenarios/no-smoking.md
-      - No children/visitors: scenarios/authorized-personnel.md
-
-
-    - Suspicious Activity:
-      - Overview: scenarios/suspicious-activity.md
-      - Vandalism & property destruction: scenarios/vandalism.md
-      - Firearms & knives: scenarios/firearms-and-knives.md
-
-  
   - Privacy:
       - Overview: privacy/employee-privacy.md
       - Blur faces: privacy/blur-faces.md
