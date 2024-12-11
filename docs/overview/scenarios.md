@@ -60,6 +60,8 @@ Deploying Area Control scenarios requires understanding of the camera area and t
 
 <img src="../../img/visionify-restricted-zone-sample-event.gif" alt="Restricted Zone Violation Example Event (Showing person walking in a Restricted Zone & how Visionify System can detect it)" title="Visionify Restricted Zone Example Event">
 
+**Table: Area Control Events and Detection Details**
+
 
 | Scenario name | Supported? | Event |Event Details | More Info |
 | :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
@@ -85,6 +87,8 @@ Our forklift safety suite can be considered as a passive safety system. It does 
 
 <img src="../../img/visionify-forklift-safety-sample-event.gif" alt="Forklift Safety Violation Example Event generated through Vision AI (Showing near-miss between a person & forklift)" title="Visionify Forklift Near-Miss Example Event">
 
+**Table: Forklift Safety Events and Detection Details**
+
 | Scenario name | Supported? | Event |Event Details | More Info |
 | :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
 | Forklift Safety | ✅ | `Forklift Person interaction`                | Forklift Person Near-Miss | [More details](../scenarios/forklift-safety.md){:target="_blank"} |
@@ -108,6 +112,8 @@ Emergency events detection is critical for workplace safety. This suite focuses 
 
 <img src="../../img/visionify-smoke-and-fire-detection.gif" alt="Smoke and Fire Detection Example Event generated through Vision AI" title="Visionify Smoke and Fire Detection Example Event">
 
+**Table: Emergency Events and Detection Details**
+
 
 | Scenario name | Supported? | Event |Event Details | More Info |
 | :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
@@ -126,6 +132,9 @@ Visionify's occupancy metrics suite can be used with the rest of our suite to en
 
 <img src="../../img/visionify-people-forklift-heatmap-event.gif" alt="An heatmap of people & forklift in work area" title="Visionify Heatmap Event Example">
 
+
+**Table: Occupancy Metrics Events and Detection Details**
+
 | Scenario name | Supported? | Event |Event Details | More Info |
 | :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
 | Occupancy Metrics | ✅ | `People Headcount`          | People Headcount | [More details](../scenarios/occupancy-metrics.md){:target="_blank"} |
@@ -142,7 +151,10 @@ Visionify's Housekeeping Suite provides various hazard identifications on the wo
 
 Housekeeping suite provides organization a second set of eyes for their regular audits. By identifying hazards early, this suite tends to avoid accidents and injuries.
 
+
 <img src="../../img/visionify-spills-and-leaks-detection.gif" alt="An example event of spills & leaks detection" title="Visionify Spills and Leaks">
+
+**Table: Housekeeping Events and Detection Details**
 
 | Scenario name | Supported? | Event |Event Details | More Info |
 | :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
@@ -164,6 +176,10 @@ By detecting these unsafe behaviors early, organizations can provide timely inte
 
 <img src="../../img/visionify-mobile-phone-usage-detection.jpg" alt="An example event of mobile phone usage in work area" title="Visionify Behavioral Safety Suite">
 
+
+
+**Table: Behavioral Safety Events and Detection Details**
+
 | Scenario name | Supported? | Event |Event Details | More Info |
 | :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
 | Behavioral Safety | ✅ | `Running Detection`              | Person running in work area | [More details](../scenarios/behavioral-safety.md){:target="_blank"} |
@@ -182,6 +198,8 @@ By identifying these risky behaviors in real-time, organizations can take proact
 
 <!-- <img src="../../img/visionify-staircase-safety-detection.gif" alt="An example event of unsafe staircase behavior detection" title="Visionify Staircase Safety"> -->
 
+**Table: Staircase Safety Events and Detection Details**
+
 | Scenario name | Supported? | Event |Event Details | More Info |
 | :-------------: | -- | :--------------- | :------------------------ | :------------------------ |
 | Staircase Safety | ✅ | `No Bannister Usage`              | Person not holding handrail while using stairs | [More details](../scenarios/staircase-safety.md){:target="_blank"} |
@@ -189,6 +207,7 @@ By identifying these risky behaviors in real-time, organizations can take proact
 |                   | ✅ | `Phone Usage on Stairs`          | Person using mobile phone while on stairs |  |
 |                   | ✅ | `Skipping Steps`                 | Person skipping steps while using stairs |  |
 
+---
 
 ## Employee Privacy (Face Blurring)
 
@@ -196,7 +215,8 @@ For a majority of organizations - employee privacy is a top concern. Along with 
 
 Before any other scenarios are run, or before we store or process the images - the images are pre-processed through this privacy suite. As such, privacy suite is treated differently from other scenarios. Below examples provide a high-level overview of the privacy suite.
 
----
+
+**Table: Privacy Suite Events and Detection Details**
 
 | Status | Scenario name | Details | Details |
 | :----: | :------------ | :--------------- | :------------------------ |
@@ -212,6 +232,8 @@ Before any other scenarios are run, or before we store or process the images - t
 
 Company policies include specific scenarios that are relevant to your company. These could include scenarios like no-smoking/no-vaping zones, no food or drinks in certain areas, or no cell phones/pictures in certain areas. Some of these scenarios overlap with [occupancy policies](#occupancy-policies), but they are still useful to have here as separate scenarios.
 
+**Table: Company Policies Events and Detection Details**
+
 | Status | Scenario name | Supported Events | Details |
 | :----: | :------------ | :--------------- | :------------------------ |
 | 📅 | `no-food-or-drinks-allowed`  | `Person with food detected` <br> `Person with drinks detected` <br> `Spill event detected` | [More details](../scenarios/no-food-or-drinks.md){:target="_blank"} |
@@ -224,6 +246,8 @@ Company policies include specific scenarios that are relevant to your company. T
 
 Suspicious activity detection suite includes knives & firearms detection, graffitti & vandalism detection etc.
 
+
+**Table: Suspicious Activity Events and Detection Details**
 
 | Status | Scenario name | Supported Events | Details |
 | :----: | :------------ | :--------------- | :------------------------ |
