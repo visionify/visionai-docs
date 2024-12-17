@@ -3,7 +3,7 @@
 > Protect your workforce and reduce liability with AI-powered slip and fall detection. Get instant alerts, comprehensive analytics, and documented compliance.
 
 <figure markdown>
-  ![Slip and Fall Detection](https://visionai.azureedge.net/docs-images/docs-visionify-version1.0-23March23/slip-fall.jpg "AI-powered slip and fall detection"){ width="500" }
+  ![Slip and Fall Detection](../../img/visionify-slip-and-fall-detection.gif "AI-powered slip and fall detection"){ width="500" }
   <figcaption>Real-time slip and fall monitoring across your facility</figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ VisionAI's slip and fall detection system provides:
 ### Healthcare & Assisted Living
 - Patient fall prevention
 - Bathroom and corridor monitoring
-- Quick staff response enablement
+- Quick staff response enablemen
 - Privacy-compliant monitoring
 
 ### Retail & Commercial
@@ -67,24 +67,28 @@ VisionAI's slip and fall detection system provides:
 ## Business Benefits
 
 ✓ **Reduce Incidents**
-- Up to 60% reduction in slip and fall incidents
-- Prevent serious injuries through early detection
-- Minimize workplace disruptions
+
+  - Up to 60% reduction in slip and fall incidents
+  - Prevent serious injuries through early detection
+  - Minimize workplace disruptions
 
 ✓ **Lower Costs**
-- Reduce insurance premiums
-- Decrease worker compensation claims
-- Minimize litigation expenses
+
+  - Reduce insurance premiums
+  - Decrease worker compensation claims
+  - Minimize litigation expenses
 
 ✓ **Improve Compliance**
-- Automated incident documentation
-- OSHA compliance support
-- Risk assessment reports
+
+  - Automated incident documentation
+  - OSHA compliance support
+  - Risk assessment reports
 
 ✓ **Enhance Operations**
-- Optimize safety protocols
-- Improve response procedures
-- Data-driven safety decisions
+
+  - Optimize safety protocols
+  - Improve response procedures
+  - Data-driven safety decisions
 
 ## Success Story
 
@@ -95,44 +99,60 @@ VisionAI's slip and fall detection system provides:
 ## Easy Implementation
 
 1. **Quick Setup**
-   - Uses existing security cameras
-   - No additional hardware needed
-   - Privacy-compliant installation
+      - Uses existing security cameras
+      - No additional hardware needed
+      - Privacy-compliant installation
 
 2. **Seamless Integration**
-   - Works with your current systems
-   - Custom alert configurations
-   - Mobile app access
+      - Works with your current systems
+      - Custom alert configurations
+      - Mobile app access
 
 3. **Ongoing Support**
-   - 24/7 technical assistance
-   - Regular system updates
-   - Dedicated success manager
+      - 24/7 technical assistance
+      - Regular system updates
+      - Dedicated success manager
 
-## Get Started
+## Learn More
 
-Protect your workforce and reduce liability with VisionAI's slip and fall detection system.
+- [Get Started](../overview/quick-start.md)
+- [Workplace Safety Best Practices Guide](../overview/best-practices.md)
+- [Compliance & Reporting Features](../overview/compliance.md)
+- [Integration with Existing Systems](../overview/integration.md)
+- [Alerts & Notifications](../overview/alerts-and-notifications.md)
+
+
+---
+
+## Contact Information
 
 <div class="grid-cards">
     <div class="grid-card">
-        <h3>Schedule Demo</h3>
-        <p>See our solution in action</p>
-        <a href="https://cal.com/visionify/30min" class="cta-button">Book Demo</a>
+        <h3><span class="material-symbols-outlined">contact_phone</span> Sales Inquiries</h3>
+        <p>Get in touch with our sales team for demos and pricing information.</p>
+        <ul class="contact-list">
+            <li>Email: <a href="mailto:sales@visionify.ai">sales@visionify.ai</a></li>
+            <li>Phone: +1 720-449-1124</li>
+        </ul>
     </div>
     <div class="grid-card">
-        <h3>ROI Calculator</h3>
-        <p>Calculate your potential savings</p>
-        <a href="#" class="cta-button">Calculate ROI</a>
+        <h3><span class="material-symbols-outlined">support_agent</span> Technical Support</h3>
+        <p>Need help? Visit our support portal or contact our technical team.</p>
+        <ul class="contact-list">
+            <li><a href="https://support.visionify.ai">https://support.visionify.ai</a></li>
+            <li><a href="mailto:support@visionify.ai">support@visionify.ai</a></li>
+        </ul>
     </div>
     <div class="grid-card">
-        <h3>Contact Sales</h3>
-        <p>Get pricing for your facility</p>
-        <a href="mailto:sales@visionify.ai" class="cta-button">Contact Us</a>
+        <h3><span class="material-symbols-outlined">calendar_month</span> Schedule a Demo</h3>
+        <p>See VisionAI in action with a personalized demo from our team.</p>
+        <div class="demo-button">
+            <a href="https://cal.com/visionify/30min" class="cta-button">
+                <span class="material-symbols-outlined">event</span>
+                Book Your Demo
+            </a>
+        </div>
     </div>
 </div>
 
-## Contact Us
-
-- **Phone**: +1 720-449-1124
-- **Email**: [sales@visionify.ai](mailto:sales@visionify.ai)
-- **Web**: [visionify.ai/contact-us](https://visionify.ai/contact-us/)
+---

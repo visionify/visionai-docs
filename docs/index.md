@@ -34,7 +34,7 @@
   <div class="grid-card">
     <h3>💡 Use Cases</h3>
     <p>Explore real-world applications and success stories.</p>
-    <a href="use-cases/">Learn More →</a>
+    <a href="overview/scenarios">Learn More →</a>
   </div>
 
   <div class="grid-card">

@@ -80,19 +80,19 @@ nav:
     - Area Controls: scenarios/area-controls.md
     - Slip and Fall: scenarios/slip-and-fall-detection.md
     - Smoke and Fire: scenarios/smoke-and-fire-detection.md
-    - Emergency Events: scenarios/emergency-events.md
     - Forklift Safety: scenarios/forklift-safety.md
     - Occupancy Metrics: scenarios/occupancy-metrics.md
-    - Hazard Warnings: scenarios/hazard-warnings-housekeeping.md
-    - Behavioral Safety: scenarios/behavioral-safety.md
-    - Ergonomics: scenarios/ergonomics.md
+    # - Hazard Warnings: scenarios/hazard-warnings-housekeeping.md
+    # - Behavioral Safety: scenarios/behavioral-safety.md
+    # - Ergonomics: scenarios/ergonomics.md
     - Mobile Phone Compliance: scenarios/mobile-phone-compliance.md
     - Staircase Safety: scenarios/staircase-safety.md
     - Suspicious Activity: scenarios/suspicious-activity.md
     - Compliance Policies: scenarios/compliance-policies.md
-    - Privacy Measures: scenarios/privacy-measures.md
 
   - References:
+    - Security: reference/security.md
+    - Privacy: reference/privacy.md
     - Customization: reference/customization.md
     - Troubleshooting: reference/troubleshooting.md
     - Camera Placement Guide: overview/camera-placement-guide.md
@@ -101,7 +101,6 @@ nav:
 
   - About:
     - About: company/about.md
-    - Team: company/team.md
     - Careers: company/careers.md
     - Contact: company/contact.md
     - Privacy Policy: company/privacy-policy.md

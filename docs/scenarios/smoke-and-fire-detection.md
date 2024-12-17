@@ -1,211 +1,163 @@
-# **Early Fire Signs Detection**
+# Early Fire Detection & Prevention
 
-> An intelligent Early Fire Signs Detection system aimed at safeguarding people and facilities
+> Protect your facility and workforce with AI-powered early fire detection. 
 
 <figure markdown>
-  ![smoke](https://visionai.azureedge.net/docs-images/docs-visionify-version1.0-23March23/smokeandfire_collage.jpg "Detection of smoke and Fire at a work-place!"){ width="400" }
-  <figcaption>Detection of Smoke and Fire event</figcaption>
+  ![Early Fire Detection](https://visionai.azureedge.net/docs-images/docs-visionify-version1.0-23March23/smokeandfire_collage.jpg "AI-powered early fire detection system"){ width="500" }
+  <figcaption>Real-time smoke and fire detection across your facility</figcaption>
 </figure>
 
-## Overview 
+## Important Safety Notice
 
-Fire can be one of the most catastrophic disasters that can happen anywhere and cause major destruction. Fire hazards exist in all types of industrial buildings and business environments. Fire incident in the workplace not only accounts for a large number of injuries but also for downtime and running costs to repair the damage to the premises and machinery. 
+> **VisionAI's fire detection system is designed to complement, not replace, your primary fire detection infrastructure.** While our AI system achieves ~90% accuracy in early detection, it should be used alongside traditional fire alarm systems, smoke detectors, and established safety protocols.
 
-Conventional heat detector-based fire warning systems cannot detect an early fire. Heat detectors only alert when the temperature of the surrounding environment reaches a certain level, and it doesn’t happen until fire spreads considerably, not leaving many opportunities to avoid the incident. Therefore, it is important to have an early fire signs detection method that would allow authorities to detect and put out fires before it goes out of control.  
+### Complementary Detection System
+- Works alongside traditional fire alarms
+- Provides visual verification capability
+- Adds an extra layer of safety
+- Helps reduce false alarm costs
 
-To monitor and detect early signs of fire at workplaces, cameras can be used. 
+### System Performance
+- ~90% detection accuracy
+- Early visual warning system
+- Real-time monitoring capability
+- Integration with existing safety systems
 
-## Vision AI-based monitoring 
+### Recommended Usage
 
-Vision AI-based Model for Early Fire Signs Detection is designed to spot early signs of smoke and fire and helps save lives and mitigate damages caused by industry fires. We aim to create safe workplaces by offering innovative, reliable, flexible, and scalable solutions. 
+- ✓ Secondary monitoring system
+- ✓ Visual verification tool
+- ✓ Early warning capability
+- ✗ Not a replacement for fire alarms
+- ✗ Not a primary life safety system
 
-To ensure accuracy and reliability, these camera-based monitoring services should be supplemented by effective practices to ensure and prevent fire hazards. Furthermore, workers working in different factory units should always be made aware of fire signs to look for. 
+## The Business Impact of Fire Incidents
+
+Fire incidents create devastating impacts on businesses:
+
+- **$15 billion** annual fire damage costs in U.S. industrial facilities
+- **3,000** workplace fires per year in manufacturing alone
+- **70%** of businesses fail within 3 years of a major fire
+- Average downtime of **3-4 months** after significant fire damage
+
+## Beyond Traditional Fire Detection
+
+While conventional systems wait for heat or smoke to reach sensors, VisionAI detects the earliest signs of fire:
+
+### 1. Earlier Detection
+- Spot smoke and fire in **30 seconds** where as traditional systems take around **6 minutes**
+- Audio / Speaker based alerting
+- Instant Text Message alerts with video verification
+- Reduce response time dramatically
+
+### 2. Comprehensive Coverage
+- Monitor high-risk areas 24/7
+- Cover large spaces effectively
+- Detect fires in hard-to-reach areas
+- Works in all lighting conditions
+
+### 3. Reduced False Alarms
+- AI-powered verification
+- Visual confirmation of threats
+- Distinguish between steam and smoke
+- Minimize costly evacuations
+
+## Industry Applications
+
+### Manufacturing
+- Production line monitoring
+- Equipment overheating detection
+- Chemical storage areas
+- Electrical panel surveillance
+
+### Warehousing & Logistics
+- High-rack storage monitoring
+- Loading dock surveillance
+- Battery charging stations
+- Waste management areas
+
+### Industrial Processing
+- Heat-intensive processes
+- Combustible material storage
+- Ventilation system monitoring
+- Chemical processing areas
+
+### Commercial Facilities
+- Server rooms
+- Electrical rooms
+- Kitchen areas
+- Waste collection points
+
+## Business Benefits
+
+✓ **Faster Response**
+
+- Up to 10 minutes earlier detection
+- Precise location information
+- Automated emergency protocols
+- Mobile team notifications
+
+✓ **Lower Costs**
+
+- Reduce insurance premiums
+- Minimize false alarm costs
+- Prevent major damage
+- Decrease downtime
+
+✓ **Better Compliance**
+
+- Meet NFPA standards
+- Automated documentation
+- Incident investigation support
+- Risk assessment reports
+
+✓ **Operational Excellence**
+
+- 24/7 facility monitoring
+- Multi-site management
+- Integration with existing systems
+- Predictive maintenance alerts
+
+## Learn More
+
+- [Get Started](../overview/quick-start.md)
+- [Workplace Safety Best Practices Guide](../overview/best-practices.md)
+- [Compliance & Reporting Features](../overview/compliance.md)
+- [Integration with Existing Systems](../overview/integration.md)
+- [Alerts & Notifications](../overview/alerts-and-notifications.md)
 
 
-## Model Details 
+---
 
-### Dataset 
+## Contact Information
 
-The dataset for this scenario is based on early fire detection algorithms that are currently in practice.  
-
-The dataset is made up of images and videos gathered from varied sources. The dataset has been designed to ensure real-world situations. It has an even distribution of: 
-
-
-- Different(indoor/outdoor) environments 
-- Variations in foregroung objects including persons, equipments etc 
-- Different lighting conditions
-- Variations in weather conditions 
-- Using security camera feeds 
-- Multiple instances of fire and smoke 
-- Variations in camera orientations 
-- Classes considered for model building are smoke and fire
-
-
-### Model 
-
-The model is based off of the YOLOv5 algorithm. The model is trained on a custom dataset of images and videos. The model is trained based on the above dataset compiled by our team. We intend to develop a model that generalizes well in real world situations.
-
-
-### Model card
-
- <div class="table">
-    <table class="fl-table">
-        <thead>
-        <tr><th>Dataset size</th>
-            <th>Version</th>
-            <th>Camera support</th>
-            <th>Precision</th>
-            <th>Recall</th>
-            <th> mAP </th>  
-        </thead>
-        <tbody>
-        <tr>
-            <td>63,055</td>
-            <td>v7</td>
-            <td>Straight</td>
-            <td>98</td>
-            <td>95</td>
-            <td>95</td>
-        </tr>
-        </tbody>
-    </table>
+<div class="grid-cards">
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">contact_phone</span> Sales Inquiries</h3>
+        <p>Get in touch with our sales team for demos and pricing information.</p>
+        <ul class="contact-list">
+            <li>Email: <a href="mailto:sales@visionify.ai">sales@visionify.ai</a></li>
+            <li>Phone: +1 720-449-1124</li>
+        </ul>
+    </div>
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">support_agent</span> Technical Support</h3>
+        <p>Need help? Visit our support portal or contact our technical team.</p>
+        <ul class="contact-list">
+            <li><a href="https://support.visionify.ai">https://support.visionify.ai</a></li>
+            <li><a href="mailto:support@visionify.ai">support@visionify.ai</a></li>
+        </ul>
+    </div>
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">calendar_month</span> Schedule a Demo</h3>
+        <p>See VisionAI in action with a personalized demo from our team.</p>
+        <div class="demo-button">
+            <a href="https://cal.com/visionify/30min" class="cta-button">
+                <span class="material-symbols-outlined">event</span>
+                Book Your Demo
+            </a>
+        </div>
+    </div>
 </div>
 
-The model is adaptable enough to run on any edge computing device.
-
-
-### Scenario details
-
-The business logic for this scenario is as follows: 
-
-- We use existing camera feeds from the premises to monitor the early signs of fire in the workplace to ensure the safety of human lives in the workplace. 
-- VisionAI system is able to run on edge devices. It uses camera feeds for processing. 
-- We detect the presence of smoke and fire in the camera feed. 
-- An alarming system is inplace as part of early fire signs detection solution.
-
-
-
-## Try it now
-
-### Quick method - using your local web-cam
-
-
-To test this model & scenario, you can use the following steps:
-
-- Install the visionai package from PyPI
-
-<div class=termy>
-
-```console
-$ pip install visionai
----> 100%
-```
-</div>
-
-- Test the scenario from your local web-cam
-
-<div class=termy>
-
-```console
-$ visionai scenario test smoke-and-fire-detection
-
-Downloading models for scenario: smoke-and-fire-detection
-Model: smoke-and-fire-detection: https://workplaceos.blob.core.windows.net/models/yolov5s-people/yolov5s-people-0.0.4.zip
----> 100%
-
-Starting scenario: smoke-and-fire-detection..
-
-```
-</div>
-
-
-- You should be able to see the events generated on your console window with smoke and fire being detected within the camera field of view.
-
-
-### In an actual environment
-
-To use this scenario in an actual environment, you can follow these steps:
-
-- Install the visionai package from PyPI
-
-<div class=termy>
-
-```console
-$ pip install visionai
----> 100%
-```
-</div>
-
-- Download the scenario
-
-<div class=termy>
-
-```console
-$ visionai scenario download smoke-and-fire-detection
-
-Downloading models for scenario: smoke-and-fire-detection
-Model: smoke-and-fire-detection
-https://workplaceos.blob.core.windows.net/models/yolov5s-people/yolov5s-people-0.0.4.zip
----> 100%
-```
-
-</div>
-
-- Add the camera feed to the scenario
-
-<div class=termy>
-
-```console
-$ visionai camera add OFFICE-01 --url rtsp://192.168.0.1/stream1
-$ visionai camera OFFICE-01 add-scenario smoke-and-fire-detection
-$ visionai run
-
-Starting scenario: smoke-and-fire-detection..
-
-```
-
-</div>
-
-- You should be able to see the events generated on your console window with smoke and fire being detected within the camera field of view.
-
-For more details visit VisionAI [web application](https://visionify.ai/).
-
-
-## Features: 
-- *Unparalleled Accuracy and faster detection*
-
-    VisionAI's Fire Signs detection model is capable of detecting fire incidents at an outstanding accuracy of up to 98% and a detection speed of 36 FPS.
-
-- *Flexible and Scalable* 
-
-    VisionAI's Fire Signs detection is an end-to-end solution that integrates seamlessly with your existing camera network and is ready to detect. It can fit any building size and is easily expandable by adding more IP cameras to the network. 
-
-- *Integrated Solution* 
-
-    It is an integrated system combining surveillance and early fire signs detection in one system.
-
-- *Deployment Ready* 
-
-	Our pre-trained AI models are ready for immediate industrial deployments
-
-- *Versatile Framework* 
-
-    We offer flexibility in deployment; the model can operate at the Edge, in the cloud, or any self-hosted environment 
-
-- *Compatible* 
-
-    VisionAI's Early Fire Signs detection model has a broad potential and can be efficiently used for indoor and outdoor applications. 
-
-- *Privacy Protection*
-
-    We understand your concerns about data privacy and take a proactive approach to preserve it. Our models are privacy oriented by design.
-
-## Training with custom data
-
-The scenario is provided as part of our GPL-v3 package for VisionAI. If you wish to train this with custom datasets, please contact us and we can provide you with the training code. You can do custom training with your own datasets for free, as long as it complies with GPLv3 license (you give back the code to the community). If you are interested in a custom license, please (contact us)[contact.md].
-
-
-## Contact Us
-
-- For technical issues, you can open a Github issue [here](https://github.com/visionify/visionai).
-- For business inquiries, you can contact us through [our website](https://visionify.ai/contact-us/).
+---

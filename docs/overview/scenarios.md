@@ -145,7 +145,7 @@ Visionify's occupancy metrics suite can be used with the rest of our suite to en
 
 ---
 
-## Housekeeping
+## Hazard Warnings & Housekeeping
 
 Visionify's Housekeeping Suite provides various hazard identifications on the work floor. These metrics include identifying spills and leaks on the floor, unattended objects, boxes or pallets on the floor, identifying door open/close events, blocked exits monitoring, missing fire-extinguishers etc. 
 
