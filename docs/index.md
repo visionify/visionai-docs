@@ -137,24 +137,16 @@
             <span class="material-symbols-outlined">forklift</span>
             <span>Forklift Safety</span>
         </button>
-        <button class="tab" data-tab="behavioral">
-            <span class="material-symbols-outlined">psychology</span>
-            <span>Behavioral Safety</span>
+        <button class="tab" data-tab="emergency">
+            <span class="material-symbols-outlined">fire_extinguisher</span>
+            <span>Emergency Events</span>
         </button>
     </div>
     <div class="tab-content active" id="ppe">
         <div class="usecase-split">
             <div class="video-section">
                 <div class="video-container" id="ppe-video">
-                    <!-- Video/GIF will be loaded here -->
-                </div>
-            </div>
-            <div class="events-section">
-                <div class="event-list">
-                    <div class="event-item">Hard Hat Detection</div>
-                    <div class="event-item">Safety Vest Compliance</div>
-                    <div class="event-item">Hand Protection</div>
-                    <div class="event-item">Eye Protection</div>
+                    <img src="../../img/visionify-ppe-compliance-with-zones.gif" alt="PPE Compliance Demo" style="width: 100%;">
                 </div>
             </div>
         </div>
@@ -163,15 +155,7 @@
         <div class="usecase-split">
             <div class="video-section">
                 <div class="video-container" id="area-video">
-                    <!-- Video/GIF will be loaded here -->
-                </div>
-            </div>
-            <div class="events-section">
-                <div class="event-list">
-                    <div class="event-item">Restricted Zone Access</div>
-                    <div class="event-item">Social Distancing</div>
-                    <div class="event-item">Suspended Load Areas</div>
-                    <div class="event-item">Required Personnel Zones</div>
+                    <img src="../../img/visionify-restricted-area-sample-event.gif" alt="Restricted Area Demo" style="width: 100%;">
                 </div>
             </div>
         </div>
@@ -180,32 +164,16 @@
         <div class="usecase-split">
             <div class="video-section">
                 <div class="video-container" id="forklift-video">
-                    <!-- Video/GIF will be loaded here -->
-                </div>
-            </div>
-            <div class="events-section">
-                <div class="event-list">
-                    <div class="event-item">Person Near-miss Detection</div>
-                    <div class="event-item">Speed Limit Monitoring</div>
-                    <div class="event-item">Stop Sign Compliance</div>
-                    <div class="event-item">Route Compliance</div>
+                    <img src='../../img/visionify-forklift-safety-sample-event.gif' alt="Forklift Safety Demo" style="width: 100%;">
                 </div>
             </div>
         </div>
     </div>
-    <div class="tab-content" id="behavioral">
+    <div class="tab-content" id="emergency">
         <div class="usecase-split">
             <div class="video-section">
-                <div class="video-container" id="behavioral-video">
-                    <!-- Video/GIF will be loaded here -->
-                </div>
-            </div>
-            <div class="events-section">
-                <div class="event-list">
-                    <div class="event-item">Mobile Phone Usage</div>
-                    <div class="event-item">Running in Work Areas</div>
-                    <div class="event-item">No Smoking Compliance</div>
-                    <div class="event-item">Distracted Walking</div>
+                <div class="video-container" id="emergency-video">
+                    <img src='../../img/visionify-smoke-and-fire-detection.gif' alt="Smoke & Fire Detection Demo" style="width: 100%;">
                 </div>
             </div>
         </div>

@@ -420,16 +420,16 @@
     }
 }
 
+/* Update usecase-split to center video */
 .usecase-split {
     display: flex;
-    gap: 2rem;
+    justify-content: center;
     margin: 1rem 0;
-    align-items: flex-start;
 }
 
 .video-section {
-    flex: 1;
-    min-width: 0;
+    width: 100%;
+    max-width: 800px; /* Adjust this value as needed */
 }
 
 .video-container {
@@ -439,50 +439,11 @@
     overflow: hidden;
 }
 
-.events-section {
-    flex: 1;
-    min-width: 250px;
-    padding-top: 0;
-}
-
-.event-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
+/* Remove events-section related styles */
+.events-section,
+.event-list,
 .event-item {
-    padding: 0.75rem 1rem;
-    background: var(--md-code-bg-color);
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background 0.2s ease;
-    color: var(--md-default-fg-color);
-}
-
-.event-item:hover {
-    background: var(--md-accent-fg-color);
-    color: white;
-}
-
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-    .usecase-split {
-        flex-direction: column;
-    }
-
-    .video-section {
-        margin-bottom: 1rem;
-    }
-
-    .events-section {
-        width: 100%;
-    }
-}
-
-/* Make sure only one tab is visible */
-.tab-content:not(.active) {
-    display: none !important;
+    display: none;
 }
 
 /* Contact Section Styling */
