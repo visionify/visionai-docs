@@ -125,56 +125,40 @@
 
 <div class="tabs-container">
     <div class="tabs">
-        <button class="tab active" data-tab="ppe">
-            <span class="material-symbols-outlined">construction</span>
-            <span>PPE Compliance</span>
-        </button>
-        <button class="tab" data-tab="area">
-            <span class="material-symbols-outlined">location_on</span>
-            <span>Area Controls</span>
-        </button>
-        <button class="tab" data-tab="forklift">
-            <span class="material-symbols-outlined">forklift</span>
-            <span>Forklift Safety</span>
-        </button>
-        <button class="tab" data-tab="emergency">
-            <span class="material-symbols-outlined">fire_extinguisher</span>
-            <span>Emergency Events</span>
-        </button>
+        <button class="tab active" data-tab="ppe">PPE Compliance</button>
+        <button class="tab" data-tab="area">Area Controls</button>
+        <button class="tab" data-tab="forklift">Forklift Safety</button>
+        <button class="tab" data-tab="emergency">Emergency Events</button>
     </div>
+    
     <div class="tab-content active" id="ppe">
         <div class="usecase-split">
             <div class="video-section">
-                <div class="video-container" id="ppe-video">
-                    <img src="../../img/visionify-ppe-compliance-with-zones.gif" alt="PPE Compliance Demo" style="width: 100%;">
-                </div>
+                <img src="../../img/visionify-ppe-compliance-with-zones.gif" alt="PPE Compliance Demo">
             </div>
         </div>
     </div>
+    
     <div class="tab-content" id="area">
         <div class="usecase-split">
             <div class="video-section">
-                <div class="video-container" id="area-video">
-                    <img src="../../img/visionify-restricted-area-sample-event.gif" alt="Restricted Area Demo" style="width: 100%;">
-                </div>
+                <img src="../../img/visionify-restricted-area-sample-event.gif" alt="Restricted Area Demo">
             </div>
         </div>
     </div>
+    
     <div class="tab-content" id="forklift">
         <div class="usecase-split">
             <div class="video-section">
-                <div class="video-container" id="forklift-video">
-                    <img src='../../img/visionify-forklift-safety-sample-event.gif' alt="Forklift Safety Demo" style="width: 100%;">
-                </div>
+                <img src="../../img/visionify-forklift-safety-sample-event.gif" alt="Forklift Safety Demo">
             </div>
         </div>
     </div>
+    
     <div class="tab-content" id="emergency">
         <div class="usecase-split">
             <div class="video-section">
-                <div class="video-container" id="emergency-video">
-                    <img src='../../img/visionify-smoke-and-fire-detection.gif' alt="Smoke & Fire Detection Demo" style="width: 100%;">
-                </div>
+                <img src="../../img/visionify-smoke-and-fire-detection.gif" alt="Emergency Events Demo">
             </div>
         </div>
     </div>
