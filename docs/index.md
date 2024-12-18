@@ -40,7 +40,7 @@
   <div class="grid-card">
     <h3>🔒 Security & Privacy</h3>
     <p>Enterprise-grade security and compliance features.</p>
-    <a href="security/">View Details →</a>
+    <a href="reference/security">View Details →</a>
   </div>
 
   <div class="grid-card">
@@ -52,20 +52,20 @@
   <div class="grid-card">
     <h3>🎯 Deployment Options</h3>
     <p>Cloud, Hybrid & Enterprise deployment options.</p>
-    <a href="deployment/">Deployment Options →</a>
+    <a href="reference/deployment/">Deployment Options →</a>
   </div>
 
   <div class="grid-card">
     <h3>🛠️ Troubleshooting</h3>
     <p>Common camera, configuration & dashboard issues and solutions.</p>
-    <a href="troubleshooting/">Troubleshooting Guide →</a>
+    <a href="reference/troubleshooting/">Troubleshooting Guide →</a>
   </div>
 
 </div>
 
 ---
 
-
+<!-- 
 ## Key Features
 
 <div class="feature-carousel">
@@ -89,7 +89,7 @@
             <div class="feature-content">
                 <h3>Flexible Deployment</h3>
                 <p>Deploy anywhere - edge devices, cloud infrastructure, or hybrid setups. Choose the model that fits your organization.</p>
-                <a href="/deployment/" class="feature-link">Explore deployment options →</a>
+                <a href="/reference/deployment" class="feature-link">Explore deployment options →</a>
             </div>
         </div>
 
@@ -119,7 +119,7 @@
     <div class="carousel-dots"></div>
 </div>
 
----
+--- -->
 
 ## Featured Use Cases
 
@@ -130,7 +130,6 @@
         <button class="tab" data-tab="forklift">Forklift Safety</button>
         <button class="tab" data-tab="emergency">Emergency Events</button>
     </div>
-    
     <div class="tab-content active" id="ppe">
         <div class="usecase-split">
             <div class="video-section">
@@ -138,7 +137,6 @@
             </div>
         </div>
     </div>
-    
     <div class="tab-content" id="area">
         <div class="usecase-split">
             <div class="video-section">
@@ -146,7 +144,6 @@
             </div>
         </div>
     </div>
-    
     <div class="tab-content" id="forklift">
         <div class="usecase-split">
             <div class="video-section">
@@ -154,7 +151,6 @@
             </div>
         </div>
     </div>
-    
     <div class="tab-content" id="emergency">
         <div class="usecase-split">
             <div class="video-section">
@@ -178,28 +174,26 @@
   <div class="grid-card">
     <h3>Deployment Options</h3>
     <p>Learn about cloud, hybrid & enterprise deployment options.</p>
-    <a href="deployment/deployment-options/">Learn More →</a>
+    <a href="reference/deployment/">Learn More →</a>
   </div>
 
   <div class="grid-card">
-    <h3>Integration Guide</h3>
-    <p>Integrate with VisionAI APIs to enable custom workflows.</p>
-    <a href="integration/">Learn More →</a>
+    <h3>Security & Privacy</h3>
+    <p>Enterprise-grade security with SOC-2 Type 2 compliance.</p>
+    <a href="reference/security/">Learn More →</a>
   </div>
 </div>
 
 ---
 
-## Reference Documents
+---
 
-- [Platform Overview](docs/overview.md)
-- [Implementation Guide](docs/implementation.md)
-- [Security & Compliance](docs/security.md)
-- [Administration](docs/admin.md)
-- [User Management](docs/users.md)
-- [Integration Guide](docs/integration.md)
-- [Best Practices](docs/best-practices.md)
-- [System Requirements](docs/requirements.md)
+## Next Steps
+
+- [Camera Placement Guide](../overview/camera-placement-guide.md)
+- [Advanced Configuration](../deployment/advanced-config.md)
+- [Integration APIs](../integration/api-reference.md)
+- [Best Practices](../overview/best-practices.md)
 
 ---
 

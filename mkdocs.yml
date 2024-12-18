@@ -91,6 +91,8 @@ nav:
     - Compliance Policies: scenarios/compliance-policies.md
 
   - References:
+    - Alerts: reference/alerts.md
+    - Deployment: reference/deployment.md
     - Security: reference/security.md
     - Privacy: reference/privacy.md
     - Customization: reference/customization.md

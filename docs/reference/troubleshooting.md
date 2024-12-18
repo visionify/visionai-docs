@@ -1,45 +1,91 @@
-# Troubleshooting
+# Troubleshooting Guide
 
-## Windows Installation through WSL2
-Installation on a Windows system is usually challenging because of the various Docker and NVIDIA dependencies. If you come across any issues - please do not hesitate to reach out to us.
+Common questions and solutions for VisionAI platform issues.
 
-### Install WSL 2 (Windows Subsystem for Linux 2)
-Install WSL2 using the following steps.
+### Why can't I see my camera feed?
 
-1. Open Command Prompt, and run the following command:
+Common causes:
 
-```cmd
-wsl.exe --install
-```
+- Incorrect RTSP URL format
+- Network connectivity issues
+- Camera firewall restrictions
+- Invalid camera credentials
 
-2. This should install WSL Ubuntu image on your desktop. Once installed - it will ask you to reboot the system. 
+Solutions:
 
-3. Once reboot is complete, WSL will prompt you for username & password for your Linux system. Enter this information.
+- Verify RTSP URL using VLC Player
+- Check camera network connectivity
+- Confirm camera username/password
 
+### Why is my video feed delayed?
 
-### Install Docker
+Possible reasons:
 
-1. Download docker desktop from [here](https://docs.docker.com/desktop/install/windows-install/).
+- Network bandwidth limitations
+- High camera resolution settings
+- Server processing load
+- Network latency
 
-2. Follow the on-screen instructions and install Docker Desktop. 
+Solutions:
 
-3. Reboot the system again.
+- Lower camera resolution
+- Check network bandwidth
+- Optimize frame rate settings
+- Verify server resources
+        
+### Why is my video feed blurry?
 
-### Set WSL to Ubuntu
+Possible reasons:
 
-1. Set the default Linux distribution to Ubuntu on WSL.
+- Low camera resolution settings
+- Poor lighting conditions
+- Camera lens issues
 
-```cmd
-wsl.exe --set-version Ubuntu
-```
+Solutions:
 
-2. Start the Linux Subsystem
+- Increase camera resolution
+- Improve lighting conditions
+- Check camera lens for clarity
+        
+---
 
-```
-wsl.exe
-```
+### Need More Help?
 
-### Complete installation
+If you're still experiencing issues:
 
-1. This concludes installing Docker and WSL Subsystems on Windows Environment. From this point onwards, you can follow the Ubuntu instructions. For example, next step is to install VisionAI package using `pip install visionai` command.
+1. Check our [Documentation Home](../index.md)
+2. Visit [Support Portal](https://support.visionify.ai)
+3. Contact [support@visionify.ai](mailto:support@visionify.ai)
+4. Call Technical Support: +1 720-449-1124
 
+---
+
+## Contact Information
+
+<div class="grid-cards">
+    <div class="grid-card">
+        <h3>Sales Inquiries</h3>
+        <p>Get in touch with our sales team for demos and pricing information.</p>
+        <ul class="contact-list">
+            <li>Email: <a href="mailto:sales@visionify.ai">sales@visionify.ai</a></li>
+            <li>Phone: +1 720-449-1124</li>
+        </ul>
+    </div>
+    <div class="grid-card">
+        <h3>Technical Support</h3>
+        <p>Need help? Visit our support portal or contact our technical team.</p>
+        <ul class="contact-list">
+            <li><a href="https://support.visionify.ai">https://support.visionify.ai</a></li>
+            <li><a href="mailto:support@visionify.ai">support@visionify.ai</a></li>
+        </ul>
+    </div>
+    <div class="grid-card">
+        <h3>Schedule a Demo</h3>
+        <p>See VisionAI in action with a personalized demo from our team.</p>
+        <div class="demo-button">
+            <a href="https://cal.com/visionify/30min" class="cta-button">Book Your Demo</a>
+        </div>
+    </div>
+</div>
+
+---
