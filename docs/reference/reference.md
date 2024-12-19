@@ -1,15 +1,12 @@
-# `visionai`
+# VisionAI API Reference
 
-VisionAI Toolkit
+Below is a list of commands that are available in the toolkit. Right
+now, we are making this available to clients on a need basis. The same
+ would be available through APIs to all clients in the future.
 
 VisionAI tookit provides a large number of ready-to-deploy scenarios
 built using latest computer vision frameworks. Supports many of the
 common workplace health and safety use-cases.
-
-Start by exploring scenarios through visionai scenario list command.
-After that, you can create a pipeline through the pipeline commands.
-Once a pipeline is configured, you can run the pipeline on the
-any number of cameras.
 
 Running the toolkit does assume a NVIDIA GPU powered machine for
 efficient performance. Please see the system requirements on the
