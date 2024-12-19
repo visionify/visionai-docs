@@ -226,12 +226,20 @@ The VisionAI dashboard provides comprehensive insights into your safety metrics 
 
 ---
 
-## Next Steps
+## AI Scenarios
 
+- [PPE Compliance](../../scenarios/ppe-detection)
+- [Staircase Safety](../../scenarios/staircase-safety)
+- [Mobile Phone Compliance](../../scenarios/mobile-phone-compliance)
+
+
+## Learn More
+
+- [Quick Start](../overview/quick-start.md)
 - [Camera Placement Guide](../overview/camera-placement-guide.md)
-- [Advanced Configuration](../deployment/advanced-config.md)
-- [Integration APIs](../integration/api-reference.md)
-- [Best Practices](../overview/best-practices.md)
+- [Supported Scenarios](../overview/scenarios.md)
+- [Camera Management](../overview/cameras.md)
+- [FAQs](../overview/faqs.md)
 
 ---
 

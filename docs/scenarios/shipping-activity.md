@@ -92,7 +92,7 @@ investigate further and take appropriate action as needed.
      [TODO]
  
 === "With Azure Setup"
-     VisionAI app is available at a Azure Market place, one can download and use it by following steps mentioned [here](../overview/azure-managed-app.md)
+     VisionAI app is available at a Azure Market place, one can download and use it by following steps mentioned [here](../reference/azure-managed-app.md)
 
 ## Features
 

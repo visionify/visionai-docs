@@ -110,3 +110,49 @@ There are two primary modes of camera placement that are considered for VisionAI
     ![Straight-mounted camera view](https://visionai.azureedge.net/docs-images/Camera-Guide/front-camera1.png)  |  ![Straight-mounted camera view](hhttps://visionai.azureedge.net/docs-images/Camera-Guide/front-camera2.png)
 
 When determining which mode of camera placement to use, it's important to consider the specific needs of required use case. Factors such as the size of the area to be monitored, the level of detail required, and the presence of obstructions should all be taken into account to ensure that the cameras are installed in the most effective and efficient manner possible.
+
+---
+
+## Next Steps
+
+- [Quick Start](../overview/quick-start.md)
+- [Camera Placement Guide](../overview/camera-placement-guide.md)
+- [Supported Scenarios](../overview/scenarios.md)
+- [Camera Management](../overview/cameras.md)
+- [FAQs](../overview/faqs.md)
+
+---
+
+
+## Contact Information
+
+<div class="grid-cards">
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">contact_phone</span> Sales Inquiries</h3>
+        <p>Get in touch with our sales team for demos and pricing information.</p>
+        <ul class="contact-list">
+            <li>Email: <a href="mailto:sales@visionify.ai">sales@visionify.ai</a></li>
+            <li>Phone: +1 720-449-1124</li>
+        </ul>
+    </div>
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">support_agent</span> Technical Support</h3>
+        <p>Need help? Visit our support portal or contact our technical team.</p>
+        <ul class="contact-list">
+            <li><a href="https://support.visionify.ai">https://support.visionify.ai</a></li>
+            <li><a href="mailto:support@visionify.ai">support@visionify.ai</a></li>
+        </ul>
+    </div>
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">calendar_month</span> Schedule a Demo</h3>
+        <p>See VisionAI in action with a personalized demo from our team.</p>
+        <div class="demo-button">
+            <a href="https://cal.com/visionify/30min" class="cta-button">
+                <span class="material-symbols-outlined">event</span>
+                Book Your Demo
+            </a>
+        </div>
+    </div>
+</div>
+
+---

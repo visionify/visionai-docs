@@ -100,6 +100,9 @@ nav:
     - Camera Placement Guide: overview/camera-placement-guide.md
     - Finding RTSP URLs: overview/finding-rtsp-urls.md
     - User Guide: overview/web-app-userguide.md
+    - Azure Managed App: reference/azure-managed-app.md
+    - Changelog: reference/changelog.md
+    - Reference: reference/reference.md
 
   - About:
     - About: company/about.md

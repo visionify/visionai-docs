@@ -35,10 +35,11 @@ Working at heights poses significant risks, including serious injuries or fatali
 
 ## Next Steps
 
+- [Quick Start](../overview/quick-start.md)
 - [Camera Placement Guide](../overview/camera-placement-guide.md)
-- [How to Get Started](../overview/quick-start.md)
-- [Alerts & Notifications](../overview/alerts-and-notifications.md)
-- [Best Practices](../overview/best-practices.md)
+- [Supported Scenarios](../overview/scenarios.md)
+- [Camera Management](../overview/cameras.md)
+- [FAQs](../overview/faqs.md)
 
 ---
 

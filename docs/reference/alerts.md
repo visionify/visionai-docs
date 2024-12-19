@@ -128,10 +128,11 @@ Configure comprehensive notification settings through your dedicated observabili
 
 ## Next Steps
 
-- [Camera Placement Guide](../overview/camera-placement-guide.md)
-- [How to Get Started](../overview/quick-start.md)
-- [Alerts & Notifications](../overview/alerts-and-notifications.md)
-- [Best Practices](../overview/best-practices.md)
+- [Quick Start](../../overview/quick-start)
+- [Camera Placement Guide](../../overview/camera-placement-guide)
+- [Supported Scenarios](../../scenarios)
+- [Camera Management](../../overview/cameras)
+- [FAQs](../../overview/faqs)
 
 ---
 

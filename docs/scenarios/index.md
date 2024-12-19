@@ -230,7 +230,7 @@ Before any other scenarios are run, or before we store or process the images - t
 
 ## Company Policies
 
-Company policies include specific scenarios that are relevant to your company. These could include scenarios like no-smoking/no-vaping zones, no food or drinks in certain areas, or no cell phones/pictures in certain areas. Some of these scenarios overlap with [occupancy policies](#occupancy-policies), but they are still useful to have here as separate scenarios.
+Company policies include specific scenarios that are relevant to your company. These could include scenarios like no-smoking/no-vaping zones, no food or drinks in certain areas, or no cell phones/pictures in certain areas. Some of these scenarios overlap with [occupancy metrics](#heatmaps-and-occupancy-metrics), but they are still useful to have here as separate scenarios.
 
 **Table: Company Policies Events and Detection Details**
 
@@ -260,10 +260,11 @@ Suspicious activity detection suite includes knives & firearms detection, graffi
 
 ## Next Steps
 
+- [Quick Start](../overview/quick-start.md)
 - [Camera Placement Guide](../overview/camera-placement-guide.md)
-- [How to Get Started](../overview/quick-start.md)
-- [Alerts & Notifications](../overview/alerts-and-notifications.md)
-- [Best Practices](../overview/best-practices.md)
+- [Supported Scenarios](../overview/scenarios.md)
+- [Camera Management](../overview/cameras.md)
+- [FAQs](../overview/faqs.md)
 
 ---
 

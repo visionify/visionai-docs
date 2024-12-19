@@ -1174,3 +1174,55 @@ img {
   }
 }
 
+/* Feature Box Styling */
+.feature-box {
+    background: var(--md-default-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-color: var(--md-accent-fg-color);
+}
+
+.feature-box h3 {
+    margin-top: 0;
+    color: var(--md-default-fg-color);
+    font-size: 1.2rem;
+}
+
+.feature-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
+.feature-box li {
+    padding: 0.3rem 0;
+    color: var(--md-default-fg-color--light);
+    display: flex;
+    align-items: center;
+}
+
+.feature-box li:before {
+    content: "✓";
+    color: var(--md-accent-fg-color);
+    margin-right: 0.5rem;
+}
+
+.feature-box p {
+    margin: 0;
+    color: var(--md-default-fg-color--light);
+}
+
+/* Dark Mode Adjustments */
+[data-md-color-scheme="slate"] .feature-box {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+

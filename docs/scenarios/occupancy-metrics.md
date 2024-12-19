@@ -122,11 +122,11 @@ VisionAI's occupancy analytics provides:
 
 ## Learn More
 
-- [Get Started](../overview/quick-start.md)
-- [Workplace Safety Best Practices Guide](../overview/best-practices.md)
-- [Compliance & Reporting Features](../overview/compliance.md)
-- [Integration with Existing Systems](../overview/integration.md)
-- [Alerts & Notifications](../overview/alerts-and-notifications.md)
+- [Quick Start](../overview/quick-start.md)
+- [Camera Placement Guide](../overview/camera-placement-guide.md)
+- [Supported Scenarios](../overview/scenarios.md)
+- [Camera Management](../overview/cameras.md)
+- [FAQs](../overview/faqs.md)
 
 
 ---

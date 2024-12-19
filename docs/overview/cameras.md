@@ -70,7 +70,8 @@ VisionAI supports a wide range of IP cameras including:
 - USB cameras (when connected to edge device)
 - LTE Network Cameras
 
-Please refer to [Supported Cameras Guide](../overview/supported-cameras-guide.md) for more details on supported cameras. Regardless of the camera type, the following are the minimum requirements:
+Please refer to [Supported Cameras Guide](../overview/finding-rtsp-urls.md) for more details on supported cameras. Regardless of the camera type, the following are the minimum requirements:
+
 - Resolution: 1080p (1920x1080)
 - Frame rate: 20 fps
 - Intranet bandwidth per camera: 2MBPS
@@ -248,10 +249,11 @@ To remove a camera from the system, you can navigate to Camera Listing Page. Fro
 
 ## Next Steps
 
+- [Quick Start](../overview/quick-start.md)
 - [Camera Placement Guide](../overview/camera-placement-guide.md)
-- [How to Get Started](../overview/quick-start.md)
-- [Alerts & Notifications](../overview/alerts-and-notifications.md)
-- [Best Practices](../overview/best-practices.md)
+- [Supported Scenarios](../overview/scenarios.md)
+- [Camera Management](../overview/cameras.md)
+- [FAQs](../overview/faqs.md)
 
 ---
 

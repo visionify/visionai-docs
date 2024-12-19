@@ -138,11 +138,11 @@ VisionAI offers flexible deployment options to meet your organization's specific
 ---
 
 ## Next Steps
-
-- [Camera Placement Guide](../overview/camera-placement-guide.md)
-- [How to Get Started](../overview/quick-start.md)
-- [Alerts & Notifications](../overview/alerts-and-notifications.md)
-- [Best Practices](../overview/best-practices.md)
+- [Quick Start](../../overview/quick-start)
+- [Camera Placement Guide](../../overview/camera-placement-guide)
+- [Supported Scenarios](../../scenarios)
+- [Camera Management](../../overview/cameras)
+- [FAQs](../../overview/faqs)
 
 ---
 

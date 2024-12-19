@@ -190,10 +190,11 @@
 
 ## Next Steps
 
-- [Camera Placement Guide](../overview/camera-placement-guide.md)
-- [Advanced Configuration](../deployment/advanced-config.md)
-- [Integration APIs](../integration/api-reference.md)
-- [Best Practices](../overview/best-practices.md)
+- [Quick Start](overview/quick-start.md)
+- [Camera Placement Guide](overview/camera-placement-guide.md)
+- [Supported Scenarios](overview/scenarios.md)
+- [Camera Management](overview/cameras.md)
+- [FAQs](overview/faqs.md)
 
 ---
 

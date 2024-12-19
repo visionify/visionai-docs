@@ -49,14 +49,15 @@ Solutions:
         
 ---
 
-### Need More Help?
 
-If you're still experiencing issues:
+## Learn More
 
-1. Check our [Documentation Home](../index.md)
-2. Visit [Support Portal](https://support.visionify.ai)
-3. Contact [support@visionify.ai](mailto:support@visionify.ai)
-4. Call Technical Support: +1 720-449-1124
+- [Quick Start](../overview/quick-start.md)
+- [Camera Placement Guide](../overview/camera-placement-guide.md)
+- [Supported Scenarios](../overview/scenarios.md)
+- [Camera Management](../overview/cameras.md)
+- [FAQs](../overview/faqs.md)
+
 
 ---
 
@@ -64,7 +65,7 @@ If you're still experiencing issues:
 
 <div class="grid-cards">
     <div class="grid-card">
-        <h3>Sales Inquiries</h3>
+        <h3><span class="material-symbols-outlined">contact_phone</span> Sales Inquiries</h3>
         <p>Get in touch with our sales team for demos and pricing information.</p>
         <ul class="contact-list">
             <li>Email: <a href="mailto:sales@visionify.ai">sales@visionify.ai</a></li>
@@ -72,7 +73,7 @@ If you're still experiencing issues:
         </ul>
     </div>
     <div class="grid-card">
-        <h3>Technical Support</h3>
+        <h3><span class="material-symbols-outlined">support_agent</span> Technical Support</h3>
         <p>Need help? Visit our support portal or contact our technical team.</p>
         <ul class="contact-list">
             <li><a href="https://support.visionify.ai">https://support.visionify.ai</a></li>
@@ -80,10 +81,13 @@ If you're still experiencing issues:
         </ul>
     </div>
     <div class="grid-card">
-        <h3>Schedule a Demo</h3>
+        <h3><span class="material-symbols-outlined">calendar_month</span> Schedule a Demo</h3>
         <p>See VisionAI in action with a personalized demo from our team.</p>
         <div class="demo-button">
-            <a href="https://cal.com/visionify/30min" class="cta-button">Book Your Demo</a>
+            <a href="https://cal.com/visionify/30min" class="cta-button">
+                <span class="material-symbols-outlined">event</span>
+                Book Your Demo
+            </a>
         </div>
     </div>
 </div>
