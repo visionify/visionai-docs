@@ -1,37 +1,117 @@
 # VisionAI platform FAQs
 >Learn more about the platform
 
-## What is VisionAl ?
-VisionAI is ready-to-use Python Library for various Computer Vision Scenarios.
 
-## What scenarios do you support?
-VisionAI library is focused on common workplace and employee health & safety scenarios. At a high-level these include the employee health and safety hazard & fire warnings, equipment monitoring, vehicle monitoring people & productivity monitoring, auspicious activity monitoring and common company compliance policies.
+### What is VisionAl?
+VisionAI is an Enterprise Application from Visionify for Workplace Safety. We use latest state of the art Computer Vision models, and our solution works with your existing CCTV camera infrastructure. 
 
-## Do I need to install get new cameras to run this system?
-No! You do not need any new camera or hardware to run this system. VisionAl works with your existing security camera infrastructure. We support RTSP, RTMP, HLS and other common video platforms. Current safety surveillance systems are just record and playback – we can bring a lot of operational and safety insights from the current camera systems.
+### What scenarios do you support?
+VisionAI supports a variety of use-cases focused on common workplace and employee health & safety scenarios. You can learn more about the scenarios [here](../overview/scenarios.md).
 
-## Is it Free to use? How does the licensing work?
-Licency details can be found at [here](../custom/licensing.md).
+### Do I need to install get new cameras to run this system?
+No! You do not need any new camera or hardware to run this system. VisionAl works with your existing security camera infrastructure. We support RTSP, RTMP, HLS, ONVIF and other common video platforms. Current safety surveillance systems are just record and playback – we can bring a lot of operational and safety insights from the current camera systems.
 
-## How can I try it out quickly?
-We recommend testing this on a beefy machine with a NVIDIA graphics card. To quickly test out a scenario you can follow these commands.
+### Is it Free to use? How does the licensing work?
+No, VisionAI is a licensed product. Please contact us through [sales@visionify.ai](mailto:sales@visionify.ai) to get started.
 
-```console
-$ pip install visionai
+### Do you offer a free trial?
+Yes, we do offer a Free Video POC trial. Please contact us through [sales@visionify.ai](mailto:sales@visionify.ai) to get started.
 
-$ visionai web
-```
-And then browse the different scenarios, create pipelines for our organization. We also provide a Azure Managed App which has all the dependencies pre-installed. 
+## Privacy & Security Questions
 
-## How can I customize the models to work in my environment?
-We work with our clients to quickly create customized models for their use-cases. This is available to be purchased through Azure marketplace as a Consulting Service-we recommend this option for a quicker transaction. You can find more details here.
+### How does VisionAI protect personal privacy?
+VisionAI offers comprehensive privacy protection through multiple features:
 
-## How do I ensure that my images are not used in training other models?
-We take our customers data privacy very seriously. All our current models available in the community edition are based off of open-source datasets We have several customer specific models trained on private data, but those datasets are maintained on their own storage accounts.
-They are not used for training any publicly available models.
+- Automated face blurring in video feeds
+- Text and document blurring capabilities
+- Screen content obscuring
+- License plate blurring
+- Real-time processing without storing personal data
 
-## We already have some Vision Al models running, can you integrate with them?
-Our system is isoluated on its own and all it needs is a set of comera output. We are focused on building more use-cases to cover common safety and compliance scenarios As such, we would work with you to build a framework where these use cases are isolated and easy to. integrate into your organization.
+### Is VisionAI GDPR compliant?
+Yes, VisionAI is designed with privacy regulations in mind, including GDPR and SOC-2 Type-2. Our privacy measures ensure that personal identifiable information (PII) is protected through automated blurring and data protection protocols.
 
-## We have an inhouse ML team. How does this help them?
-Our license terms are flexible to provide your in-house ML team a starting point where they can build their new use-cases. We also provide a customer success team that can with you to understand your requirements and guide you in coming up with the right solutions for the problems you are working on.
+### What types of sensitive information can be protected?
+Our system can automatically detect and blur:
+
+- Faces and personal identifiers
+- Computer screens and displays
+- Documents and sensitive text
+- License plates
+- Signs and notices containing confidential information
+
+### Where is the video processing done?
+All video processing is done at the edge (on your local network) to ensure maximum privacy and security. No sensitive data leaves your premises unless explicitly configured otherwise.
+
+### Can the blurred information be recovered?
+No, once information is blurred by our system, it cannot be recovered. The blurring process is permanent and irreversible to ensure complete privacy protection.
+
+### How accurate is the privacy protection?
+Our privacy protection features achieve:
+
+- 97% detection accuracy for text and documents
+- 95% accuracy for face detection and blurring
+- 99% system uptime
+- Real-time processing capabilities
+
+### Can we customize which elements get blurred?
+Yes, the system is fully customizable. You can specify:
+
+- Which types of information to blur
+- Specific zones or areas for privacy protection
+- Different privacy rules for different cameras
+- Custom privacy policies per location
+
+### How can I customize the models to work in my environment?
+Visionify models are robust & have been trained with a wide variety of industry specific data. They would work out of the box for most of the scenarios. We also support customization of models to work in your environment. 
+
+### How many scenarios can I use on a camera?
+We recommend up to 3 scenarios per camera. Otherwise the performance of the system will degrade.
+
+### How can I get started?
+Please contact our sales team at [sales@visionify.ai](mailto:sales@visionify.ai) to get started.
+
+
+## Next Steps
+
+- [Quick Start](../overview/quick-start.md)
+- [Camera Placement Guide](../overview/camera-placement-guide.md)
+- [Supported Scenarios](../overview/scenarios.md)
+- [Camera Management](../overview/cameras.md)
+- [FAQs](../overview/faqs.md)
+
+
+---
+
+## Contact Information
+
+<div class="grid-cards">
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">contact_phone</span> Sales Inquiries</h3>
+        <p>Get in touch with our sales team for demos and pricing information.</p>
+        <ul class="contact-list">
+            <li>Email: <a href="mailto:sales@visionify.ai">sales@visionify.ai</a></li>
+            <li>Phone: +1 720-449-1124</li>
+        </ul>
+    </div>
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">support_agent</span> Technical Support</h3>
+        <p>Need help? Visit our support portal or contact our technical team.</p>
+        <ul class="contact-list">
+            <li><a href="https://support.visionify.ai">https://support.visionify.ai</a></li>
+            <li><a href="mailto:support@visionify.ai">support@visionify.ai</a></li>
+        </ul>
+    </div>
+    <div class="grid-card">
+        <h3><span class="material-symbols-outlined">calendar_month</span> Schedule a Demo</h3>
+        <p>See VisionAI in action with a personalized demo from our team.</p>
+        <div class="demo-button">
+            <a href="https://cal.com/visionify/30min" class="cta-button">
+                <span class="material-symbols-outlined">event</span>
+                Book Your Demo
+            </a>
+        </div>
+    </div>
+</div>
+
+---

@@ -1,4 +1,4 @@
-site_name: VisionAI
+site_name: VisionAI Docs
 site_description: VisionAI Toolkit - Ready to use models & vision apps
 site_url: https://docs.visionify.ai/
 
@@ -50,100 +50,63 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
-    - navigation.footer
-    - navigation.tabs.sticky
+    # - navigation.footer
+    - navigation.sections
+    - navigation.tabs.stick/y
     - content.code.copy
     - content.action.edit
     - content.tabs.link
     - content.code.annotate
+    # - toc.exclude
 
 
 # repo_name: visionify/visionai-docs
 # repo_url: https://github.com/visionify/visionai-docs
 # edit_uri: https://github.com/visionify/visionai-docs/edit/main/docs
-# copyright: Copyright &copy; 2022 - 2023 Visionify.ai
+copyright: Copyright &copy; 2024 Visionify Inc.
 
 nav:
   - VisionAI:
     - Overview: index.md
-    - How it works: overview/how-it-works.md
-    - User Guide: overview/web-app-userguide.md
-    - Scenarios: overview/scenarios.md
+    - Quick Start: overview/quick-start.md
+    - AI Scenarios: overview/scenarios.md
     - Cameras: overview/cameras.md
-    - Camera Placement Guide: overview/camera-placement-guide.md
-    - Finding RTSP URLs: overview/finding-rtsp-urls.md
-    - Azure Managed App: overview/azure-managed-app.md
-    - Next steps: overview/next-steps.md
     - FAQs: overview/faqs.md
 
   - Scenarios:
     - Overview: scenarios/index.md
+    - PPE Compliance: scenarios/ppe-detection.md
+    - Working at heights: scenarios/working-at-heights.md
+    - Area Controls: scenarios/area-controls.md
+    - Housekeeping: scenarios/housekeeping.md
+    - Slip and Fall: scenarios/slip-and-fall-detection.md
+    - Smoke and Fire: scenarios/smoke-and-fire-detection.md
+    - Forklift Safety: scenarios/forklift-safety.md
+    - Occupancy Metrics: scenarios/occupancy-metrics.md
+    # - Hazard Warnings: scenarios/hazard-warnings-housekeeping.md
+    # - Behavioral Safety: scenarios/behavioral-safety.md
+    # - Ergonomics: scenarios/ergonomics.md
+    - Mobile Phone Compliance: scenarios/mobile-phone-compliance.md
+    - Staircase Safety: scenarios/staircase-safety.md
+    - Suspicious Activity: scenarios/suspicious-activity.md
+    - Compliance Policies: scenarios/compliance-policies.md
 
-    - Hazard Warnings:
-      - Overview: scenarios/hazard-warning-suite.md
-      - Smoke and Fire Detection: scenarios/smoke-and-fire-detection.md
-      - No smoking/no vaping: scenarios/no-smoking-hazard.md
-      - Spills & leaks detection: scenarios/spills-and-leaks-hazard.md
-      - Missing fire extinguisher: scenarios/missing-fire-extinguisher.md
-      - Blocked exit monitoring: scenarios/blocked-exit.md
-      - Equipment rust and corrosion: scenarios/rust-and-corrosion-hazard.md
-
-    - Worker health & safety:
-      - Overview: scenarios/worker-health-and-safety.md
-      - PPE Detection: scenarios/ppe-detection.md
-      - Working at heights: scenarios/working-at-heights.md
-      - Slip, trip and fall detection: scenarios/slip-and-fall-detection.md
-      - Posture & Ergonomics: scenarios/ergonomics.md
-      - Spills & Leaks detection (Liquids): scenarios/spills-and-leaks.md
-      - Hand-wash: scenarios/hand-wash.md
-      - Confined spaces monitoring: scenarios/confined-spaces-monitoring.md
-
-    - Occupancy Policies:
-      - Overview: scenarios/occupancy-policies.md
-      # - Max occupancy: scenarios/max-occupancy-count.md
-      # - Restricted areas/times: scenarios/exclusion-zones.md
-      # - Dwell time: scenarios/confined-spaces-monitoring.md
-      # - Social distancing: scenarios/social-distance.md
-      # - Station occupancy: scenarios/station-occupancy.md
-      - Occupancy metrics: scenarios/occupancy-metrics.md
-      # - Authorized personnel: scenarios/authorized-personnel-occupancy.md
-
-    - Company Policies:
-      - Overview: scenarios/compliance-policies.md
-      - No food or drinks: scenarios/no-food-or-drinks.md
-      - No phone, text, pictures: scenarios/no-phone-usage.md
-      - No Smoking zones: scenarios/no-smoking.md
-      - No children/visitors: scenarios/authorized-personnel.md
-
-
-    - Suspicious Activity:
-      - Overview: scenarios/suspicious-activity.md
-      - Vandalism & property destruction: scenarios/vandalism.md
-      - Firearms & knives: scenarios/firearms-and-knives.md
-
-  
-  - Privacy:
-      - Overview: privacy/employee-privacy.md
-      - Blur faces: privacy/blur-faces.md
-      - Blur signs/text: privacy/blur-signs.md
-      - Blur screens: privacy/blur-screens.md
-      - Blur license plates: privacy/blur-license-plates.md
-      - Obstructed camera view: privacy/obstructed-camera-view.md
-  
-  - Reference:
-    - Overview: reference/reference.md
-    - Changelog: reference/changelog.md
+  - References:
+    - Alerts: reference/alerts.md
+    - Deployment: reference/deployment.md
+    - Security: reference/security.md
+    - Privacy: reference/privacy.md
+    - Customization: reference/customization.md
     - Troubleshooting: reference/troubleshooting.md
-    - Notes: reference/notes.md
-  - Customization:
-    - Overview: custom/overview.md
-    - Retrain models: custom/retraining.md
-    - License: custom/licensing.md
-    - FAQs: custom/faqs.md
-    - Custom Services: custom/request.md
+    - Camera Placement Guide: overview/camera-placement-guide.md
+    - Finding RTSP URLs: overview/finding-rtsp-urls.md
+    - User Guide: overview/web-app-userguide.md
+    - Azure Managed App: reference/azure-managed-app.md
+    - Changelog: reference/changelog.md
+    - Reference: reference/reference.md
+
   - About:
     - About: company/about.md
-    - Team: company/team.md
     - Careers: company/careers.md
     - Contact: company/contact.md
     - Privacy Policy: company/privacy-policy.md
@@ -157,7 +120,7 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - toc:
-      permalink: true
+      toc_depth: 1
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -195,41 +158,39 @@ extra:
   analytics:
     provider: google
     property: G-3CWR3GL7BF
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >-
-            Thanks for your feedback! Help us improve this page by
-            using our <a href="https://docs.google.com/forms/d/e/1FAIpQLSfW7NsiBv1KCH8enZ7OJDHdQDhqY8NtUeQElm9gnRRR9pLPbw/viewform?usp=sf_link" target="_blank" rel="noopener">feedback form</a>.
+    # feedback:
+    #   title: Was this page helpful?
+    #   ratings:
+    #     - icon: material/emoticon-happy-outline
+    #       name: This page was helpful
+    #       data: 1
+    #       note: >-
+    #         Thanks for your feedback!
+    #     - icon: material/emoticon-sad-outline
+    #       name: This page could be improved
+    #       data: 0
+    #       note: >-
+    #         Thanks for your feedback! Help us improve this page by
+    #         using our <a href="https://docs.google.com/forms/d/e/1FAIpQLSfW7NsiBv1KCH8enZ7OJDHdQDhqY8NtUeQElm9gnRRR9pLPbw/viewform?usp=sf_link" target="_blank" rel="noopener">feedback form</a>.
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/visionify/visionai
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/visionify
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/hmurari
-    - icon: fontawesome/brands/dev
-      link: https://dev.to/hmurari
-    - icon: fontawesome/brands/medium
-      link: https://medium.com/@hmurari
+      link: https://www.linkedin.com/company/visionify-ai/
     - icon: fontawesome/solid/globe
       link: https://visionify.ai
-    - icon: fontawesome/brands/linkedin-in
-      link: https://www.linkedin.com/company/visionify-ai/
 
 
 extra_css:
   - css/termynal.css
   - css/custom.css
+  - https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200
 
 extra_javascript:
   - js/termynal.js
   - js/custom.js
+  - js/carousel.js
+  - js/tabs.js
+  - js/lightbox.js
