@@ -93,28 +93,28 @@ Configure comprehensive notification settings through your dedicated observabili
 
 <div class="setup-steps">
     <div class="setup-step">
-        <img src="../../img/visionify-alerts-daily-digests.jpg" alt="Daily Digest Configuration" />
+        <img src="../img/visionify-alerts-daily-digests.jpg" alt="Daily Digest Configuration" />
         <div class="step-content">
             <h4>1. Daily Digest Emails</h4>
             <p>Set up automated daily summaries of safety events, incidents, and compliance metrics. Perfect for management oversight and trend analysis.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-alerts-periodic-reports.jpg" alt="Periodic Reports" />
+        <img src="../img/visionify-alerts-periodic-reports.jpg" alt="Periodic Reports" />
         <div class="step-content">
             <h4>2. Periodic Reports</h4>
             <p>Schedule detailed reports with CSV attachments, delivered via email or Microsoft Teams. Customize reports by area, camera, or specific event types for targeted insights.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-alerts-text-alerts.jpg" alt="Text Message Alerts" />
+        <img src="../img/visionify-alerts-text-alerts.jpg" alt="Text Message Alerts" />
         <div class="step-content">
             <h4>3. Text Message Alerts</h4>
             <p>Enable real-time SMS notifications for immediate awareness of critical safety events. Ideal for urgent situations requiring immediate attention.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-alerts-speaker-notifications.jpg" alt="Speaker Alerts" />
+        <img src="../img/visionify-alerts-speaker-notifications.jpg" alt="Speaker Alerts" />
         <div class="step-content">
             <h4>4. Speaker Based Alerts</h4>
             <p>Configure automated audio announcements for real-time safety notifications in your facility. Perfect for immediate on-site response to safety events.</p>
@@ -128,11 +128,11 @@ Configure comprehensive notification settings through your dedicated observabili
 
 ## Next Steps
 
-- [Quick Start](../../overview/quick-start)
-- [Camera Placement Guide](../../overview/camera-placement-guide)
-- [Supported Scenarios](../../scenarios)
-- [Camera Management](../../overview/cameras)
-- [FAQs](../../overview/faqs)
+- [Quick Start](../overview/quick-start.md)
+- [Camera Placement Guide](../overview/camera-placement-guide.md)
+- [Supported Scenarios](../overview/scenarios.md)
+- [Camera Management](../overview/cameras.md)
+- [FAQs](../overview/faqs.md)
 
 ---
 

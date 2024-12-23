@@ -37,12 +37,12 @@ Traditional safety methods like physical barriers, warning signs, or periodic sa
 ## Real-World Applications
 
 <figure markdown>
-  ![Restricted Zone Detection](../../img/visionify-restricted-zone-sample-event.gif "AI detecting unauthorized entry in restricted zone"){ width="400" }
+  ![Restricted Zone Detection](../img/visionify-restricted-zone-sample-event.gif "AI detecting unauthorized entry in restricted zone"){ width="400" }
   <figcaption>Real-time detection of restricted zone violations</figcaption>
 </figure>
 
 <figure markdown>
-  ![Pedestrian Safety](../../img/visionify-pedestrian-pathway-sample-event.gif "AI monitoring pedestrian pathway safety"){ width="400" }
+  ![Pedestrian Safety](../img/visionify-pedestrian-pathway-sample-event.gif "AI monitoring pedestrian pathway safety"){ width="400" }
   <figcaption>Automated monitoring of pedestrian pathway compliance</figcaption>
 </figure>
 

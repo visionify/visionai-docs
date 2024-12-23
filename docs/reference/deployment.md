@@ -2,7 +2,7 @@
 
 VisionAI offers flexible deployment options to meet your organization's specific requirements for security, privacy, and infrastructure. Choose from our three deployment models based on your needs for data residency, connectivity, and system integration.
 
-<img src="../../img/visionify-deployment-options.png" alt="VisionAI Deployment Options including Solution in a Box, SaaS and Enterprise Application" title="VisionAI Deployment Options">
+<img src="../img/visionify-deployment-options.png" alt="VisionAI Deployment Options including Solution in a Box, SaaS and Enterprise Application" title="VisionAI Deployment Options">
 
 ---
 
@@ -138,11 +138,12 @@ VisionAI offers flexible deployment options to meet your organization's specific
 ---
 
 ## Next Steps
-- [Quick Start](../../overview/quick-start)
-- [Camera Placement Guide](../../overview/camera-placement-guide)
-- [Supported Scenarios](../../scenarios)
-- [Camera Management](../../overview/cameras)
-- [FAQs](../../overview/faqs)
+
+- [Quick Start](../overview/quick-start.md)
+- [Camera Placement Guide](../overview/camera-placement-guide.md)
+- [Supported Scenarios](../overview/scenarios.md)
+- [Camera Management](../overview/cameras.md)
+- [FAQs](../overview/faqs.md)
 
 ---
 

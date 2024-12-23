@@ -86,8 +86,6 @@ Our enterprise license includes:
 - Custom feature development
 - Priority support and updates
 
-[View Full License Terms](licensing.md)
-
 ## Success Stories
 
 > "VisionAI has transformed our safety operations. We've seen a 60% reduction in safety incidents and significant improvements in compliance tracking." - Safety Director, Fortune 500 Manufacturer

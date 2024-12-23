@@ -133,28 +133,28 @@
     <div class="tab-content active" id="ppe">
         <div class="usecase-split">
             <div class="video-section">
-                <img src="../../img/visionify-ppe-compliance-with-zones.gif" alt="PPE Compliance Demo">
+                <img src="../img/visionify-ppe-compliance-with-zones.gif" alt="PPE Compliance Demo">
             </div>
         </div>
     </div>
     <div class="tab-content" id="area">
         <div class="usecase-split">
             <div class="video-section">
-                <img src="../../img/visionify-restricted-area-sample-event.gif" alt="Restricted Area Demo">
+                <img src="../img/visionify-restricted-area-sample-event.gif" alt="Restricted Area Demo">
             </div>
         </div>
     </div>
     <div class="tab-content" id="forklift">
         <div class="usecase-split">
             <div class="video-section">
-                <img src="../../img/visionify-forklift-safety-sample-event.gif" alt="Forklift Safety Demo">
+                <img src="../img/visionify-forklift-safety-sample-event.gif" alt="Forklift Safety Demo">
             </div>
         </div>
     </div>
     <div class="tab-content" id="emergency">
         <div class="usecase-split">
             <div class="video-section">
-                <img src="../../img/visionify-smoke-and-fire-detection.gif" alt="Emergency Events Demo">
+                <img src="../img/visionify-smoke-and-fire-detection.gif" alt="Emergency Events Demo">
             </div>
         </div>
     </div>

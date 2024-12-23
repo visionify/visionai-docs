@@ -12,10 +12,10 @@ VisionAI supports a variety of use-cases focused on common workplace and employe
 No! You do not need any new camera or hardware to run this system. VisionAl works with your existing security camera infrastructure. We support RTSP, RTMP, HLS, ONVIF and other common video platforms. Current safety surveillance systems are just record and playback – we can bring a lot of operational and safety insights from the current camera systems.
 
 ### Is it Free to use? How does the licensing work?
-Licency details can be found at [here](../custom/licensing.md).
+No, VisionAI is a licensed product. Please contact us through [sales@visionify.ai](mailto:sales@visionify.ai) to get started.
 
 ### Do you offer a free trial?
-Yes, we do offer a Free Video POC trial, more details can be found at [here](../custom/licensing.md).
+Yes, we do offer a Free Video POC trial. Please contact us through [sales@visionify.ai](mailto:sales@visionify.ai) to get started.
 
 ## Privacy & Security Questions
 
@@ -72,7 +72,7 @@ We recommend up to 3 scenarios per camera. Otherwise the performance of the syst
 Please contact our sales team at [sales@visionify.ai](mailto:sales@visionify.ai) to get started.
 
 
-## Learn More
+## Next Steps
 
 - [Quick Start](../overview/quick-start.md)
 - [Camera Placement Guide](../overview/camera-placement-guide.md)

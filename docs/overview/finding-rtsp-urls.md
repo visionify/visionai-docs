@@ -129,4 +129,4 @@ You can test RTSP URLs using:
 - [ONVIF Device Manager](https://sourceforge.net/projects/onvifdm/) - Universal tool for IP cameras
 - [Security Camera Reviews](https://ipvm.com/) - Detailed camera information
 - [IP Video Market](https://ipvm.com/reports/camera-finder) - Camera comparison tool
-- [VisionAI Documentation](/) - Main documentation
+- [VisionAI Documentation](../index.md) - Main documentation
