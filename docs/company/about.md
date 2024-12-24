@@ -8,7 +8,7 @@ Based in Denver, CO, Visionify develops advanced Computer Vision solutions for W
         At Visionify, we are dedicated to transforming Environmental, Health, and Safety (EHS) standards through our powerful Vision AI applications. Our Vision AI suite offers workplace safety and compliance solutions that are designed to detect potential hazards, monitor worker safety and prevent accidents. These ready-to-use, pre-trained apps, purpose-built for manufacturing environments, can be easily accessed through a user-friendly web-based interface.
     </div>
     <div style="flex: 1;">
-        <img src="../img/visionify-about-us.jpg" alt="Visionify Safety Reimagined" style="max-width: 100%; height: auto;">
+        <img src="../../img/visionify-about-us.jpg" alt="Visionify Safety Reimagined" style="max-width: 100%; height: auto;">
     </div>
 </div>
 
@@ -16,7 +16,7 @@ Based in Denver, CO, Visionify develops advanced Computer Vision solutions for W
 
 <div style="display: flex; align-items: center; margin: 20px 0;">
     <div style="flex: 1;">
-        <img src="../img/visionify-what-we-do.png" alt="What We Do" style="max-width: 100%; height: auto;">
+        <img src="../../img/visionify-what-we-do.png" alt="What We Do" style="max-width: 100%; height: auto;">
     </div>
     <div style="flex: 1; padding-left: 20px;">
         <h2> What We Do </h2>
@@ -33,7 +33,7 @@ Based in Denver, CO, Visionify develops advanced Computer Vision solutions for W
         Visionify aims to provide the most advanced computer vision solutions that enhance workplace safety and compliance. We are committed to helping businesses of all sizes create a safe and compliant working environment by leveraging the power of computer vision technology. Through our innovative solutions, we strive to reduce workplace accidents and injuries, improve compliance with safety regulations, and increase overall productivity.
     </div>
     <div style="flex: 1;">
-        <img src="../img/visionify-our-mission.jpg" alt="Our Mission" style="max-width: 100%; height: auto;">
+        <img src="../../img/visionify-our-mission.jpg" alt="Our Mission" style="max-width: 100%; height: auto;">
     </div>
 </div>
 
@@ -41,7 +41,7 @@ Based in Denver, CO, Visionify develops advanced Computer Vision solutions for W
 
 <div style="display: flex; align-items: center; margin: 20px 0;">
     <div style="flex: 1;">
-        <img src="../img/visionify-our-vision.jpg" alt="Our Vision" style="max-width: 100%; height: auto;">
+        <img src="../../img/visionify-our-vision.jpg" alt="Our Vision" style="max-width: 100%; height: auto;">
     </div>
     <div style="flex: 1; padding-left: 20px;">
         <h2> Our Vision </h2>

@@ -3,7 +3,7 @@
 > Slips & Falls from stairs are one of the most common workplace accidents.
 
 <figure markdown>
-  ![Image title](../img/visionify-staircase-safety-hero-image.jpg "Staircase Safety!"){ width="450" }<figcaption>Staircase Safety</figcaption>
+  ![Image title](../../img/visionify-staircase-safety-hero-image.jpg "Staircase Safety!"){ width="450" }<figcaption>Staircase Safety</figcaption>
 </figure>
 
 Visionify's Staircase Safety Suite focuses on preventing accidents and injuries in one of the most common yet hazardous areas of any facility - staircases. This suite monitors various unsafe behaviors including failure to use handrails, running on stairs, using mobile phones while climbing/descending, and skipping steps. These behaviors are leading causes of workplace accidents, often resulting in serious injuries.

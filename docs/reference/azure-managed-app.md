@@ -23,7 +23,7 @@ Enter all your information and click on **Continue**. It takes you to your dashb
 
 
 ![VisionAI webapp](../img/azure-app-continue.PNG)
-
+    
 In Basics tab, Enter your project details in the following screen.
 
 ![VisionAI webapp](../img/azure-app-project.PNG)

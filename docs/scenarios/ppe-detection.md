@@ -3,7 +3,7 @@
 > Transform Workplace Safety with Intelligent Vision AI Solutions from Visionify
 
 <figure markdown>
-  ![Image title](../img/visionify-ppe-compliance-hero-image.png "Working at heights!"){ width="350" }
+  ![Image title](../img/visionify-ppe-compliance-hero-image.png "Working at heights!"){ width="600" }
   <figcaption>Visionify PPE Compliance Solution</figcaption>
 </figure>
 
@@ -21,14 +21,27 @@ In 2021, workplace injuries resulted in over $167 billion in costs to businesses
 
 Visionify's PPE Compliance Solution leverages advanced AI to monitor and enforce safety equipment requirements in real-time. Our system integrates with your existing camera infrastructure to provide:
 
+<figure markdown>
+  ![PPE Compliance Sample Event](../img/visionify-ppe-compliance-sample-event.gif "Visionify PPE Compliance Sample Event"){ width="600" }
+  <figcaption>PPE Compliance Sample Event</figcaption>
+</figure>
+
+
 ### Comprehensive Detection
-✓ Helmets & Hard Hats
-✓ Safety Gloves
-✓ Protective Eyewear
-✓ High-Visibility Vests
-✓ Safety Footwear
-✓ Face Masks & Shields
-✓ Fall Protection Equipment
+
+- ✓ Helmets & Hard Hats
+- ✓ Safety Gloves
+- ✓ Protective Eyewear
+- ✓ High-Visibility Vests
+- ✓ Safety Footwear
+- ✓ Face Masks & Shields
+- ✓ Fall Protection Equipment
+
+<figure markdown>
+  ![PPE Compliance with Zones Sample Event](../img/visionify-ppe-compliance-with-zones.gif "Visionnify PPE Compliance with Zones"){ width="600" }
+  <figcaption>Configure PPE compliance with Zones</figcaption>
+</figure>
+
 
 ### Enterprise-Grade Features
 

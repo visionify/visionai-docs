@@ -3,7 +3,7 @@
 > Transform your workplace safety program with AI-powered area monitoring that helps prevent accidents, maintains occupancy compliance, and ensures worker safety in restricted zones.
 
 <figure markdown>
-  ![Workplace Safety Zone Monitoring](https://visionai.azureedge.net/docs-images/docs-visionify-version1.0-23March23/restricted-zone.png "AI-powered workplace safety monitoring"){ width="350" }
+  ![Workplace Safety Zone Monitoring](https://visionai.azureedge.net/docs-images/docs-visionify-version1.0-23March23/restricted-zone.png "AI-powered workplace safety monitoring"){ width="600" }
   <figcaption>Real-time detection of safety zone violations</figcaption>
 </figure>
 
@@ -37,12 +37,12 @@ Traditional safety methods like physical barriers, warning signs, or periodic sa
 ## Real-World Applications
 
 <figure markdown>
-  ![Restricted Zone Detection](../img/visionify-restricted-zone-sample-event.gif "AI detecting unauthorized entry in restricted zone"){ width="400" }
+  ![Restricted Zone Detection](../img/visionify-restricted-zone-sample-event.gif "AI detecting unauthorized entry in restricted zone"){ width="600" }
   <figcaption>Real-time detection of restricted zone violations</figcaption>
 </figure>
 
 <figure markdown>
-  ![Pedestrian Safety](../img/visionify-pedestrian-pathway-sample-event.gif "AI monitoring pedestrian pathway safety"){ width="400" }
+  ![Pedestrian Safety](../img/visionify-pedestrian-pathway-sample-event.gif "AI monitoring pedestrian pathway safety"){ width="600" }
   <figcaption>Automated monitoring of pedestrian pathway compliance</figcaption>
 </figure>
 

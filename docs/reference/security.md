@@ -4,11 +4,11 @@
 
 <div class="certification-badges" style="display: flex; justify-content: center; gap: 1rem; align-items: flex-start;">
     <figure style="margin: 0; text-align: center; height: 250px; display: flex; flex-direction: column;">
-        <img src="../img/visionify-soc-2-type-2-compliance.png" width="200" style="height: 200px; object-fit: contain;" alt="SOC2 Type 2">
+        <img src="../../img/visionify-soc-2-type-2-compliance.png" width="200" style="height: 200px; object-fit: contain;" alt="SOC2 Type 2">
         <figcaption>SOC 2 Type II Certified</figcaption>
     </figure>
     <figure style="margin: 0; text-align: center; height: 250px; display: flex; flex-direction: column;">
-        <img src="../img/visionify-gdpr-compliance.jpg" width="200" style="height: 200px; object-fit: contain;" alt="GDPR">
+        <img src="../../img/visionify-gdpr-compliance.jpg" width="200" style="height: 200px; object-fit: contain;" alt="GDPR">
         <figcaption>GDPR Compliant</figcaption>
     </figure>
 </div>

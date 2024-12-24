@@ -3,7 +3,7 @@
 > Protect your workforce and reduce liability with AI-powered slip and fall detection. Get instant alerts, comprehensive analytics, and documented compliance.
 
 <figure markdown>
-  ![Slip and Fall Detection](../img/visionify-slip-and-fall-detection.gif "AI-powered slip and fall detection"){ width="500" }
+  ![Slip and Fall Detection](../../img/visionify-slip-and-fall-detection.gif "AI-powered slip and fall detection"){ width="500" }
   <figcaption>Real-time slip and fall monitoring across your facility</figcaption>
 </figure>
 
