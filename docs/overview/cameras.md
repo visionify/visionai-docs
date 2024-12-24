@@ -84,21 +84,21 @@ Connecting your cameras to VisionAI is straightforward. Follow these steps to in
 
 <div class="setup-steps">
     <div class="setup-step">
-        <img src="../img/visionify-cameras-page.jpg" alt="Cameras Page" />
+        <img src="../../../img/visionify-cameras-page.jpg" alt="Cameras Page" />
         <div class="step-content">
             <h4>1. Go to Cameras Page</h4>
             <p>Navigate to the Cameras page from the main dashboard. Here you'll see all your connected cameras and their status.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../img/visionify-add-camera.jpg" alt="Add Camera Button" />
+        <img src="../../img/visionify-add-camera.jpg" alt="Add Camera Button" />
         <div class="step-content">
             <h4>2. Add New Camera</h4>
             <p>Click on the "Add Camera" button to begin the integration process. VisionAI supports IP cameras, CCTV systems, and NVR/DVR setups.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../img/visionify-add-camera-popup.jpg" alt="Camera Configuration" />
+        <img src="../../img/visionify-add-camera-popup.jpg" alt="Camera Configuration" />
         <div class="step-content">
             <h4>3. Provide Camera Details</h4>
             <p>Enter your camera details including name, RTSP URL, and location. Test the connection to ensure proper setup before saving.</p>
@@ -117,42 +117,42 @@ You can click on any camera to view its details.
 
 <div class="setup-steps">
     <div class="setup-step">
-        <img src="../img/visionify-cameras-details-page-2.jpg" alt="Cameras Details Page" />
+        <img src="../../img/visionify-cameras-details-page-2.jpg" alt="Cameras Details Page" />
         <div class="step-content">
             <h4>1. Click on a Camera</h4>
             <p>Click on a camera to view its details. The camera details page will show the status of the camera, the AI scenarios applied to the camera, recent events, livestream options, recording options and more.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../img/visionify-camera-details-events.jpg" alt="View Recent Events" />
+        <img src="../../img/visionify-camera-details-events.jpg" alt="View Recent Events" />
         <div class="step-content">
             <h4>2. View Recent Events</h4>
             <p>On the camera details page - we show the last 8 events for the camera. We also show the total number of events in the last 24hrs, 7 days, or 30 days. To dig more into events, you can visit the Events page.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../img/visionify-camera-ai-scenarios.jpg" alt="View/Edit AI Scenarios" />
+        <img src="../../img/visionify-camera-ai-scenarios.jpg" alt="View/Edit AI Scenarios" />
         <div class="step-content">
             <h4>3. View/Edit AI Scenarios</h4>
             <p>View or Edit the AI scenarios configured for the camera. Currently applied scenarios are highlighted on the right.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../img/visionify-camera-details-livestream.jpg" alt="View Livestream" />
+        <img src="../../img/visionify-camera-details-livestream.jpg" alt="View Livestream" />
         <div class="step-content">
             <h4>4. View Livestream</h4>
             <p>Click on the view live-stream button to view the live-inference view of the camera.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../img/visionify-camera-record-video.jpg" alt="Record Video" />
+        <img src="../../img/visionify-camera-record-video.jpg" alt="Record Video" />
         <div class="step-content">
             <h4>5. Record Inference Video</h4>
             <p>Record live inference video from the camera. The recorded video is available under the Recordings tab.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../img/visionify-camera-view-streaming-status.jpg" alt="View Camera Status" />
+        <img src="../../img/visionify-camera-view-streaming-status.jpg" alt="View Camera Status" />
         <div class="step-content">
             <h4>6. View Camera Status</h4>
             <p>Sometimes cameras might not be streaming. This page will show you the status of the camera.</p>
@@ -168,7 +168,7 @@ You can configure scenarios from the camera details page.
 <div class="setup-steps">
 
     <div class="setup-step">
-        <img src="../img/visionify-camera-ai-scenarios.jpg" alt="View/Edit AI Scenarios" />
+        <img src="../../img/visionify-camera-ai-scenarios.jpg" alt="View/Edit AI Scenarios" />
         <div class="step-content">
             <h4>1. View/Edit AI Scenarios</h4>
             <p>Camera Details page shows all the AI scenarios avaialble for the camera. You can add a new scenario by clicking the "Add Scenario" button.</p>
@@ -176,7 +176,7 @@ You can configure scenarios from the camera details page.
     </div>
 
     <div class="setup-step">
-        <img src="../img/visionify-camera-add-ai-scenario.jpg" alt="View/Edit AI Scenarios" />
+        <img src="../../img/visionify-camera-add-ai-scenario.jpg" alt="View/Edit AI Scenarios" />
         <div class="step-content">
             <h4>2. Add AI Scenario</h4>
             <p>Adding AI scenario is a 3 step process. First, you select the scenario. We support a wide variety of scenarios. Once you click on Get this - it will walk you through setting up zones & detection parameters for the scenario.
@@ -193,14 +193,14 @@ Most recent 8 events for the camera are shown on the camera details page. You ca
 
 <div class="setup-steps">
     <div class="setup-step">
-        <img src="../img/visionify-cameras-details-page-2.jpg" alt="Cameras Details Page" />
+        <img src="../../img/visionify-cameras-details-page-2.jpg" alt="Cameras Details Page" />
         <div class="step-content">
             <h4>1. Click on a Camera</h4>
             <p>Click on a camera to view its details. The camera details page will show the status of the camera, the AI scenarios applied to the camera, recent events, livestream options, recording options and more.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../img/visionify-camera-details-events.jpg" alt="View Recent Events" />
+        <img src="../../img/visionify-camera-details-events.jpg" alt="View Recent Events" />
         <div class="step-content">
             <h4>2. View Recent Events</h4>
             <p>On the camera details page - we show the last 8 events for the camera. We also show the total number of events in the last 24hrs, 7 days, or 30 days. To dig more into events, you can visit the Events page.</p>
@@ -215,7 +215,7 @@ Livestream allows you to access real-time camera feeds from the camera. We suppo
 
 <div class="setup-steps">
     <div class="setup-step">
-        <img src="../img/visionify-camera-details-livestream.jpg" alt="View Livestream" />
+        <img src="../../img/visionify-camera-details-livestream.jpg" alt="View Livestream" />
         <div class="step-content">
             <h4>View Livestream</h4>
             <p>Click on the view live-stream button to view the live-inference view of the camera.</p>
@@ -229,7 +229,7 @@ Recording feature allows to record 10 minutes of video. Just click on the record
 
 <div class="setup-steps">
     <div class="setup-step">
-        <img src="../img/visionify-camera-record-video.jpg" alt="Record Video" />
+        <img src="../../img/visionify-camera-record-video.jpg" alt="Record Video" />
         <div class="step-content">
             <h4>Record Video</h4>
             <p>Click on the record video button at the right corner of the camera details page. The recorded video is available under the Recordings tab.</p>

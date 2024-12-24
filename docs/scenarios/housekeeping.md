@@ -5,7 +5,10 @@ Visionify's Housekeeping Suite provides various hazard identifications on the wo
 Housekeeping suite provides organization a second set of eyes for their regular audits. By identifying hazards early, this suite tends to avoid accidents and injuries.
 
 
-<img src="../img/visionify-spills-and-leaks-detection.gif" alt="An example event of spills & leaks detection" title="Visionify Spills and Leaks">
+<figure markdown>
+  ![Spills and Leaks Detection Sample Event](../img/visionify-spills-and-leaks-detection.gif "Visionify Spills and Leaks Detection Sample Event"){ width="600" }
+  <figcaption>Spills and Leaks Detection Sample Event</figcaption>
+</figure>
 
 **Table: Housekeeping Events and Detection Details**
 

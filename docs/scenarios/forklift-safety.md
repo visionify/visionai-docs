@@ -3,7 +3,7 @@
 > Transform your forklift safety program with AI-powered monitoring that helps prevent accidents, ensures compliance, and provides data-driven insights for workplace safety improvements.
 
 <figure markdown>
-  ![Forklift Safety](../img/visionify-forklift-safety-sample-event.gif "AI-powered forklift safety monitoring"){ width="500" }
+  ![Forklift Safety](../../img/visionify-forklift-safety-sample-event.gif "AI-powered forklift safety monitoring"){ width="500" }
   <figcaption>Real-time detection of forklift near-miss incidents</figcaption>
 </figure>
 
@@ -128,7 +128,10 @@ Forklift Safety also implements other best practices like Wearning Seatbelts, St
 
 Our forklift safety suite can be considered as a passive safety system. It does not actively prevent any accidents, but it does help you identify areas that need attention. The goal of the Forklift Safety Suite is to make your team aware of the risks, so you can data driven changes to make your workplace safer.
 
-<img src="../img/visionify-forklift-safety-sample-event.gif" alt="Forklift Safety Violation Example Event generated through Vision AI (Showing near-miss between a person & forklift)" title="Visionify Forklift Near-Miss Example Event">
+<figure markdown>
+  ![Forklift Safety Violation Example Event](../img/visionify-forklift-safety-sample-event.gif "Visionify Forklift Near-Miss Example Event"){ width="600" }
+  <figcaption>Forklift Safety Violation Example Event</figcaption>
+</figure>
 
 **Table: Forklift Safety Events and Detection Details**
 

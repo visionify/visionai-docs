@@ -9,7 +9,11 @@ Scenarios (also referred to as `use cases`) form the building blocks of VisionAI
 
 Below image also provides a summary of all the scenarios that are supported by VisionAI.
 
-<img src="../img/visionify-supported-scenarios-1.3.png" alt="VisionAI Supported Scenarios including PPE Compliance, Area Controls, Forklift Safety, Emergency Events, Occupancy Metrics, Housekeeping, Behavioral Safety, Staircase Safety and more" title="VisionAI Supported Scenarios">
+<figure markdown>
+  ![Visionify Supported AI Scenarios](../img/visionify-supported-scenarios-1.3.png "Visionify Supported AI Scenarios - PPE Compliance, Area Controls, Forklift Safety, Emergency Events, Occupancy Metrics, Housekeeping, Behavioral Safety, Staircase Safety and more"){ width="1000" }
+  <figcaption>Visionify Supported AI Scenarios</figcaption>
+</figure>
+
 
 !!! note "New scenario request"
     This chapter lists down all the scenarios that are supported by the VisionAI platform. We are always looking to expand our suite - please [send a request](https://support.visionify.ai) to us about any additional scenarios you need.
@@ -25,7 +29,10 @@ PPE compliance is the first step towards a comprehensive safety program. Workers
 Ensuring PPE Compliance can yield significant benefits. It can help reduce the number of accidents and injuries in the workplace, improve productivity, and enhance the overall safety culture of the organization.
 
 
-<img src="../img/visionify-ppe-compliance-sample-event.gif" alt="PPE Compliance Violation Example Event (Showing No mask, No gloves)" title="PPE Compliance Violation Example Event">
+<figure markdown>
+  ![PPE Compliance Sample Event](../img/visionify-ppe-compliance-sample-event.gif "Visionify PPE Compliance Sample Event"){ width="600" }
+  <figcaption>PPE Compliance Sample Event</figcaption>
+</figure>
 
 
 **Table: PPE Compliance Events and Detection Details**
@@ -58,7 +65,10 @@ For example, if we want to setup a Pedestrian Pathway, or create a Man-Machine a
 
 Deploying Area Control scenarios requires understanding of the camera area and the type of work performed there. We recommend that you look at the video clips from the camera, and tune the scenario accordingly.
 
-<img src="../img/visionify-restricted-zone-sample-event.gif" alt="Restricted Zone Violation Example Event (Showing person walking in a Restricted Zone & how Visionify System can detect it)" title="Visionify Restricted Zone Example Event">
+<figure markdown>
+  ![Restricted Zone Violation Example Event](../img/visionify-restricted-zone-sample-event.gif "Visionify Restricted Zone Example Event"){ width="600" }
+  <figcaption>Restricted Zone Violation Example Event</figcaption>
+</figure>
 
 **Table: Area Control Events and Detection Details**
 
@@ -85,7 +95,10 @@ Forklift Safety also implements other best practices like Wearning Seatbelts, St
 
 Our forklift safety suite can be considered as a passive safety system. It does not actively prevent any accidents, but it does help you identify areas that need attention. The goal of the Forklift Safety Suite is to make your team aware of the risks, so you can data driven changes to make your workplace safer.
 
-<img src="../img/visionify-forklift-safety-sample-event.gif" alt="Forklift Safety Violation Example Event generated through Vision AI (Showing near-miss between a person & forklift)" title="Visionify Forklift Near-Miss Example Event">
+<figure markdown>
+  ![Forklift Safety Violation Example Event](../img/visionify-forklift-safety-sample-event.gif "Visionify Forklift Near-Miss Example Event"){ width="600" }
+  <figcaption>Forklift Safety Violation Example Event</figcaption>
+</figure>
 
 **Table: Forklift Safety Events and Detection Details**
 
@@ -110,7 +123,10 @@ Emergency events detection is critical for workplace safety. This suite focuses 
 !!! note "Alert Notifications"
     Visionify's system can be configured to send out an alert when any of these emergency events are detected. This alert can be sent as a Text Message, Email or a notification through Microsoft Teams.
 
-<img src="../img/visionify-smoke-and-fire-detection.gif" alt="Smoke and Fire Detection Example Event generated through Vision AI" title="Visionify Smoke and Fire Detection Example Event">
+<figure markdown>
+  ![Smoke and Fire Detection Example Event](../img/visionify-smoke-and-fire-detection.gif "Visionify Smoke and Fire Detection Example Event"){ width="600" }
+  <figcaption>Smoke and Fire Detection Example Event</figcaption>
+</figure>
 
 **Table: Emergency Events and Detection Details**
 
@@ -130,7 +146,10 @@ Occupancy metrics suite provides use-cases for person counting, heatmaps (densit
 
 Visionify's occupancy metrics suite can be used with the rest of our suite to enable different compliance policies or collect general planning data for your organization.
 
-<img src="../img/visionify-people-forklift-heatmap-event.gif" alt="An heatmap of people & forklift in work area" title="Visionify Heatmap Event Example">
+<figure markdown>
+  ![People & Forklift Heatmap Event](../img/visionify-people-forklift-heatmap-event.gif "Visionify Heatmap Event Example"){ width="600" }
+  <figcaption>People & Forklift Heatmap Event</figcaption>
+</figure>
 
 
 **Table: Occupancy Metrics Events and Detection Details**
@@ -152,7 +171,10 @@ Visionify's Housekeeping Suite provides various hazard identifications on the wo
 Housekeeping suite provides organization a second set of eyes for their regular audits. By identifying hazards early, this suite tends to avoid accidents and injuries.
 
 
-<img src="../img/visionify-spills-and-leaks-detection.gif" alt="An example event of spills & leaks detection" title="Visionify Spills and Leaks">
+<figure markdown>
+  ![Spills and Leaks Detection Example Event](../img/visionify-spills-and-leaks-detection.gif "Visionify Spills and Leaks Detection Example Event"){ width="600" }
+  <figcaption>Spills and Leaks Detection Example Event</figcaption>
+</figure>
 
 **Table: Housekeeping Events and Detection Details**
 
@@ -174,8 +196,10 @@ Visionify's Behavioral Safety Suite focuses on identifying and correcting unsafe
 
 By detecting these unsafe behaviors early, organizations can provide timely interventions and training to promote safer work practices. The Behavioral Safety suite serves as a proactive tool for safety managers to reinforce safety protocols and maintain workplace discipline.
 
-<img src="../img/visionify-mobile-phone-usage-detection.jpg" alt="An example event of mobile phone usage in work area" title="Visionify Behavioral Safety Suite">
-
+<figure markdown>
+  ![Mobile Phone Usage Detection Example Event](../img/visionify-mobile-phone-usage-detection.jpg "Visionify Mobile Phone Usage Detection Example Event"){ width="600" }
+  <figcaption>Mobile Phone Usage Detection Example Event</figcaption>
+</figure>
 
 
 **Table: Behavioral Safety Events and Detection Details**
@@ -196,7 +220,10 @@ Visionify's Staircase Safety Suite focuses on preventing accidents and injuries 
 
 By identifying these risky behaviors in real-time, organizations can take proactive measures to prevent staircase-related incidents. The suite helps safety managers enforce proper staircase usage protocols and create awareness about safe staircase practices among employees.
 
-<!-- <img src="../img/visionify-staircase-safety-detection.gif" alt="An example event of unsafe staircase behavior detection" title="Visionify Staircase Safety"> -->
+<!-- <figure markdown>
+  ![Staircase Safety Detection Example Event](../img/visionify-staircase-safety-detection.gif "Visionify Staircase Safety Detection Example Event"){ width="600" }
+  <figcaption>Staircase Safety Detection Example Event</figcaption>
+</figure> -->
 
 **Table: Staircase Safety Events and Detection Details**
 

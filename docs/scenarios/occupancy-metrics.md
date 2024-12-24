@@ -45,7 +45,7 @@ VisionAI's occupancy analytics provides:
 - Cleaning service optimization
 
 <figure markdown>
-  ![Occupancy Heatmap](../img/visionify-people-forklift-heatmap-event.gif "Real-time occupancy and traffic flow heatmap"){ width="500" }
+  ![Occupancy Heatmap](../../img/visionify-people-forklift-heatmap-event.gif "Real-time occupancy and traffic flow heatmap"){ width="500" }
   <figcaption>Dynamic heatmap showing people and forklift movement patterns</figcaption>
 </figure>
 

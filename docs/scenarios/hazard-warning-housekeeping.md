@@ -3,7 +3,7 @@
 > Transform your facility safety program with AI-powered hazard detection that helps prevent accidents, maintains workplace standards, and ensures OSHA compliance through automated monitoring.
 
 <figure markdown>
-  ![Spills Detection](../img/visionify-spills-and-leaks-detection.gif "AI-powered spill detection"){ width="500" }
+  ![Spills Detection](../../img/visionify-spills-and-leaks-detection.gif "AI-powered spill detection"){ width="500" }
   <figcaption>Real-time detection of workplace hazards and spills</figcaption>
 </figure>
 
