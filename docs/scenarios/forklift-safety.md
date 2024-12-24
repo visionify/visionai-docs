@@ -3,7 +3,7 @@
 > Transform your forklift safety program with AI-powered monitoring that helps prevent accidents, ensures compliance, and provides data-driven insights for workplace safety improvements.
 
 <figure markdown>
-  ![Forklift Safety](../../img/visionify-forklift-safety-sample-event.gif "AI-powered forklift safety monitoring"){ width="500" }
+  ![Forklift Safety](../img/visionify-forklift-safety-sample-event.gif "AI-powered forklift safety monitoring"){ width="500" }
   <figcaption>Real-time detection of forklift near-miss incidents</figcaption>
 </figure>
 

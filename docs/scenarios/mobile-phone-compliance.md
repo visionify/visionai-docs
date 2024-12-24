@@ -3,7 +3,7 @@
 > Enabling businesses to overcome digital distractions and misuse of mobile phones at workplaces.
 
 <figure markdown>
-  ![Image title](../../img/visionify-mobile-phone-usage-detection.jpg "Mobile Phone Detection at Workplace"){ width="600" }
+  ![Image title](../img/visionify-mobile-phone-usage-detection.jpg "Mobile Phone Detection at Workplace"){ width="600" }
   <figcaption>Visionify Mobile Phone Usage Detection</figcaption>
 </figure>
 
