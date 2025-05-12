@@ -49,7 +49,7 @@ Let’s add an IP camera to the system. In order to do this,
 ![Add-Camera](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/camera-add.jpg
 )
 
-A new pop-up window will appear to add cameras. You can enter the camera name, description, and RTSP URI for the camera. The RTSP URI can be obtained from the Camera or NVR documentation. You can ignore the other fields as they are optional. Click on “Add” button.
+A new pop-up window will appear to add cameras. You can enter the camera name, description, and RTSP URL for the camera. The RTSP URL can be obtained from the Camera or NVR documentation. You can ignore the other fields as they are optional. Click on “Add” button.
 
 ![Notification-Settings-for-Camera](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/add-camera.jpg
 )
@@ -135,7 +135,53 @@ This action will open the user management page. Click on the '+ Add User' button
 
 After clicking on the '+ Add User' button, a user fields box will open. Fill in the required fields and click on the 'Submit' button.
 
-![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/adduser-submit.jpg)
+![](http://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/adduser-submit.jpg)
 
 
 An invitation email will be sent to the provided email address. The user should then create a password by accepting the invitation through the email.
+
+# Company
+
+### Step 1: Navigate to the Company Section
+Log in to the system and go to the Company section from the main dashboard at user profile.
+### Step 2: Select the "Site" Option
+In the Company section, click on the "Site" option. This will take you to the site management area.
+### Step 3: Add a New Site
+In the Site section, you will see an option labeled "Add New Site".
+Click on this option, which will open a form where you can input the details for the new site.
+### Step 4: Fill in the Required Site Details
+Fill in all the required details in the form, such as:
+Site name
+Address
+Other relevant site information
+### Step 5: Configure Site Options
+After adding the site, you will have several configuration options for customizing the site:
+
+## Face Blur Option:
+
+If you prefer not to display faces in the site footage or data, enable the "Face Blur" option. This will automatically blur any faces captured in the data.
+
+## Full Body Blur Option:
+
+If you want to blur the entire body of individuals, enable the "Full Body Blur" option. This will blur the bodies of people in the site data or footage.
+
+## Site Map Upload:
+
+You can upload a site map to visually represent the site layout. To do this:
+Drag and drop the site map file into the designated area for map uploads.
+Ensure the file is in a supported format (e.g., PNG, JPG, or PDF).
+
+### Step 6: Save and Submit
+
+After entering all the site details and configuring the options:
+Review the information and configurations.
+Click on the Save button to save the site details and settings.
+
+### Step 7: Final Step
+After saving, the new site, along with the selected configuration options (such as face/body blurring and site map), will be successfully added to the system.
+
+## Additional Notes:
+Ensure that all required fields are completed before saving the site.
+If you encounter any issues or need to update the site later, you can always return to the "Site" section to make changes.
+
+![](https://docsvisionify.blob.core.windows.net/docs-images/Web-app_Pictures/Add_New_Site.png)
