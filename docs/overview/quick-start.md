@@ -17,33 +17,36 @@ VisionAI is an enterprise-grade computer vision platform that transforms your ex
     </a>
     <a href="#step-3-scenario-configuration" class="flow-item">
         <span class="flow-number">3</span>
-        <span class="material-symbols-outlined">settings_suggest</span>
+        <span class="material-symbols-outlined">memory</span>
         <h3>AI Scenarios</h3>
         <p>Select and customize safety monitoring scenarios</p>
     </a>
-     <a href="#step-4-scenario-configuration" class="flow-item">
-        <span class="flow-number">4</span>
-        <span class="material-symbols-outlined">settings_suggest</span>
+    <a href="#step-4-events-dashboard" class="flow-item">
+        <span class="flow-number">4</span>  
+        <span class="material-symbols-outlined">view_agenda</span>
+        <h3>Events</h3>
+        <p>Select and customize safety monitoring scenarios</p>
+    </a>
+     <a href="#step-5-task-Management" class="flow-item">
+        <span class="flow-number">5</span>
+        <span class="material-symbols-outlined">list_alt_check</span>
         <h3>Tasks</h3>
         <p>Detailing the tasks assigned, their progress, and recommendations for improvement</p>
     </a>
-    <a href="#step-5-scenario-configuration" class="flow-item">
-        <span class="flow-number">5</span>
-        <span class="material-symbols-outlined">settings_suggest</span>
+</div>
+
+<div class="quick-start-flow">
+    <a href="#step-6-view-access" class="flow-item">
+        <span class="flow-number">6</span>
+        <span class="material-symbols-outlined">speed_camera</span>
         <h3>Views</h3>
         <p>It allows administrators to create custom views that provide a structured way to monitor surveillance data efficiently</p>
     </a>
-    <a href="#step-6-alert-configuration" class="flow-item">
-        <span class="flow-number">6</span>
+    <a href="#step-7-alert-configuration" class="flow-item">
+        <span class="flow-number">7</span>
         <span class="material-symbols-outlined">notifications_active</span>
         <h3>Alerts</h3>
         <p>Set up notifications and response workflows</p>
-    </a>
-     <a href="#step-7-scenario-configuration" class="flow-item">
-        <span class="flow-number">7</span>
-        <span class="material-symbols-outlined">settings_suggest</span>
-        <h3>Sites for Comparison</h3>
-        <p>This report provides a summary of site comparison insights</p>
     </a>
     <a href="#step-8-dashboard-access" class="flow-item">
         <span class="flow-number">8</span>
@@ -51,6 +54,13 @@ VisionAI is an enterprise-grade computer vision platform that transforms your ex
         <h3>Dashboard</h3>
         <p>Monitor safety metrics in real-time</p>
     </a>
+     <a href="#step-9-sites-comparison" class="flow-item">
+        <span class="flow-number">9</span>
+        <span class="material-symbols-outlined">query_stats</span>
+        <h3>Sites Comparison</h3>
+        <p>This report provides a summary of site comparison insights</p>
+    </a>
+
 </div>
 
 ---
@@ -68,24 +78,24 @@ Getting started with VisionAI is simple. Here's how to activate your enterprise 
 
 <div class="setup-steps">
     <div class="setup-step">
-        <img src="../../img/visionify-activate-account.jpg" alt="Account Activation" />
+        <img src="../../img/visionify-activate-account.png" alt="Account Activation" />
         <div class="step-content">
             <h4>1. Activate Your Account</h4>
-            <p>Once you've signed up for enterprise account, you will receive an activation email from Visionify team. Accept the invite from email & activate the account. Set your own password here.</p>
+            <p>Once you've signed up for enterprise account, you will receive an activation email from Visionify team.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-sign-in.jpg" alt="Sign In" />
+        <img src="../../img/password-setup.png" alt="Password Setup" />
         <div class="step-content">
-            <h4>2. Sign In</h4>
-            <p>Login with your username & password.</p>
+            <h4>2. Password Setup</h4>
+            <p>Accept the invite from email & activate the account. Set your own password here.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-events-dashboard.jpg" alt="Events Dashboard" />
+        <img src="../../img/visionify-sign-in.png" alt="Sign In" />
         <div class="step-content">
-            <h4>3. Access Dashboard</h4>
-            <p>You will be directed to events dashboard page.</p>
+            <h4>3. Sign In</h4>
+            <p>After successfully setting up your password, you should be able to log in to the Visionify dashboard using your username and password.</p>
         </div>
     </div>
 </div>
@@ -98,26 +108,24 @@ Connecting your cameras to VisionAI is straightforward. Follow these steps to in
 
 <div class="setup-steps">
     <div class="setup-step">
-        <img src="../../img/visionify-cameras-page.jpg" alt="Cameras Page" />
+        <img src="../../img/visionify_empty_cameras-page.png" alt="Cameras Empty Page" />
         <div class="step-content">
             <h4>1. Go to Cameras Page</h4>
-            <p>Navigate to the Cameras page from the main dashboard. Here you'll see all your connected cameras and their status.</p>
+            <p>Navigate to the Cameras page from the main dashboard. Click on the <b>"Add Camera"</b> button to begin the integration process. VisionAI supports IP cameras, CCTV systems, and NVR/DVR setups.</p>
         </div>
     </div>
-
     <div class="setup-step">
-        <img src="../../img/visionify-add-camera.jpg" alt="Add Camera Button" />
+        <img src="../../img/visionify-add-camera-popup.jpg" alt="Add Camera Button" />
         <div class="step-content">
-            <h4>2. Add New Camera</h4>
-            <p>Click on the "Add Camera" button to begin the integration process. VisionAI supports IP cameras, CCTV systems, and NVR/DVR setups.</p>
-        </div>
-    </div>
-
-    <div class="setup-step">
-        <img src="../../img/visionify-add-camera-popup.jpg" alt="Camera Configuration" />
-        <div class="step-content">
-            <h4>3. Provide Camera Details</h4>
+            <h4>2. Add New Camera Details</h4>
             <p>Enter your camera details including name, RTSP URL, and location. Test the connection to ensure proper setup before saving.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-cameras-page.png" alt="Camera Configuration" />
+        <div class="step-content">
+            <h4>3. Cameras List</h4>
+            <p>Here you'll see all your connected cameras along with their current status. Use the available filters on the Cameras page to view cameras by area.</p>
         </div>
     </div>
 </div>
@@ -128,50 +136,48 @@ Connecting your cameras to VisionAI is straightforward. Follow these steps to in
 
 ---
 
-## Step 3: Configuring Safety Monitoring Scenarios
-
-Setting up safety monitoring scenarios in VisionAI is straightforward. Follow these steps to configure your first scenario:
-
-<div class="setup-steps">
+## Step 3: Configuring AI Scenarios  {#step-3-scenario-configuration}
+<div class="step-with-media equal-split">
+  <div class="media-container">
+    <img src="../../img/scenario_config.gif" alt="Scenario Configuration" />
+  </div>
+  <div class="steps-container">
     <div class="setup-step">
-        <img src="../../img/visionify-scenario-flow-start.jpg" alt="Add New Scenario" />
-        <div class="step-content">
-            <h4>1. Initiate Scenario Setup</h4>
-            <p>On the camera details page, click the "Add New Scenario" button to start configuring safety monitoring for your camera.</p>
-        </div>
+      <div class="step-number">1</div>
+      <div class="step-content">
+        <h4>Initiate Scenario Setup</h4>
+        <p>Click "Add New Scenario" on camera details page to begin configuration.</p>
+      </div>
     </div>
-
     <div class="setup-step">
-        <img src="../../img/visionify-scenario-get-this-button.jpg" alt="Select Scenario" />
-        <div class="step-content">
-            <h4>2. Select a Scenario</h4>
-            <p>Browse through available safety scenarios and select the one that fits your needs by clicking "Get This." Each scenario is tailored to specific safety monitoring requirements.</p>
-        </div>
+      <div class="step-number">2</div>
+      <div class="step-content">
+        <h4>Select a Scenario</h4>
+        <p>Choose from available safety scenarios by clicking "Get This" button.</p>
+      </div>
     </div>
-
     <div class="setup-step">
-        <img src="../../img/visionify-scenario-configure-zones.jpg" alt="Configure Zones" />
-        <div class="step-content">
-            <h4>3. Set Up Monitoring Zones</h4>
-            <p>Define the zones you want to monitor by drawing and adjusting them directly on your camera feed for precise safety monitoring.</p>
-        </div>
+      <div class="step-number">3</div>
+      <div class="step-content">
+        <h4>Set Up Monitoring Zones</h4>
+        <p>Draw and adjust monitoring zones directly on camera feed.</p>
+      </div>
     </div>
-    
     <div class="setup-step">
-        <img src="../../img/visionify-break-time-slot.jpg" alt="Configure Time Slot" />
-        <div class="step-content">
-            <h4>4. Configure Event Pause Time Slots</h4>
-            <p>Use the Event Pause Time Slots feature to set break periods when event detection is paused, preventing unnecessary alerts during scheduled downtimes like lunch breaks or maintenance.</p>
-        </div>
+      <div class="step-number">4</div>
+      <div class="step-content">
+        <h4>Configure Pause Times</h4>
+        <p>Set break periods to pause detection during scheduled downtimes.</p>
+      </div>
     </div>
-
     <div class="setup-step">
-        <img src="../../img/visionify-scenario-apply.jpg" alt="Apply Settings" />
-        <div class="step-content">
-            <h4>5. Fine-tune Settings</h4>
-            <p>Adjust parameters such as model confidence thresholds and event duration to meet your safety requirements. Once satisfied, click "Apply" to activate the scenario.</p>
-        </div>
+      <div class="step-number">5</div>
+      <div class="step-content">
+        <h4>Fine-tune Settings</h4>
+        <p>Adjust confidence thresholds and duration, then click "Apply".</p>
+      </div>
     </div>
+  </div>
 </div>
 
 !!! tip
@@ -179,8 +185,63 @@ Setting up safety monitoring scenarios in VisionAI is straightforward. Follow th
 
 ---
 
-## Step 4: Alert Configuration {#step-4-alert-configuration}
+## Step 4: Events {#step-4-events-dashboard}
+Setting up safety monitoring scenarios in VisionAI is straightforward. Follow these steps to configure your first scenario:
 
+<div class="setup-steps">
+    <div class="setup-step">
+        <img src="../../img/visionify-dashboard-events.jpg" alt="Events Listing" />
+        <div class="step-content">
+            <h4>1. Events Listing</h4>
+            <p>Navigate to the Events page to review specific safety incidents. Filter events by time range, scenarios, event types, or specific cameras & Area Wise ,Shift Wise. Each event includes a 12-second video clip for detailed investigation and analysis.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-event-details.jpg" alt="Events Page" />
+        <div class="step-content">
+            <h4>2. Event Details</h4>
+            <p>On the Event Details page, you can view a 12-second video clip of the event. You can click thumbs up/down to vote on the event. Additionally, you can <b>leave a review, mark the event as accurate or inaccurate</b>, and view the severity level of the event—categorized as <b>Low, Moderate, or High</b>—to better understand its criticality.</p>
+        </div>
+    </div>
+</div>
+!!! tip
+    Start with the default parameters and adjust them later based on the specific needs of your environment. These settings can always be modified at any time.
+---
+
+## Step 5: Tasks {#step-5-task-Management}
+The VisionAI Task Management is essential to ensure work is organized, responsibilities are clear, and progress is tracked effectively within the application:
+
+<div class="setup-steps">
+    <div class="setup-step">
+        <img src="../../img/visionify-task.jpg" alt="Task" />
+        <div class="step-content">
+            <h4>Task Overview</h4>
+            <p>Access the Dashboard from the left navigation menu to view key Task.Task Management helps users create, assign, track, and manage tasks within the application. It ensures that all work items are organized, progress is monitored, and responsibilities are clear.</p>
+        </div>
+    </div>
+</div>
+!!! tip
+    Use clear titles and due dates when creating tasks to ensure easy tracking and accountability. Regularly update task statuses to keep your team informed and aligned.
+---
+
+## Step 6: Views {#step-6-view-access}
+
+The purpose of the Views feature is to provide customized dashboards for specific cameras, areas, or events, enabling quick access to incident insights and performance metrics for faster decision-making.
+
+<div class="setup-steps">
+    <div class="setup-step">
+        <img src="../../img/visionify-views.jpg" alt="Views" />
+        <div class="step-content">
+            <h4>Views Overview</h4>
+            <p>Access the Dashboard from the left navigation menu to view key Views.The purpose of the Views page is to allow users to create and monitor customized event dashboards for specific cameras, areas, or events, enabling quick access to relevant incident data and performance metrics.</p>
+        </div>
+    </div>
+</div>
+!!! tip
+    Create separate views for high-priority areas or event types to quickly monitor critical incidents without filtering through all data—this saves time and improves response efficiency.
+---
+
+## Step 7: Alerts {#step-7-alert-configuration}
 Configure comprehensive notification settings through your dedicated observability platform at `customername.visionify.ai/observability`. VisionAI offers multiple alert types to ensure your team stays informed of safety events:
 
 <div class="setup-steps">
@@ -208,143 +269,67 @@ Configure comprehensive notification settings through your dedicated observabili
     <div class="setup-step">
         <img src="../../img/visionify-alerts-whatsapp-alerts.jpg" alt="Whatsapp Alerts" />
         <div class="step-content">
-            <h4>3. Whatsapp Message Alerts</h4>
+            <h4>4. Whatsapp Message Alerts</h4>
             <p>Enable real-time Whatsapp notifications for immediate awareness of critical safety events. Ideal for urgent situations requiring immediate attention.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-Teams-alerts.jpg" alt="Whatsapp Alerts" />
+        <img src="../../img/visionify-Teams-alerts.jpg" alt="Teams Alerts" />
         <div class="step-content">
-            <h4>3. Teams Alerts</h4>
+            <h4>5. Teams Alerts</h4>
             <p>Enable real-time Teams notifications for immediate awareness of critical safety events. Ideal for urgent situations requiring immediate attention.</p>
         </div>
+    </div>
     <div class="setup-step">
         <img src="../../img/visionify-alerts-speaker-notifications.jpg" alt="Speaker Alerts" />
         <div class="step-content">
-            <h4>4. Speaker Based Alerts</h4>
+            <h4>6. Speaker Based Alerts</h4>
             <p>Configure automated audio announcements for real-time safety notifications in your facility. Perfect for immediate on-site response to safety events.</p>
         </div>
     </div>
 </div>
-
 !!! tip
     Combine multiple alert types for comprehensive coverage. For example, use speaker alerts for immediate on-site response, while keeping management informed through daily digests and periodic reports.
-
 ---
 
-## Step 5: Dashboard Access {#step-5-dashboard-access}
-
+## Step 8: Dashboard {#step-8-dashboard-access}
 The VisionAI dashboard provides comprehensive insights into your safety metrics and events. Here's how to navigate and utilize the dashboard effectively:
 
 <div class="setup-steps">
     <div class="setup-step">
         <img src="../../img/visionify-dashboard-metrics.jpg" alt="Dashboard Metrics" />
         <div class="step-content">
-            <h4>1. Safety Metrics Overview</h4>
+            <h4>Safety Metrics Overview</h4>
             <p>Access the Dashboard from the left navigation menu to view key safety metrics. Select custom time ranges to analyze trends across weeks, months, or specific date ranges. Track compliance rates, incident counts, and safety improvements over time.</p>
         </div>
     </div>
-    <div class="setup-step">
-        <img src="../../img/visionify-dashboard-events.jpg" alt="Events Listing" />
-        <div class="step-content">
-            <h4>2. Events Listing</h4>
-            <p>Navigate to the Events page to review specific safety incidents. Filter events by time range, scenarios, event types, or specific cameras & Area Wise ,Shift Wise. Each event includes a 12-second video clip for detailed investigation and analysis.</p>
-        </div>
-    </div>
-    <div class="setup-step">
-        <img src="../../img/visionify-event-notification.jpg" alt="Events Listing" />
-        <div class="step-content">
-            <h4>2. Events Listing</h4>
-            <p>The Notification Bell Icon is located at the top-right corner of the application.It provides real-time alerts for important event notifications. When a new event is triggered detection, a visual indicator appears on the bell icon, and a notification is displayed with an optional speaker sound alert to grab the user's attention. Clicking the bell icon opens a dropdown list of recent notifications with relevant timestamps and details.</p>
-        </div>
-    <div class="setup-step">
-        <img src="../../img/visionify-event-details.jpg" alt="Events Page" />
-        <div class="step-content">
-            <h4>3. Event Details</h4>
-            <p>On the event details page, you can view a 12-second video clip of the event. You can click thumbs up/down to vote on the event. You can also add the event to add task to assigne to improved safety compliance.</p>
-        </div>
-    </div>
 </div>
-
 !!! tip
     Use the dashboard's filtering capabilities to focus on specific areas or types of safety events. This helps in identifying patterns and addressing recurring safety concerns promptly.
-
 ---
-## Step 6: Task Management {#step-6-Task-Management}
 
-The VisionAI Task Management is essential to ensure work is organized, responsibilities are clear, and progress is tracked effectively within the application:
-
-<div class="setup-steps">
-    <div class="setup-step">
-        <img src="../../img/visionify-task.jpg" alt="Task" />
-        <div class="step-content">
-            <h4>Task Overview</h4>
-            <p>Access the Dashboard from the left navigation menu to view key Task.Task Management helps users create, assign, track, and manage tasks within the application. It ensures that all work items are organized, progress is monitored, and responsibilities are clear.</p>
-        </div>
-    </div>
-
-    !!! tip
-        Use clear titles and due dates when creating tasks to ensure easy tracking and accountability. Regularly update task statuses to keep your team informed and aligned.
-
- ---
-
-## Step 7: Speaker Management {#step-7-Speakers-Management}
-
-The VisionAI Speakers The purpose of the speaker feature is to broadcast real-time audio alerts for events, ensuring immediate awareness and response in monitored areas:
-
-<div class="setup-steps">
-    <div class="setup-step">
-        <img src="../../img/visionify-speakers.jpg" alt="Speakers" />
-        <div class="step-content">
-            <h4>Speakers Overview</h4>
-            <p>Access the Dashboard from the left navigation menu to view key Speakers. The Speakers section allows users to add, edit, or delete speaker devices by providing their IP address, which is used to uniquely identify and communicate with each speaker over the network for delivering event-based audio alerts.</p>
-        </div>
-    </div>
-
-    !!! tip
-        Ensure each speaker is assigned a valid and static IP address to maintain consistent connectivity and reliable delivery of real-time audio alerts during critical events.
-        
- --- 
-    
-
- ## Step 8: View Access {#step-8-View-Access}
-
-The VisionAI Speakers The purpose of the speaker feature is to broadcast real-time audio alerts for events, ensuring immediate awareness and response in monitored areas:
-
-<div class="setup-steps">
-    <div class="setup-step">
-        <img src="../../img/visionify-views.jpg" alt="Views" />
-        <div class="step-content">
-            <h4>Views Overview</h4>
-            <p>Access the Dashboard from the left navigation menu to view key Views.The purpose of the Views page is to allow users to create and monitor customized event dashboards for specific cameras, areas, or events, enabling quick access to relevant incident data and performance metrics.</p>
-        </div>
-    </div>
-
-    !!! tip
-         Create separate views for high-priority areas or event types to quickly monitor critical incidents without filtering through all data—this saves time and improves response efficiency.
-    ---
-
-## Step 9: Sites for Comparison {#step-9-Sites-Comparison}
-
+## Step 9: Sites Comparison {#step-9-sites-comparison}
 The VisionAI The Sites for Comparison page is to enable users to analyze and evaluate safety performance across different locations, helping identify high-risk areas, improvement opportunities, and trends over time.
 
 <div class="setup-steps">
     <div class="setup-step">
-        <img src="../../img/visionify-site-comparision.jpg" alt="Views" />
+        <img src="../../img/visionify-site-comparision.jpg" alt="Sites Comparison" />
         <div class="step-content">
-            <h4>Views Overview</h4>
+            <h4>Sites Comparison Overview</h4>
             <p>Access the Dashboard from the left navigation menu to view key Sites Comparision.We can select and compare up to five sites to view key metrics such as Time Between Events, Total Events, and Reviewed Events, along with detailed charts like Events Overview and Severity Breakdown, enabling data-driven decision-making and proactive safety management..</p>
         </div>
     </div>
+</div>
+!!! tip
+    Use the "Sites Comparison" feature regularly to monitor underperforming locations—tracking metrics like time between incidents and reviewed event rates can help prioritize safety audits and training efforts effectively.
+---
 
-    !!! tip
-        Use the “Sites for Comparison” feature regularly to monitor underperforming locations—tracking metrics like time between incidents and reviewed event rates can help prioritize safety audits and training efforts effectively.
-        
-    ---
+
+
 
     
     
-
+<!-- 
 ## AI Scenarios
 
 - [PPE Compliance](../scenarios/ppe-detection.md)
@@ -360,7 +345,7 @@ The VisionAI The Sites for Comparison page is to enable users to analyze and eva
 - [Camera Management](../overview/cameras.md)
 - [FAQs](../overview/faqs.md)
 
----
+--- -->
 
 ## Contact Information
 
@@ -393,4 +378,9 @@ The VisionAI The Sites for Comparison page is to enable users to analyze and eva
     </div>
 </div>
 
+<div class="back-to-top">
+    <a href="#" class="back-to-top-button">
+        <span class="material-symbols-outlined">arrow_upward</span>
+    </a>
+</div>
 ---

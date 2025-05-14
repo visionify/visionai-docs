@@ -288,4 +288,9 @@ To remove a camera from the system, you can navigate to Camera Listing Page. Fro
     </div>
 </div>
 
+<div class="back-to-top">
+    <a href="#" class="back-to-top-button">
+        <span class="material-symbols-outlined">arrow_upward</span>
+    </a>
+</div>
 ---

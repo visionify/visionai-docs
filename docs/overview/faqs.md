@@ -114,4 +114,9 @@ Please contact our sales team at [sales@visionify.ai](mailto:sales@visionify.ai)
     </div>
 </div>
 
+<div class="back-to-top">
+    <a href="#" class="back-to-top-button">
+        <span class="material-symbols-outlined">arrow_upward</span>
+    </a>
+</div>
 ---
