@@ -69,41 +69,47 @@ nav:
   - VisionAI:
     - Overview: index.md
     - Quick Start: overview/quick-start.md
-    - AI Scenarios: overview/scenarios.md
-    - Cameras: overview/cameras.md
+    # - Camera Setup: overview/camera-placement-guide.md
+    # - AI Scenarios: overview/scenarios.md
+    # - Cameras: overview/cameras.md
     - FAQs: overview/faqs.md
 
-  - Scenarios:
-    - Overview: scenarios/index.md
-    - PPE Compliance: scenarios/ppe-detection.md
-    - Working at heights: scenarios/working-at-heights.md
-    - Area Controls: scenarios/area-controls.md
-    - Housekeeping: scenarios/housekeeping.md
-    - Slip and Fall: scenarios/slip-and-fall-detection.md
-    - Smoke and Fire: scenarios/smoke-and-fire-detection.md
-    - Forklift Safety: scenarios/forklift-safety.md
-    - Occupancy Metrics: scenarios/occupancy-metrics.md
-    # - Hazard Warnings: scenarios/hazard-warnings-housekeeping.md
-    # - Behavioral Safety: scenarios/behavioral-safety.md
-    # - Ergonomics: scenarios/ergonomics.md
-    - Mobile Phone Compliance: scenarios/mobile-phone-compliance.md
-    - Staircase Safety: scenarios/staircase-safety.md
-    - Suspicious Activity: scenarios/suspicious-activity.md
-    - Compliance Policies: scenarios/compliance-policies.md
+  # - Scenarios:
+  #   - Overview: scenarios/index.md
+  #   - PPE Compliance: scenarios/ppe-detection.md
+  #   - Working at heights: scenarios/working-at-heights.md
+  #   - Area Controls: scenarios/area-controls.md
+  #   - Housekeeping: scenarios/housekeeping.md
+  #   - Slip and Fall: scenarios/slip-and-fall-detection.md
+  #   - Smoke and Fire: scenarios/smoke-and-fire-detection.md
+  #   - Forklift Safety: scenarios/forklift-safety.md
+  #   - Occupancy Metrics: scenarios/occupancy-metrics.md
+  #   # - Hazard Warnings: scenarios/hazard-warnings-housekeeping.md
+  #   # - Behavioral Safety: scenarios/behavioral-safety.md
+  #   # - Ergonomics: scenarios/ergonomics.md
+  #   - Mobile Phone Compliance: scenarios/mobile-phone-compliance.md
+  #   - Staircase Safety: scenarios/staircase-safety.md
+  #   - Suspicious Activity: scenarios/suspicious-activity.md
+  #   - Compliance Policies: scenarios/compliance-policies.md
 
   - References:
-    - Alerts: reference/alerts.md
+    - Camera Setup: overview/camera-placement-guide.md
+    - Finding RTSP URLs: overview/finding-rtsp-urls.md
     - Deployment: reference/deployment.md
-    - Security: reference/security.md
     - Privacy: reference/privacy.md
+    - Security: reference/security.md
+    # - Alerts: reference/alerts.md
+    # - Deployment: reference/deployment.md
+    
+    
     - Customization: reference/customization.md
     - Troubleshooting: reference/troubleshooting.md
-    - Camera Placement Guide: overview/camera-placement-guide.md
-    - Finding RTSP URLs: overview/finding-rtsp-urls.md
-    - User Guide: overview/web-app-userguide.md
-    - Azure Managed App: reference/azure-managed-app.md
-    - Changelog: reference/changelog.md
-    - Reference: reference/reference.md
+    
+    
+    # - User Guide: overview/web-app-userguide.md
+    # - Azure Managed App: reference/azure-managed-app.md
+    # - Changelog: reference/changelog.md
+    # - Reference: reference/reference.md
 
   - About:
     - About: company/about.md
