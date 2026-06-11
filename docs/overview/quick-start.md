@@ -58,7 +58,7 @@ VisionAI is an enterprise-grade computer vision platform that transforms your ex
         <span class="flow-number">9</span>
         <span class="material-symbols-outlined">query_stats</span>
         <h3>Safety Intelligence</h3>
-        <p>Multi-site analytics with portfolio overview, predictive insights, and others.</p>
+        <p>Multi-site analytics with portfolio overview, predictive insights, and more</p>
     </a>
     <a href="#step-10-recordings" class="flow-item">
         <span class="flow-number">10</span>
@@ -70,7 +70,7 @@ VisionAI is an enterprise-grade computer vision platform that transforms your ex
         <span class="flow-number">11</span>
         <span class="material-symbols-outlined">summarize</span>
         <h3>Reports</h3>
-        <p>Generate AI-powered safety reports or build custom reports.</p>
+        <p>Generate AI-powered safety reports or build custom reports</p>
     </a>
 
 </div>
@@ -238,7 +238,7 @@ The VisionAI Task Management is essential to ensure work is organized, responsib
 
 ## Step 6: Views {#step-6-view-access}
 
-The Views feature provides customized dashboards for specific cameras, areas, or events, enabling quick access to incident insights and performance metrics. Views now include a **Share** feature that generates a shareable link for any view, and a **revamped Settings panel** with granular control over display preferences and camera groupings.
+The Views feature provides customized dashboards for specific cameras, areas, or events, enabling quick access to incident insights and performance metrics. Views now include a **Share** feature that generates a shareable link for any view, with granular control over display preferences and camera groupings.
 
 <div class="setup-steps">
     <div class="setup-step">
