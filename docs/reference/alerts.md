@@ -89,41 +89,45 @@ VisionAI provides comprehensive notification capabilities to ensure your team st
 
 ## Alert Configuration
 
-Configure comprehensive notification settings through your dedicated observability platform at `customername.visionify.ai/observability`. VisionAI offers multiple alert types to ensure your team stays informed of safety events:
+Configure alerts and digests directly from the **Notifications** page in the sidebar. All alert types are set up through in-app modals—no separate platform required. Use the **Test** button on any alert to verify delivery before going live.
 
 <div class="setup-steps">
     <div class="setup-step">
-        <img src="../../img/visionify-alerts-daily-digests.jpg" alt="Daily Digest Configuration" />
+        <img src="../../img/visionify-notifications-page.jpg" alt="Notifications Page — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the Notifications sidebar page -->
         <div class="step-content">
-            <h4>1. Daily Digest Emails</h4>
-            <p>Set up automated daily summaries of safety events, incidents, and compliance metrics. Perfect for management oversight and trend analysis.</p>
+            <h4>1. Open Notifications</h4>
+            <p>Click <b>Notifications</b> in the left sidebar to access all alert and digest settings. The page lists every configured alert with its status, schedule, and delivery channel.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-alerts-periodic-reports.jpg" alt="Periodic Reports" />
+        <img src="../../img/visionify-notifications-digest-modal.jpg" alt="Digest Configuration Modal — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the Daily Digest configuration modal -->
         <div class="step-content">
-            <h4>2. Periodic Reports</h4>
-            <p>Schedule detailed reports with CSV attachments, delivered via email or Microsoft Teams. Customize reports by area, camera, or specific event types for targeted insights.</p>
+            <h4>2. Configure Digests</h4>
+            <p>Click <b>Add Digest</b> to open the configuration modal. Set frequency (daily, weekly), add recipient email addresses, and choose which scenarios and areas to include. Digests deliver a safety summary with trend charts and key metrics.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-alerts-text-alerts.jpg" alt="Text Message Alerts" />
+        <img src="../../img/visionify-notifications-alerts-modal.jpg" alt="Alert Configuration Modal — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the Alert configuration modal -->
         <div class="step-content">
-            <h4>3. Text Message Alerts</h4>
-            <p>Enable real-time SMS notifications for immediate awareness of critical safety events. Ideal for urgent situations requiring immediate attention.</p>
+            <h4>3. Configure Alerts</h4>
+            <p>Click <b>Add Alert</b> to open the alert modal. Choose an alert type—<b>Text Message, WhatsApp, Microsoft Teams, or Speaker</b>—set a priority level, select cameras or areas to monitor, and add recipient contacts. Multiple alert types can run simultaneously.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-alerts-speaker-notifications.jpg" alt="Speaker Alerts" />
+        <img src="../../img/visionify-notifications-test.jpg" alt="Test Alert Feature — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the Test button sending a sample alert -->
         <div class="step-content">
-            <h4>4. Speaker Based Alerts</h4>
-            <p>Configure automated audio announcements for real-time safety notifications in your facility. Perfect for immediate on-site response to safety events.</p>
+            <h4>4. Test Your Alerts</h4>
+            <p>Click the <b>Test</b> button next to any configured alert or digest to send a sample notification immediately. This confirms that delivery reaches the right recipients and channels before a real safety event occurs.</p>
         </div>
     </div>
 </div>
 
 !!! tip
-    Combine multiple alert types for comprehensive coverage. For example, use speaker alerts for immediate on-site response, while keeping management informed through daily digests and periodic reports.
+    Always test a new alert after configuring it to confirm end-to-end delivery. Combine digest emails for management summaries with real-time SMS or Teams alerts for on-call responders.
 
 
 ## Next Steps
