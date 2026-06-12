@@ -27,52 +27,67 @@ VisionAI is an enterprise-grade computer vision platform that transforms your ex
         <h3>Events</h3>
         <p>Select and customize safety monitoring scenarios</p>
     </a>
-     <a href="#step-5-task-Management" class="flow-item">
-        <span class="flow-number">5</span>
-        <span class="material-symbols-outlined">list_alt_check</span>
-        <h3>Tasks</h3>
-        <p>Detailing the tasks assigned, their progress, and recommendations for improvement</p>
-    </a>
 </div>
 
 <div class="quick-start-flow">
+     <a href="#step-5-dashboard-access" class="flow-item">
+        <span class="flow-number">5</span>
+        <span class="material-symbols-outlined">dashboard</span>
+        <h3>Dashboard</h3>
+        <p>Monitor safety metrics and trends in real-time</p>
+    </a>
     <a href="#step-6-view-access" class="flow-item">
         <span class="flow-number">6</span>
         <span class="material-symbols-outlined">speed_camera</span>
         <h3>Views</h3>
-        <p>Create custom views to monitor surveillance data efficiently</p>
+        <p>Create custom dashboards for specific monitoring needs</p>
     </a>
-    <a href="#step-7-alert-configuration" class="flow-item">
+    <a href="#step-7-task-management" class="flow-item">
         <span class="flow-number">7</span>
-        <span class="material-symbols-outlined">notifications_active</span>
-        <h3>Alerts</h3>
-        <p>Set up notifications and response workflows</p>
+        <span class="material-symbols-outlined">list_alt_check</span>
+        <h3>Tasks</h3>
+        <p>Create corrective actions and track their completion</p>
     </a>
-    <a href="#step-8-dashboard-access" class="flow-item">
+    <a href="#step-8-tickets" class="flow-item">
         <span class="flow-number">8</span>
-        <span class="material-symbols-outlined">dashboard</span>
-        <h3>Dashboard</h3>
-        <p>Monitor safety metrics in real-time</p>
+        <span class="material-symbols-outlined">confirmation_number</span>
+        <h3>Tickets</h3>
+        <p>Escalate issues into tracked support requests</p>
     </a>
-     <a href="#step-9-safety-intelligence" class="flow-item">
+</div>
+<div class="quick-start-flow">
+    <a href="#step-9-recordings" class="flow-item">
         <span class="flow-number">9</span>
-        <span class="material-symbols-outlined">query_stats</span>
-        <h3>Safety Intelligence</h3>
-        <p>Multi-site analytics with portfolio overview, predictive insights, and more</p>
-    </a>
-    <a href="#step-10-recordings" class="flow-item">
-        <span class="flow-number">10</span>
         <span class="material-symbols-outlined">video_library</span>
         <h3>Recordings</h3>
-        <p>Start camera recordings to review or download clips</p>
+        <p>Capture full-length video evidence from cameras</p>
     </a>
-    <a href="#step-11-reports" class="flow-item">
+    <a href="#step-10-notifications" class="flow-item">
+        <span class="flow-number">10</span>
+        <span class="material-symbols-outlined">notifications_active</span>
+        <h3>Notifications</h3>
+        <p>Set up alerts and digest emails for your team</p>
+    </a>
+    <a href="#step-11-speakers" class="flow-item">
         <span class="flow-number">11</span>
+        <span class="material-symbols-outlined">speaker</span>
+        <h3>Speakers</h3>
+        <p>Configure on-site audio alerts for immediate response</p>
+    </a>
+    <a href="#step-12-reports" class="flow-item">
+        <span class="flow-number">12</span>
         <span class="material-symbols-outlined">summarize</span>
         <h3>Reports</h3>
-        <p>Generate AI-powered safety reports or build custom reports</p>
+        <p>Generate AI-powered and custom safety reports</p>
     </a>
-
+</div>
+<div class="quick-start-flow">
+    <a href="#step-13-safety-intelligence" class="flow-item">
+        <span class="flow-number">13</span>
+        <span class="material-symbols-outlined">query_stats</span>
+        <h3>Safety Intelligence</h3>
+        <p>Multi-site analytics and advanced insights</p>
+    </a>
 </div>
 
 ---
@@ -198,42 +213,58 @@ Connecting your cameras to VisionAI is straightforward. Follow these steps to in
 ---
 
 ## Step 4: Events {#step-4-events-dashboard}
-Setting up safety monitoring scenarios in VisionAI is straightforward. Follow these steps to configure your first scenario:
+The Events page is your primary feed of detected safety incidents. Each event includes a short video clip, metadata, and AI-generated analysis to help your team review and act quickly.
 
 <div class="setup-steps">
     <div class="setup-step">
         <img src="../../img/visionify-dashboard-events.jpg" alt="Events Listing" />
         <div class="step-content">
             <h4>1. Events Listing</h4>
-            <p>Navigate to the Events page to review specific safety incidents. Filter events by time range, scenarios, event types, or specific cameras & Area Wise ,Shift Wise. Each event includes a 12-second video clip for detailed investigation and analysis.</p>
+            <p>Navigate to <b>Events</b> in the left sidebar to review safety incidents. Filter by time range, scenario, camera, area, or shift. Each event card shows the scenario type, camera name, timestamp, severity badge (<b>Low, Moderate, High</b>), and a thumbnail. Click any event to open the details view.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-event-details.jpg" alt="Events Page" />
+        <img src="../../img/visionify-event-details.png" alt="Event Details" />
         <div class="step-content">
             <h4>2. Event Details</h4>
-            <p>On the Event Details page, you can view a 12-second video clip of the event. You can click thumbs up/down to vote on the event. Additionally, you can <b>leave a review, mark the event as accurate or inaccurate</b>, and view the severity level of the event—categorized as <b>Low, Moderate, or High</b>—to better understand its criticality.</p>
+            <p>The Event Details page shows a 12-second video clip of the incident. Use the thumbs up/down buttons to vote, <b>mark it accurate or inaccurate</b>, and leave a written review. Severity level is shown alongside camera name, scenario, and timestamp. From here you can also create a Task or Ticket directly linked to this event.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-event-ai-analysis.png" alt="AI Analysis Card — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the AI Analysis card on the Event Details page -->
+        <div class="step-content">
+            <h4>3. AI Analysis Card</h4>
+            <p>Next to the video player, the <b>AI Analysis</b> card shows an automated assessment of the event with observations and findings. Use this to quickly understand whether an event warrants follow-up action.</p>
         </div>
     </div>
 </div>
 !!! tip
-    Start with the default parameters and adjust them later based on the specific needs of your environment. These settings can always be modified at any time.
+    Use the AI Analysis card as a first triage layer—if the AI flags a violation with a clear reason, escalate immediately. For borderline events, review the observations before marking accurate or inaccurate.
 ---
 
-## Step 5: Tasks {#step-5-task-Management}
-The VisionAI Task Management is essential to ensure work is organized, responsibilities are clear, and progress is tracked effectively within the application:
+## Step 5: Dashboard {#step-5-dashboard-access}
+The VisionAI Dashboard provides comprehensive insights into your safety metrics and events. Here's how to navigate and utilize the dashboard effectively:
 
 <div class="setup-steps">
     <div class="setup-step">
-        <img src="../../img/visionify-task.jpg" alt="Task" />
+        <img src="../../img/visionify-dashboard-metrics.png" alt="Dashboard Metrics" />
         <div class="step-content">
-            <h4>Task Overview</h4>
-            <p>Access the Dashboard from the left navigation menu to view key Task.Task Management helps users create, assign, track, and manage tasks within the application. It ensures that all work items are organized, progress is monitored, and responsibilities are clear.</p>
+            <h4>Safety Metrics Overview</h4>
+            <p>View key metrics including <b>Total Events, Reviewed Events, Accurate Events, Time Since Last Event,</b> and <b>Time Between Events</b>. Select custom time ranges to analyze trends across weeks, months, or specific date ranges. Use filters for scenarios, cameras, shifts, and areas to focus on what matters most.</p>
+        </div>
+    </div>
+        <div class="setup-step">
+        <img src="../../img/visionify-dashboard-safety-score.png" alt="Dashboard Safety Score — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of Dashboard showing the Safety Score chart -->
+        <div class="step-content">
+            <h4>Safety Score</h4>
+            <p>The <b>Safety Score</b> chart shows your overall safety rating as a radial gauge, color-coded by performance: <b>green (&gt;90)</b>, <b>orange (50–89)</b>, and <b>red (&lt;50)</b>. A 7-day trend line tracks whether performance is improving or regressing over the week.</p>
         </div>
     </div>
 </div>
 !!! tip
-    Use clear titles and due dates when creating tasks to ensure easy tracking and accountability. Regularly update task statuses to keep your team informed and aligned.
+    Monitor the Safety Score trend daily to catch regressions early. Use the area and camera filters to drill into specific locations when the score dips—this helps surface recurring incidents faster.
 ---
 
 ## Step 6: Views {#step-6-view-access}
@@ -268,7 +299,101 @@ The Views feature provides customized dashboards for specific cameras, areas, or
     </div>
 </div>
 
-## Step 7: Notifications {#step-7-alert-configuration}
+## Step 7: Tasks {#step-7-task-management}
+Task Management in VisionAI lets you create corrective actions directly from safety events, assign them to team members, and track resolution through to closure with documented proof.
+
+<div class="setup-steps">
+    <div class="setup-step">
+        <img src="../../img/visionify-task-create.png" alt="Create Task from Event Details — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the Create Task flow from Event Details -->
+        <div class="step-content">
+            <h4>1. Create a Task</h4>
+            <p>From any <b>Event Details</b> page, click <b>Create Task</b> to open the task form. Fill in the task name, set the priority (<b>Critical, Moderate, Low</b>), and assign it to a team member. The task is automatically linked to the source event so the assignee has full context.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-task.jpg" alt="Tasks List" />
+        <div class="step-content">
+            <h4>2. Track Tasks</h4>
+            <p>Navigate to <b>Tasks</b> in the left sidebar. Switch between <b>My Tasks</b> (your assignments) and <b>All Tasks</b> (team-wide view). Filter the list by scenario, camera, or area. Each row shows the task name, assignee, assigned-by, priority badge, and current status: TODO, IN PROGRESS, or DONE.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-task-details.png" alt="Task Details — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the Task Details page with status update and proof upload -->
+        <div class="step-content">
+            <h4>3. Update and Close a Task</h4>
+            <p>Click any task to open its details page. Use the status radio buttons to move it through the workflow. When closing a task, add <b>closure comments</b> explaining the corrective action taken and upload a <b>proof file</b> (photo, document, or video). The timeline at the bottom tracks every status change and finding update in chronological order.</p>
+        </div>
+    </div>
+</div>
+!!! tip
+    Link tasks to specific events when creating them so the assignee can watch the video clip and understand the exact incident—this cuts resolution time significantly compared to describing the issue in text.
+---
+
+## Step 8: Tickets {#step-8-tickets}
+Tickets let you escalate specific safety events or camera issues into tracked support items. They can be created from three places—the **Event Details** page, the **Camera Details** page, or directly from the **Tickets** page itself.
+
+<div class="setup-steps">
+    <div class="setup-step">
+        <img src="../../img/visionify-ticket-create-event.png" alt="Create Ticket from Event Details — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the Create Ticket button on Event Details page -->
+        <div class="step-content">
+            <h4>1. Create a Ticket</h4>
+            <p>On an <b>Event Details</b> or <b>Camera Details</b> page, click <b>Create Ticket</b> to open the ticket modal. You can also open the modal from the <b>Tickets</b> page itself via the <b>Create Ticket</b> button in the top-right corner. The ticket is automatically linked to the source event or camera so responders have full context.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-ticket-modal.png" alt="Ticket Creation Modal — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the ticket creation modal -->
+        <div class="step-content">
+            <h4>2. Fill in Ticket Details</h4>
+            <p>In the modal, fill in the required fields:</p>
+            <ul>
+                <li><b>Title</b> — a short, descriptive name for the issue</li>
+                <li><b>Description</b> — a detailed explanation of what happened and why it needs attention</li>
+                <li><b>Category</b> — the type of issue (options depend on your role)</li>
+                <li><b>Priority</b> — Low, Medium, or High</li>
+            </ul>
+            <p>Click <b>Submit</b> to create the ticket. The creator and timestamp are captured automatically.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-tickets-page.png" alt="Tickets Page — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the Tickets listing page -->
+        <div class="step-content">
+            <h4>3. Track Ticket Status</h4>
+            <p>Navigate to <b>Tickets</b> under the profiles tab to see all tickets. Filter by <b>category, status,</b> or <b>priority</b>, or search by title. Each row shows the ticket ID, title, category, status, priority, creator, and creation date. Tickets move through four statuses: <b>Open → In Progress → Closed</b> (or <b>Rejected</b>). Click <b>View</b> to open a ticket and see the full timeline of status changes, assignee history, and resolution comments.</p>
+        </div>
+    </div>
+</div>
+!!! tip
+    Use High-priority tickets for safety violations that need same-day resolution. Link them to the specific event so the responder can watch the video clip directly from the ticket detail page.
+---
+
+## Step 9: Recordings {#step-9-recordings}
+Recordings let you capture full-length video from any camera on demand. Start and stop recordings directly from the **Camera Details** page; all clips are then available on the **Recordings** page for playback, review, and deletion.
+
+<div class="setup-steps">
+    <div class="setup-step">
+        <img src="../../img/visionify-recordings-start.png" alt="Start Recording from Camera Details — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the Recording toggle button on Camera Details page -->
+        <div class="step-content">
+            <h4>1. Start a Recording</h4>
+            <p>Open any camera's <b>Camera Details</b> page and scroll to the <b>Recording</b> section below the applied scenarios. Click the red record button to start capturing. The button turns solid red while recording is active. Click it again to stop. A pulsing indicator confirms the recording is live.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-recordings-page.png" alt="Recordings Page — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the Recordings listing page -->
+        <div class="step-content">
+            <h4>2. Browse Recordings</h4>
+            <p>Navigate to <b>Recordings</b> in the left sidebar to see all clips in a grid layout. Filter by camera, status (<b>Completed, In Progress, Started, Stopped</b>), and date range. Each card shows a thumbnail, start time, and duration. Clips are sorted newest first.</p>
+        </div>
+    </div>
+</div>
+
+## Step 10: Notifications {#step-10-alert-configuration}
 Configure alerts and digests directly from the **Notifications** page in the sidebar—no separate observability platform needed. All alert types are configured through in-app modals, and each alert includes a **Test** button to verify delivery before going live.
 
 <div class="setup-steps">
@@ -304,122 +429,61 @@ Configure alerts and digests directly from the **Notifications** page in the sid
             <p>Use the <b>Test</b> button next to any configured alert or digest to send a sample notification immediately. This confirms delivery to the right recipients and channels before any real safety event occurs.</p>
         </div>
     </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-notifications-email-sample.png" alt="Sample Notification Email — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of a received digest or alert email -->
+        <div class="step-content">
+            <h4>5. Verify Email Delivery</h4>
+            <p>Check the inbox of each recipient email address after the first scheduled digest or after clicking <b>Test</b>. The email shows the VisionAI safety summary with key metrics, event thumbnails, and trend charts. Confirm that formatting renders correctly and that links back to the app are working before the alert goes into production use.</p>
+        </div>
+    </div>
 </div>
 !!! tip
     Always use the Test feature after configuring a new alert to confirm end-to-end delivery. Combine digest emails for management summaries with real-time alerts for on-call responders.
 ---
 
-## Step 8: Dashboard {#step-8-dashboard-access}
-The VisionAI Dashboard provides comprehensive insights into your safety metrics and events. Here's how to navigate and utilize the dashboard effectively:
+## Step 11: Speakers {#step-11-speakers}
+The Speakers page manages your IP-based audio speakers for on-site safety announcements. Configure which cameras and scenarios trigger each speaker and what message to play.
 
 <div class="setup-steps">
     <div class="setup-step">
-        <img src="../../img/visionify-dashboard-metrics.png" alt="Dashboard Metrics" />
+        <img src="../../img/visionify-speakers-page.png" alt="Speakers Page — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the Speakers listing page -->
         <div class="step-content">
-            <h4>Safety Metrics Overview</h4>
-            <p>View key metrics including <b>Total Events, Reviewed Events, Accurate Events, Time Since Last Event,</b> and <b>Time Between Events</b>. Select custom time ranges to analyze trends across weeks, months, or specific date ranges. Use filters for scenarios, cameras, shifts, and areas to focus on what matters most.</p>
+            <h4>1. Speakers Overview</h4>
+            <p>Navigate to <b>Speakers</b> in the left sidebar to see all configured speakers. Each row shows the speaker name, IP address, area, the number of associated cameras and scenarios, and its status (<b>Active / Inactive</b>). Use the toggle buttons to activate or deactivate a speaker, or click <b>Edit</b> to modify its configuration.</p>
         </div>
     </div>
-        <div class="setup-step">
-        <img src="../../img/visionify-dashboard-safety-score.png" alt="Dashboard Safety Score — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of Dashboard showing the Safety Score chart -->
+    <div class="setup-step">
+        <img src="../../img/visionify-speaker-add.png" alt="Add Speaker Form — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of the Add Speaker form -->
         <div class="step-content">
-            <h4>Safety Score</h4>
-            <p>The <b>Safety Score</b> chart shows your overall safety rating as a radial gauge, color-coded by performance: <b>green (&gt;90)</b>, <b>orange (50–89)</b>, and <b>red (&lt;50)</b>. A 7-day trend line tracks whether performance is improving or regressing over the week.</p>
+            <h4>2. Add a Speaker</h4>
+            <p>Click <b>Add Speaker</b> and fill in the speaker details:</p>
+            <ul>
+                <li><b>Speaker Name</b> — display label used throughout the app</li>
+                <li><b>IP Address / URL</b> — the speaker's network address (IPv4 or URL format)</li>
+                <li><b>Port</b> — optional, for non-standard ports</li>
+                <li><b>Clip ID</b> — optional, for pre-loaded audio clip selection</li>
+                <li><b>Username / Password</b> — optional, for authenticated speaker endpoints</li>
+            </ul>
+            <p>In the <b>Associated Cameras</b> section, filter by area and check the cameras this speaker should cover. In the <b>Associated Scenarios</b> section, check the scenario types (e.g., PPE violation, area restriction) that should trigger an announcement from this speaker.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-speaker-events.png" alt="Speaker Events Configuration — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of Speaker scenario/event configuration -->
+        <div class="step-content">
+            <h4>3. Configure Event-Triggered Alerts</h4>
+            <p>After saving the speaker, the system automatically plays an announcement whenever a detection event matches one of the speaker's associated cameras and scenario types. To adjust which events fire the speaker, edit the speaker and update the camera or scenario selections.</p>
         </div>
     </div>
 </div>
 !!! tip
-    Monitor the Safety Score trend daily to catch regressions early. Use the area and camera filters to drill into specific locations when the score dips—this helps surface recurring incidents faster.
+    Assign speakers to specific areas rather than all cameras—this ensures the announcement plays only near the incident location and avoids unnecessary disruption in unaffected zones.
 ---
 
-## Step 9: Safety Intelligence {#step-9-safety-intelligence}
-The **Safety Intelligence** page is a multi-site analytics hub for evaluating safety performance across your entire portfolio. It goes beyond simple site comparisons to provide predictive insights, compliance audits, and segment-level breakdowns—all organized into four dedicated tabs.
-
-<div class="setup-steps">
-    <div class="setup-step">
-        <img src="../../img/visionify-safety-intelligence-portfolio.png" alt="Safety Intelligence Portfolio Tab — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of Safety Intelligence Portfolio tab -->
-        <div class="step-content">
-            <h4>1. Portfolio Overview</h4>
-            <p>The <b>Portfolio</b> tab shows a KPI strip (Safety Score, MTTR, and more), a <b>Site Performance Leaderboard</b> ranking all locations by safety score, a <b>Top Risks</b> panel, a <b>World Map</b> of your sites, and a <b>Time Heatmap</b> showing when incidents peak across the day and week.</p>
-        </div>
-    </div>
-    <div class="setup-step">
-        <img src="../../img/visionify-safety-intelligence-segments.png" alt="Safety Intelligence Segments Tab — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of Safety Intelligence Segments tab -->
-        <div class="step-content">
-            <h4>2. Segments</h4>
-            <p>The <b>Segments</b> tab breaks performance down by country, region, or custom site groupings. Compare safety metrics across segments to identify geographic patterns, high-performing regions, and areas that need targeted intervention.</p>
-        </div>
-    </div>
-    <div class="setup-step">
-        <img src="../../img/visionify-safety-intelligence-predictive.png" alt="Safety Intelligence Predictive Tab — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of Safety Intelligence Predictive tab -->
-        <div class="step-content">
-            <h4>3. Predictive Insights</h4>
-            <p>The <b>Predictive</b> tab uses historical incident data to forecast risk trends and surface early warning signals before incidents escalate. Use these insights to allocate safety resources proactively.</p>
-        </div>
-    </div>
-    <div class="setup-step">
-        <img src="../../img/visionify-safety-intelligence-compliance.png" alt="Safety Intelligence Compliance Tab — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of Safety Intelligence Compliance tab -->
-        <div class="step-content">
-            <h4>4. Compliance Audit</h4>
-            <p>The <b>Compliance</b> tab tracks adherence to safety policies across all sites. View compliance scores per scenario, identify chronically non-compliant areas, and generate audit-ready reports for leadership or regulators.</p>
-        </div>
-    </div>
-</div>
-!!! tip
-    Start with the Portfolio tab for a high-level view, then use the Leaderboard to find underperforming sites. Drill into Segments to identify regional patterns, and use Predictive Insights to plan safety interventions before incidents spike.
----
-
-
-
-
-    
-    
-<!-- 
-## AI Scenarios
-
-- [PPE Compliance](../scenarios/ppe-detection.md)
-- [Staircase Safety](../scenarios/staircase-safety.md)
-- [Mobile Phone Compliance](../scenarios/mobile-phone-compliance.md)
-
-
-## Learn More
-
-- [Quick Start](../overview/quick-start.md)
-- [Camera Placement Guide](../overview/camera-placement-guide.md)
-- [Supported Scenarios](../overview/scenarios.md)
-- [Camera Management](../overview/cameras.md)
-- [FAQs](../overview/faqs.md)
-
---- -->
-
-## Step 10: Recordings {#step-10-recordings}
-Recordings let you capture full-length video from any camera on demand. Start and stop recordings directly from the **Camera Details** page; all clips are then available on the **Recordings** page for playback, review, and deletion.
-
-<div class="setup-steps">
-    <div class="setup-step">
-        <img src="../../img/visionify-recordings-start.png" alt="Start Recording from Camera Details — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Recording toggle button on Camera Details page -->
-        <div class="step-content">
-            <h4>1. Start a Recording</h4>
-            <p>Open any camera's <b>Camera Details</b> page and scroll to the <b>Recording</b> section below the applied scenarios. Click the red record button to start capturing. The button turns solid red while recording is active. Click it again to stop. A pulsing indicator confirms the recording is live.</p>
-        </div>
-    </div>
-    <div class="setup-step">
-        <img src="../../img/visionify-recordings-page.png" alt="Recordings Page — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Recordings listing page -->
-        <div class="step-content">
-            <h4>2. Browse Recordings</h4>
-            <p>Navigate to <b>Recordings</b> in the left sidebar to see all clips in a grid layout. Filter by camera, status (<b>Completed, In Progress, Started, Stopped</b>), and date range. Each card shows a thumbnail, start time, and duration. Clips are sorted newest first.</p>
-        </div>
-    </div>
-</div>
-
-## Step 11: Reports {#step-11-reports}
+## Step 12: Reports {#step-12-reports}
 The Reports page gives you on-demand safety reports in two modes: **AI-generated** narrative reports and fully customizable **standard reports**. AI reports are written by GPT and ready in seconds; standard reports let you build a tailored data export filtered by time, scenario, area, camera, and shift.
 
 <div class="setup-steps">
@@ -432,29 +496,88 @@ The Reports page gives you on-demand safety reports in two modes: **AI-generated
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-reports-ai-drawer.png" alt="AI Report Generation Drawer — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the AI Report drawer (e.g. Weekly Toolbox Talk) -->
+    <img src="../../img/visionify-reports-ai-drawer.png"
+         alt="Generate New Report dialog" />
+    <div class="step-content">
+        <h4>2. Select an AI Report Type</h4>
+        <p>Click <b>Generate New Report</b> from the Reports page. A dialog opens showing all available report types.</p>
+    </div>
+</div>
+    <div class="setup-step">
+    <img src="../../img/visionify-reports-ai-drawer-2.png"
+         alt="AI report type selection" />
+    <div class="step-content">
+        <h4>3. Select an AI Report Type</h4>
+        <ul>
+            <li><b>Weekly Toolbox Talk</b> — 5-minute crew safety talk with real events, screenshots, and discussion questions</li>
+            <li><b>Monthly Executive Summary</b> — C-suite overview with risk posture, month-over-month deltas, and recommendations</li>
+            <li><b>Quarterly Insurance Risk</b> — 90-day underwriter-facing risk profile</li>
+            <li><b>Incident Investigation</b> — First-pass investigation for a single event with 5-Why analysis and root cause</li>
+        </ul>
+        <p>Enter the required date range or event ID, then click <b>Generate</b>. Reports are typically ready in 10–45 seconds.</p>
+    </div>
+</div>
+
+<div class="setup-step">
+    <img src="../../img/visionify-reports-preview.png"
+         alt="Download your Report" />
+    <div class="step-content">
+        <h4>4. Download your Report</h4>
+        <p>Once the report is ready, it can be downloaded as <b>Excel</b> for raw data or <b>PDF</b> for a formatted report. Both formats are saved to the Reports list for future access.</p>
+    </div>
+</div>
+</div>
+!!! tip
+    Use **Incident Investigation** reports immediately after a high-severity event—enter the event ID and the AI produces a structured first-pass investigation with root cause analysis in under a minute.
+---
+
+## Step 13: Safety Intelligence {#step-13-safety-intelligence}
+The **Safety Intelligence** page is a multi-site analytics hub organized into four tabs. Use the filter bar at the top to choose your site scope—**All Sites, Country, Region,** or a **Custom** multi-site selection—and all tabs update together.
+
+<div class="setup-steps">
+    <div class="setup-step">
+        <img src="../../img/visionify-safety-intelligence-portfolio.png" alt="Safety Intelligence Portfolio Tab — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of Safety Intelligence Portfolio tab -->
         <div class="step-content">
-            <h4>2. Generate an AI Report</h4>
-            <p>Click <b>Generate New Report</b> and select an AI report type from the catalog:</p>
+            <h4>1. Portfolio</h4>
+            <p>The <b>Portfolio</b> tab gives a portfolio-wide view across five panels:</p>
             <ul>
-                <li><b>Weekly Toolbox Talk</b> — 5-minute crew safety talk with real events, screenshots, and discussion questions</li>
-                <li><b>Monthly Executive Summary</b> — C-suite overview with risk posture, month-over-month deltas, and recommendations</li>
-                <li><b>Quarterly Insurance Risk</b> — 90-day underwriter-facing risk profile</li>
-                <li><b>Incident Investigation</b> — First-pass investigation for a single event with 5-Why analysis and root cause</li>
+                <li><b>KPI Strip</b> — headline metrics: portfolio Safety Score, Mean Time To Resolve (MTTR), total events, and reviewed event rate</li>
+                <li><b>Site Performance Leaderboard</b> — all sites ranked by safety score; flagged sites show an "At Risk" badge</li>
+                <li><b>Top Risks</b> — the most-violated scenario types across your portfolio, ranked by event count</li>
+                <li><b>World Map</b> — geographic distribution of sites with color-coded safety status</li>
+                <li><b>Time Heatmap</b> — day × hour grid showing when incidents peak across the week; use this to schedule audits or shift supervisor coverage</li>
             </ul>
-            <p>Enter the required date or event ID in the drawer, then click <b>Generate</b>. The report is ready in 10–45 seconds.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-reports-preview.png" alt="Report Preview and Download — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Report preview page with download options -->
+        <img src="../../img/visionify-safety-intelligence-segments.png" alt="Safety Intelligence Segments Tab — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of Safety Intelligence Segments tab -->
         <div class="step-content">
-            <h4>4. Preview and Download</h4>
-            <p>The preview page shows stat cards, safety score, bar charts, pie charts, and trend lines for your selected filters. When satisfied, download as <b>Excel</b> for raw data or <b>PDF</b> for a formatted report. Both formats are saved to the Reports list for future access.</p>
+            <h4>2. Segments</h4>
+            <p>The <b>Segments</b> tab breaks your portfolio down by <b>country, region,</b> or <b>custom grouping</b>. Each segment row shows aggregated safety score, total events, MTTR, and a mini trend sparkline. Use this to compare performance across geographies, business units, or franchisee groups. Clicking a segment row filters the other tabs to that segment's sites.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-safety-intelligence-predictive.png" alt="Safety Intelligence Predictive Tab — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of Safety Intelligence Predictive tab -->
+        <div class="step-content">
+            <h4>3. Predictive Insights</h4>
+            <p>The <b>Predictive</b> tab uses historical incident patterns to forecast where risk is trending upward. Charts show event-count forecasts per site and scenario for the next 7–30 days. Sites projected to cross a risk threshold are surfaced as early-warning alerts, so safety managers can intervene before an incident spike occurs.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-safety-intelligence-compliance.png" alt="Safety Intelligence Compliance Tab — screenshot pending" />
+        <!-- PLACEHOLDER: Replace with screenshot of Safety Intelligence Compliance tab -->
+        <div class="step-content">
+            <h4>4. Compliance Audit</h4>
+            <p>The <b>Compliance</b> tab scores each site's adherence to safety policies, broken down by scenario (e.g., PPE compliance rate, restricted-area adherence). A <b>Scenario × Site matrix</b> lets you spot which specific combinations are chronically non-compliant. Export the audit table as a report for regulators, insurers, or leadership reviews.</p>
         </div>
     </div>
 </div>
+!!! tip
+    Start with the Portfolio tab and its Leaderboard to find the lowest-scoring sites. Switch to Segments to check if underperformance is geographic or isolated. Then use Predictive Insights to decide where to deploy additional resources before the next audit cycle.
+---
 
 ## Contact Information
 
