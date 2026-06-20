@@ -62,11 +62,11 @@ VisionAI is an enterprise-grade computer vision platform that transforms your ex
         <h3>Recordings</h3>
         <p>Capture full-length video evidence from cameras</p>
     </a>
-    <a href="#step-10-notifications" class="flow-item">
+    <a href="#step-10-integrations" class="flow-item">
         <span class="flow-number">10</span>
-        <span class="material-symbols-outlined">notifications_active</span>
-        <h3>Notifications</h3>
-        <p>Set up alerts and digest emails for your team</p>
+        <span class="material-symbols-outlined">webhook</span>
+        <h3>Integrations</h3>
+        <p>Connect webhooks to push real-time events to external systems</p>
     </a>
     <a href="#step-11-speakers" class="flow-item">
         <span class="flow-number">11</span>
@@ -74,16 +74,22 @@ VisionAI is an enterprise-grade computer vision platform that transforms your ex
         <h3>Speakers</h3>
         <p>Configure on-site audio alerts for immediate response</p>
     </a>
-    <a href="#step-12-reports" class="flow-item">
+    <a href="#step-12-notifications" class="flow-item">
         <span class="flow-number">12</span>
+        <span class="material-symbols-outlined">notifications_active</span>
+        <h3>Notifications</h3>
+        <p>Set up alerts and digest emails for your team</p>
+    </a>
+</div>
+<div class="quick-start-flow">
+    <a href="#step-13-reports" class="flow-item">
+        <span class="flow-number">13</span>
         <span class="material-symbols-outlined">summarize</span>
         <h3>Reports</h3>
         <p>Generate AI-powered and custom safety reports</p>
     </a>
-</div>
-<div class="quick-start-flow">
-    <a href="#step-13-safety-intelligence" class="flow-item">
-        <span class="flow-number">13</span>
+    <a href="#step-14-safety-intelligence" class="flow-item">
+        <span class="flow-number">14</span>
         <span class="material-symbols-outlined">query_stats</span>
         <h3>Safety Intelligence</h3>
         <p>Multi-site analytics and advanced insights</p>
@@ -232,7 +238,6 @@ The Events page is your primary feed of detected safety incidents. Each event in
     </div>
     <div class="setup-step">
         <img src="../../img/visionify-event-ai-analysis.png" alt="AI Analysis Card — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the AI Analysis card on the Event Details page -->
         <div class="step-content">
             <h4>3. AI Analysis Card</h4>
             <p>Next to the video player, the <b>AI Analysis</b> card shows an automated assessment of the event with observations and findings. Use this to quickly understand whether an event warrants follow-up action.</p>
@@ -256,7 +261,6 @@ The VisionAI Dashboard provides comprehensive insights into your safety metrics 
     </div>
         <div class="setup-step">
         <img src="../../img/visionify-dashboard-safety-score.png" alt="Dashboard Safety Score — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of Dashboard showing the Safety Score chart -->
         <div class="step-content">
             <h4>Safety Score</h4>
             <p>The <b>Safety Score</b> chart shows your overall safety rating as a radial gauge, color-coded by performance: <b>green (&gt;90)</b>, <b>orange (50–89)</b>, and <b>red (&lt;50)</b>. A 7-day trend line tracks whether performance is improving or regressing over the week.</p>
@@ -274,7 +278,6 @@ The Views feature provides customized dashboards for specific cameras, areas, or
 <div class="setup-steps">
     <div class="setup-step">
         <img src="../../img/visionify-views-list.png" alt="Views List — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of Views listing page -->
         <div class="step-content">
             <h4>1. Views Overview</h4>
             <p>Navigate to <b>Views</b> from the left sidebar to see all saved views. Each view card shows the cameras, areas, and events it monitors. Use <b>Play</b> to open the live view, <b>Edit</b> to modify it, or <b>Delete</b> to remove it.</p>
@@ -282,7 +285,6 @@ The Views feature provides customized dashboards for specific cameras, areas, or
     </div>
     <div class="setup-step">
         <img src="../../img/visionify-views-settings.png" alt="Views Revamped Settings — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the revamped Settings panel -->
         <div class="step-content">
             <h4>2. Configure Settings</h4>
             <p>Open the <b>Settings</b> panel inside any view to configure camera groupings, event filters, display layout, and refresh intervals. Settings are saved per view for a tailored monitoring experience.</p>
@@ -291,7 +293,6 @@ The Views feature provides customized dashboards for specific cameras, areas, or
 
     <div class="setup-step">
         <img src="../../img/visionify-views-share.png" alt="Views Share Feature — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of Share button and generated shareable link -->
         <div class="step-content">
             <h4>3. Share a View</h4>
             <p>Click the <b>Share</b> button on any view to generate a unique, shareable link. Recipients can access the view without logging in, making it easy to share with other people.</p>
@@ -305,7 +306,6 @@ Task Management in VisionAI lets you create corrective actions directly from saf
 <div class="setup-steps">
     <div class="setup-step">
         <img src="../../img/visionify-task-create.png" alt="Create Task from Event Details — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Create Task flow from Event Details -->
         <div class="step-content">
             <h4>1. Create a Task</h4>
             <p>From any <b>Event Details</b> page, click <b>Create Task</b> to open the task form. Fill in the task name, set the priority (<b>Critical, Moderate, Low</b>), and assign it to a team member. The task is automatically linked to the source event so the assignee has full context.</p>
@@ -320,7 +320,6 @@ Task Management in VisionAI lets you create corrective actions directly from saf
     </div>
     <div class="setup-step">
         <img src="../../img/visionify-task-details.png" alt="Task Details — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Task Details page with status update and proof upload -->
         <div class="step-content">
             <h4>3. Update and Close a Task</h4>
             <p>Click any task to open its details page. Use the status radio buttons to move it through the workflow. When closing a task, add <b>closure comments</b> explaining the corrective action taken and upload a <b>proof file</b> (photo, document, or video). The timeline at the bottom tracks every status change and finding update in chronological order.</p>
@@ -337,7 +336,6 @@ Tickets let you escalate specific safety events or camera issues into tracked su
 <div class="setup-steps">
     <div class="setup-step">
         <img src="../../img/visionify-ticket-create-event.png" alt="Create Ticket from Event Details — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Create Ticket button on Event Details page -->
         <div class="step-content">
             <h4>1. Create a Ticket</h4>
             <p>On an <b>Event Details</b> or <b>Camera Details</b> page, click <b>Create Ticket</b> to open the ticket modal. You can also open the modal from the <b>Tickets</b> page itself via the <b>Create Ticket</b> button in the top-right corner. The ticket is automatically linked to the source event or camera so responders have full context.</p>
@@ -345,7 +343,6 @@ Tickets let you escalate specific safety events or camera issues into tracked su
     </div>
     <div class="setup-step">
         <img src="../../img/visionify-ticket-modal.png" alt="Ticket Creation Modal — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the ticket creation modal -->
         <div class="step-content">
             <h4>2. Fill in Ticket Details</h4>
             <p>In the modal, fill in the required fields:</p>
@@ -360,7 +357,6 @@ Tickets let you escalate specific safety events or camera issues into tracked su
     </div>
     <div class="setup-step">
         <img src="../../img/visionify-tickets-page.png" alt="Tickets Page — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Tickets listing page -->
         <div class="step-content">
             <h4>3. Track Ticket Status</h4>
             <p>Navigate to <b>Tickets</b> under the profiles tab to see all tickets. Filter by <b>category, status,</b> or <b>priority</b>, or search by title. Each row shows the ticket ID, title, category, status, priority, creator, and creation date. Tickets move through four statuses: <b>Open → In Progress → Closed</b> (or <b>Rejected</b>). Click <b>View</b> to open a ticket and see the full timeline of status changes, assignee history, and resolution comments.</p>
@@ -377,7 +373,6 @@ Recordings let you capture full-length video from any camera on demand. Start an
 <div class="setup-steps">
     <div class="setup-step">
         <img src="../../img/visionify-recordings-start.png" alt="Start Recording from Camera Details — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Recording toggle button on Camera Details page -->
         <div class="step-content">
             <h4>1. Start a Recording</h4>
             <p>Open any camera's <b>Camera Details</b> page and scroll to the <b>Recording</b> section below the applied scenarios. Click the red record button to start capturing. The button turns solid red while recording is active. Click it again to stop. A pulsing indicator confirms the recording is live.</p>
@@ -385,7 +380,6 @@ Recordings let you capture full-length video from any camera on demand. Start an
     </div>
     <div class="setup-step">
         <img src="../../img/visionify-recordings-page.png" alt="Recordings Page — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Recordings listing page -->
         <div class="step-content">
             <h4>2. Browse Recordings</h4>
             <p>Navigate to <b>Recordings</b> in the left sidebar to see all clips in a grid layout. Filter by camera, status (<b>Completed, In Progress, Started, Stopped</b>), and date range. Each card shows a thumbnail, start time, and duration. Clips are sorted newest first.</p>
@@ -393,53 +387,155 @@ Recordings let you capture full-length video from any camera on demand. Start an
     </div>
 </div>
 
-## Step 10: Notifications {#step-10-alert-configuration}
-Configure alerts and digests directly from the **Notifications** page in the sidebar—no separate observability platform needed. All alert types are configured through in-app modals, and each alert includes a **Test** button to verify delivery before going live.
+## Step 10: Integrations {#step-10-integrations}
+Integrations let VisionAI push real-time event notifications to external systems the moment a safety event is detected. Once an integration is saved, it becomes selectable when creating an instant alert under Notifications. Currently, three webhook subtypes are supported. For requirements beyond these, please reach out to the VisionAI team for assistance.
+
+| Subtype | Format |
+|---------|--------|
+| Generic Webhook | `application/json` |
+| MS Teams Webhook | `application/json` |
+| Synology Webhook | `application/x-www-form-urlencoded` |
 
 <div class="setup-steps">
     <div class="setup-step">
-        <img src="../../img/visionify-notifications-page.png" alt="Notifications Page — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Notifications sidebar page -->
+        <img src="../../img/visionify-integrations-page.png" alt="Integrations listing page" />
         <div class="step-content">
-            <h4>1. Open Notifications</h4>
-            <p>Click <b>Notifications</b> in the left sidebar to access all alert and digest settings in one place. The page lists all configured alerts with their status, schedule, and delivery channels.</p>
+            <h4>1. Open the Integrations Page</h4>
+            <p>Navigate to <b>Settings → Integrations</b> in the left sidebar. The page lists all configured integrations with their name, type, status, and target URL. Click <b>Add Integration</b> in the top-right corner to begin.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-notifications-digest-modal.png" alt="Digest Configuration Modal — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Daily Digest configuration modal -->
+        <img src="../../img/visionify-integrations-create-basic.png" alt="Add Integration form — Basic Information section" />
         <div class="step-content">
-            <h4>2. Configure Digests</h4>
-            <p>Click <b>Add Digest</b> to open the configuration modal. Set the frequency (daily, weekly), add recipient email addresses, and select which scenarios and areas to include. Digests deliver a safety summary with trend charts and key metrics to a broader audience.</p>
+            <h4>2. Set Name, Type, and Subtype</h4>
+            <p>Fill in a <b>Name</b>, set <b>Type</b> to <b>Webhook</b>, then choose a <b>Subtype</b>: <b>Generic Webhook</b>, <b>MS Teams Webhook</b>, or <b>Synology Webhook</b>.</p>
         </div>
     </div>
     <div class="setup-step">
-        <img src="../../img/visionify-notifications-alerts-modal.png" alt="Alert Configuration Modal — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Alert configuration modal -->
+        <img src="../../img/visionify-integrations-create-url.png" alt="Add Integration form — Webhook URL field with sample payload toggle" />
         <div class="step-content">
-            <h4>3. Configure Alerts</h4>
-            <p>Click <b>Add Alert</b> to open the alert modal. Choose the alert type—<b>Email, WhatsApp, Microsoft Teams</b>—set priority level, select cameras or areas to monitor, and add recipient contacts. Multiple alert types can be active simultaneously.</p>
-        </div>
-    </div>
-    <div class="setup-step">
-        <img src="../../img/visionify-notifications-test.png" alt="Test Alert Feature — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Test button sending a sample alert -->
-        <div class="step-content">
-            <h4>4. Test Your Alerts</h4>
-            <p>Use the <b>Test</b> button next to any configured alert or digest to send a sample notification immediately. This confirms delivery to the right recipients and channels before any real safety event occurs.</p>
-        </div>
-    </div>
-    <div class="setup-step">
-        <img src="../../img/visionify-notifications-email-sample.png" alt="Sample Notification Email — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of a received digest or alert email -->
-        <div class="step-content">
-            <h4>5. Verify Email Delivery</h4>
-            <p>Check the inbox of each recipient email address after the first scheduled digest or after clicking <b>Test</b>. The email shows the VisionAI safety summary with key metrics, event thumbnails, and trend charts. Confirm that formatting renders correctly and that links back to the app are working before the alert goes into production use.</p>
+            <h4>3. Enter the Webhook URL and Save</h4>
+            <p>Paste your destination URL into the <b>Webhook URL</b> field. A <b>Sample Payload</b> toggle below shows the exact body that will be posted so you can verify your endpoint is ready. Click <b>Save</b> to activate the integration.</p>
         </div>
     </div>
 </div>
-!!! tip
-    Always use the Test feature after configuring a new alert to confirm end-to-end delivery. Combine digest emails for management summaries with real-time alerts for on-call responders.
+
+!!! tip "Getting a Teams Incoming Webhook URL"
+    In Microsoft Teams, open the target channel → **⋯ More options → Connectors → Incoming Webhook → Configure**. Copy the generated URL and paste it into the Webhook URL field.
+
+### Webhook Payload Reference
+
+VisionAI sends an HTTP POST to your webhook URL each time a matching event fires. The request body format depends on the subtype chosen.
+
+=== "Generic Webhook"
+
+    **Content-Type:** `application/json`
+
+    ```json
+    {
+      "scenario_name": "PPE Compliance",
+      "event_names": "No Helmet, No Vest",
+      "camera_name": "Camera 01",
+      "event_time": "2024-01-15T10:30:00.000Z",
+      "thumbnail_url": "https://storage.example.com/thumbnail.jpg",
+      "inference_url": "https://storage.example.com/video.mp4",
+      "site_name": "Main Facility"
+    }
+    ```
+
+    | Field | Type | Description |
+    |-------|------|-------------|
+    | `scenario_name` | string | AI scenario that fired |
+    | `event_names` | string | Comma-separated detected events |
+    | `camera_name` | string | Camera that captured the event |
+    | `event_time` | ISO 8601 | UTC timestamp |
+    | `thumbnail_url` | string | Snapshot image URL |
+    | `inference_url` | string | Annotated video clip URL |
+    | `site_name` | string | Site where the event occurred |
+
+=== "MS Teams Webhook"
+
+    **Content-Type:** `application/json`
+
+    VisionAI sends a Microsoft Adaptive Card wrapped in the Teams message envelope. The card includes scenario details, camera name, timestamp, a snapshot image, and action buttons linking back to the dashboard.
+
+    ```json
+    {
+      "type": "message",
+      "attachments": [
+        {
+          "contentType": "application/vnd.microsoft.card.adaptive",
+          "content": {
+            "type": "AdaptiveCard",
+            "version": "1.4",
+            "body": [
+              {
+                "type": "Container",
+                "style": "emphasis",
+                "items": [{ "type": "TextBlock", "text": "Visionify Detected an Event!", "weight": "Bolder", "size": "Large" }]
+              },
+              {
+                "type": "ColumnSet",
+                "columns": [
+                  { "type": "Column", "width": "stretch", "items": [
+                    { "type": "TextBlock", "text": "**Scenario**", "weight": "Bolder" },
+                    { "type": "TextBlock", "text": "PPE Compliance" },
+                    { "type": "TextBlock", "text": "**Events Detected**", "weight": "Bolder" },
+                    { "type": "TextBlock", "text": "No Helmet, No Vest" }
+                  ]},
+                  { "type": "Column", "width": "stretch", "items": [
+                    { "type": "TextBlock", "text": "**Camera**", "weight": "Bolder" },
+                    { "type": "TextBlock", "text": "Camera 01" },
+                    { "type": "TextBlock", "text": "**Time**", "weight": "Bolder" },
+                    { "type": "TextBlock", "text": "2024-01-15 10:30 AM" }
+                  ]}
+                ]
+              },
+              { "type": "Image", "url": "https://storage.example.com/thumbnail.jpg", "size": "Stretch" }
+            ],
+            "actions": [
+              { "type": "Action.OpenUrl", "title": "View Event Details", "url": "https://app.visionify.ai/..." },
+              { "type": "Action.OpenUrl", "title": "Snooze All Events", "url": "https://app.visionify.ai/..." }
+            ]
+          }
+        }
+      ]
+    }
+    ```
+
+=== "Synology Webhook"
+
+    **Content-Type:** `application/x-www-form-urlencoded`
+
+    ```
+    token=<camera_token>&text1=<scenario_name>&text2=<event_names>&time=<unix_timestamp>
+    ```
+
+    **Example:**
+    ```
+    token=abc123xyz&text1=PPE+Compliance&text2=No+Helmet%2C+No+Vest&time=1705312200
+    ```
+
+    | Field | Description |
+    |-------|-------------|
+    | `token` | Camera-specific token configured on the camera record |
+    | `text1` | Scenario name |
+    | `text2` | URL-encoded, comma-separated event names |
+    | `time` | Unix timestamp in seconds |
+
+!!! info "Using your integration in an alert"
+    Once an integration is saved and active, go to [**Notifications → Step 12**](#step-12-notifications) to create an alert that routes safety events through it. In the **Add Alert** modal, choose the matching webhook type (Generic, MS Teams, or Synology) and select the named integration from the dropdown that appears. The integration must exist here before it can be selected in Notifications.
+
+### Integration Logs
+
+<div class="setup-steps">   
+    <div class="setup-step">
+        <img src="../../img/visionify-integrations-logs.png" alt="Integration Logs tab" />
+        <div class="step-content">
+            <p>Switch to the <b>Integration Logs</b> tab to inspect every delivery attempt. Each row shows the integration name, subtype, timestamp, HTTP status returned by your endpoint, and whether the delivery succeeded or failed. Use the filters to narrow by type, status, or date range.
+        </div>
+    </div>
+</div>
 ---
 
 ## Step 11: Speakers {#step-11-speakers}
@@ -448,7 +544,6 @@ The Speakers page manages your IP-based audio speakers for on-site safety announ
 <div class="setup-steps">
     <div class="setup-step">
         <img src="../../img/visionify-speakers-page.png" alt="Speakers Page — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Speakers listing page -->
         <div class="step-content">
             <h4>1. Speakers Overview</h4>
             <p>Navigate to <b>Speakers</b> in the left sidebar to see all configured speakers. Each row shows the speaker name, IP address, area, the number of associated cameras and scenarios, and its status (<b>Active / Inactive</b>). Use the toggle buttons to activate or deactivate a speaker, or click <b>Edit</b> to modify its configuration.</p>
@@ -456,7 +551,6 @@ The Speakers page manages your IP-based audio speakers for on-site safety announ
     </div>
     <div class="setup-step">
         <img src="../../img/visionify-speaker-add.png" alt="Add Speaker Form — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Add Speaker form -->
         <div class="step-content">
             <h4>2. Add a Speaker</h4>
             <p>Click <b>Add Speaker</b> and fill in the speaker details:</p>
@@ -472,7 +566,6 @@ The Speakers page manages your IP-based audio speakers for on-site safety announ
     </div>
     <div class="setup-step">
         <img src="../../img/visionify-speaker-events.png" alt="Speaker Events Configuration — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of Speaker scenario/event configuration -->
         <div class="step-content">
             <h4>3. Configure Event-Triggered Alerts</h4>
             <p>After saving the speaker, the system automatically plays an announcement whenever a detection event matches one of the speaker's associated cameras and scenario types. To adjust which events fire the speaker, edit the speaker and update the camera or scenario selections.</p>
@@ -483,13 +576,74 @@ The Speakers page manages your IP-based audio speakers for on-site safety announ
     Assign speakers to specific areas rather than all cameras—this ensures the announcement plays only near the incident location and avoids unnecessary disruption in unaffected zones.
 ---
 
-## Step 12: Reports {#step-12-reports}
+## Step 12: Notifications {#step-12-notifications}
+Configure alerts and digests directly from the **Notifications** page in the sidebar. All alert types are configured through in-app modals, and each alert includes a **Test** button to verify delivery before going live.
+
+<div class="setup-steps">
+    <div class="setup-step">
+        <img src="../../img/visionify-notifications-page.png" alt="Notifications Page — screenshot pending" />
+        <div class="step-content">
+            <h4>1. Open Notifications</h4>
+            <p>Click <b>Notifications</b> in the left sidebar to access all alert and digest settings in one place. The page lists all configured alerts with their status, schedule, and delivery channels.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-notifications-digest-modal.png" alt="Digest Configuration Modal — screenshot pending" />
+        <div class="step-content">
+            <h4>2. Configure Digests</h4>
+            <p>Click <b>Add Digest</b> to open the configuration modal. Set the frequency (daily, weekly), add recipient email addresses, and select which scenarios and areas to include. Digests deliver a safety summary with trend charts and key metrics to a broader audience.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-notifications-alerts-modal.png" alt="Alert Configuration Modal — showing webhook integration selection" />
+        <div class="step-content">
+            <h4>3. Configure Alerts</h4>
+            <p>Click <b>Add Alert</b> to open the alert modal. Choose the alert type—<b>Email, WhatsApp, MS Teams, Generic Webhook,</b> or <b>Synology Webhook</b>.</p>
+            <ul>
+                <li><b>Email / WhatsApp</b> — add recipient contacts directly in the modal; no prior integration setup required.</li>
+                <li><b>Webhook types (MS Teams, Generic Webhook, Synology Webhook)</b> — a second dropdown appears listing all active integrations of the matching subtype. You must first create the integration under <a href="#step-10-integrations"><b>Settings → Integrations</b></a> before it appears here. Select the named integration to route this alert to.</li>
+            </ul>
+            <p>Set the event, area, and camera scope for the alert, then click <b>Save</b>. Multiple alert types can be active simultaneously, so you can combine real-time webhook alerts for on-call responders with digest emails for management.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-notifications-test.png" alt="Test Alert Feature — screenshot pending" />
+        <div class="step-content">
+            <h4>4. Test Your Alerts</h4>
+            <p>Use the <b>Test</b> button next to any configured alert or digest to send a sample notification immediately. This confirms delivery to the right recipients and channels before any real safety event occurs.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-notifications-email-sample.png" alt="Sample Notification Email — screenshot pending" />
+        <div class="step-content">
+            <h4>5. Verify Email Delivery</h4>
+            <p>Check the inbox of each recipient email address after the first scheduled digest or after clicking <b>Test</b>. The email shows the VisionAI safety summary with key metrics, event thumbnails, and trend charts. Confirm that formatting renders correctly and that links back to the app are working before the alert goes into production use.</p>
+        </div>
+    </div>
+    <div class="setup-step">
+        <img src="../../img/visionify-notifications-webhook-verify.png" alt="Webhook Delivery Verification via Integration Logs — screenshot pending" />
+        <div class="step-content">
+            <h4>6. Verify Webhook Delivery</h4>
+            <p>After clicking <b>Test</b> on a webhook-type alert, navigate to <b>Settings → Integrations</b> and open the <a href="#integration-logs"><b>Integration Logs</b></a> tab. Locate the delivery attempt that matches your test—each row shows the integration name, subtype, timestamp, and the HTTP status code returned by your endpoint.</p>
+            <ul>
+                <li><b>2xx OK</b> — payload was accepted successfully. No further action needed.</li>
+                <li><b>4xx status</b> — the endpoint rejected the request. Check that the URL is correct and that your receiving service accepts <code>POST</code> requests with the expected content type.</li>
+                <li><b>5xx status or connection error</b> — your endpoint is unreachable or returned a server error. Verify the service is running and the URL is accessible.</li>
+            </ul>
+            <p>Re-test after fixing any issues and confirm the log shows a successful delivery before relying on the alert in production.</p>
+        </div>
+    </div>
+</div>
+!!! tip
+    Always use the Test feature after configuring a new alert to confirm end-to-end delivery. For webhook alerts, cross-check the <a href="#integration-logs"><b>Integration Logs</b></a> tab to see the exact HTTP response your endpoint returned—this is the fastest way to debug a missed delivery. Combine digest emails for management summaries with real-time webhook or WhatsApp alerts for on-call responders.
+---
+
+## Step 13: Reports {#step-13-reports}
 The Reports page gives you on-demand safety reports in two modes: **AI-generated** narrative reports and fully customizable **standard reports**. AI reports are written by GPT and ready in seconds; standard reports let you build a tailored data export filtered by time, scenario, area, camera, and shift.
 
 <div class="setup-steps">
     <div class="setup-step">
         <img src="../../img/visionify-reports-page.png" alt="Reports Page — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of the Reports listing page -->
         <div class="step-content">
             <h4>1. Reports Overview</h4>
             <p>Navigate to <b>Reports</b> in the left sidebar. The page lists all saved reports with their title, type, time range, creator, and creation date. Use the search bar to find a report by name, or filter by type: <b>Standard, AI, Weekly Toolbox Talk, Monthly Executive Summary, Insurance Risk,</b> or <b>Incident Investigation</b>. In-progress reports appear pinned at the top with a live countdown.</p>
@@ -531,13 +685,12 @@ The Reports page gives you on-demand safety reports in two modes: **AI-generated
     Use **Incident Investigation** reports immediately after a high-severity event—enter the event ID and the AI produces a structured first-pass investigation with root cause analysis in under a minute.
 ---
 
-## Step 13: Safety Intelligence {#step-13-safety-intelligence}
+## Step 14: Safety Intelligence {#step-14-safety-intelligence}
 The **Safety Intelligence** page is a multi-site analytics hub organized into four tabs. Use the filter bar at the top to choose your site scope—**All Sites, Country, Region,** or a **Custom** multi-site selection—and all tabs update together.
 
 <div class="setup-steps">
     <div class="setup-step">
         <img src="../../img/visionify-safety-intelligence-portfolio.png" alt="Safety Intelligence Portfolio Tab — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of Safety Intelligence Portfolio tab -->
         <div class="step-content">
             <h4>1. Portfolio</h4>
             <p>The <b>Portfolio</b> tab gives a portfolio-wide view across five panels:</p>
@@ -552,7 +705,6 @@ The **Safety Intelligence** page is a multi-site analytics hub organized into fo
     </div>
     <div class="setup-step">
         <img src="../../img/visionify-safety-intelligence-segments.png" alt="Safety Intelligence Segments Tab — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of Safety Intelligence Segments tab -->
         <div class="step-content">
             <h4>2. Segments</h4>
             <p>The <b>Segments</b> tab breaks your portfolio down by <b>country, region,</b> or <b>custom grouping</b>. Each segment row shows aggregated safety score, total events, MTTR, and a mini trend sparkline. Use this to compare performance across geographies, business units, or franchisee groups. Clicking a segment row filters the other tabs to that segment's sites.</p>
@@ -560,7 +712,6 @@ The **Safety Intelligence** page is a multi-site analytics hub organized into fo
     </div>
     <div class="setup-step">
         <img src="../../img/visionify-safety-intelligence-predictive.png" alt="Safety Intelligence Predictive Tab — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of Safety Intelligence Predictive tab -->
         <div class="step-content">
             <h4>3. Predictive Insights</h4>
             <p>The <b>Predictive</b> tab uses historical incident patterns to forecast where risk is trending upward. Charts show event-count forecasts per site and scenario for the next 7–30 days. Sites projected to cross a risk threshold are surfaced as early-warning alerts, so safety managers can intervene before an incident spike occurs.</p>
@@ -568,7 +719,6 @@ The **Safety Intelligence** page is a multi-site analytics hub organized into fo
     </div>
     <div class="setup-step">
         <img src="../../img/visionify-safety-intelligence-compliance.png" alt="Safety Intelligence Compliance Tab — screenshot pending" />
-        <!-- PLACEHOLDER: Replace with screenshot of Safety Intelligence Compliance tab -->
         <div class="step-content">
             <h4>4. Compliance Audit</h4>
             <p>The <b>Compliance</b> tab scores each site's adherence to safety policies, broken down by scenario (e.g., PPE compliance rate, restricted-area adherence). A <b>Scenario × Site matrix</b> lets you spot which specific combinations are chronically non-compliant. Export the audit table as a report for regulators, insurers, or leadership reviews.</p>
